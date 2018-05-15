@@ -1,0 +1,55 @@
+Message-ID: <1290289.1075852657221.JavaMail.evans@thyme>
+Date: Wed, 6 Jun 2001 09:36:35 -0700 (PDT)
+From: fran@zembu.com
+To: jeff.skilling@enron.com
+Subject: Online application issues
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: "Fran Compagno" <fran@zembu.com>@ENRON <IMCEANOTES-+22Fran+20Compagno+22+20+3Cfran+40zembu+2Ecom+3E+40ENRON@ENRON.com>
+X-To: Skilling, Jeff </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JSKILLIN>
+X-cc: 
+X-bcc: 
+X-Folder: \JSKILLIN (Non-Privileged)\Deleted Items
+X-Origin: Skilling-J
+X-FileName: JSKILLIN (Non-Privileged).pst
+
+Jeff,
+
+I have been researching Enron and understand some of the difficulties with
+running global applications.
+Many companies have problems with database replication over a wide area
+network.  Traditional database replication is great for local area
+replication within one data center.  Once you scale to multiple data
+centers, traditional replication is unreliable, complicated to set up and
+manage, and very expensive.
+
+Zembu's software was designed to address this exact problem.  Our data
+replication and synchronization solution can be used with 2 to n
+geographically dispersed data centers.  Zembu also alleviates problems with:
+
+-Global application performance
+-Real time data sharing among multiple data centers
+-24/7/365 application availability
+-Cost effective scaling
+
+Zembu can be used for unique log on applications, internal and/or external
+applications.
+
+I like to talk with someone at Enron to see if using Zembu as part of your
+e-infrastructure and architecture would be beneficial to you.  We can
+determine this quickly via a brief conference call.  Who should I speak
+with?
+
+Sincerely,
+Fran Compagno
+
+
+Zembu
+445 Sherman Avenue
+Palo Alto, CA 94306
+Office:  650-847-4084
+Cell:  650-269-2740
+Email:  fran@zembu.com
+Take the Tour:
+http://www.zembu.com/Tour/zembu_tour.html

@@ -1,0 +1,153 @@
+Message-ID: <772032.1075840162123.JavaMail.evans@thyme>
+Date: Fri, 8 Jun 2001 14:57:25 -0700 (PDT)
+From: no.address@enron.com
+Subject: SUPPLEMENTAL Weekend Outage Report for 6-8-01 through 6-11-01
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Enron Change Management Announcement@ENRON
+X-To: ouston Outage Report@ENRON <H>
+X-cc: 
+X-bcc: 
+X-Folder: \jskillin\Inbox
+X-Origin: SKILLING-J
+X-FileName: jskillin.pst
+
+------------------------------------------------------------------------------------------------------
+W E E K E N D   S Y S T E M S   A V A I L A B I L I T Y
+
+F O R
+
+June 8, 2001 5:00pm through June 11, 2001 12:00am
+------------------------------------------------------------------------------------------------------
+
+
+ECS to ECN Network Interconnection, June 9th 2001         POSTPONED
+This is a notification that the Enron Corp. I/T Networks team will be connecting the new building network infrastructure located in Enron Center South (ECS) to the existing Enron Center North (ECN) backbone network.  While this activity is not expected to produce a disruption to network services, this notice is designed to alert the organization to our activities.  No network hardware or systems are anticipated to be shutdown.  The actual physical interconnection of the networks will be performed in the EB 34th floor Data Center.
+
+Interconnection activities are scheduled to occur the evening of June 9th 2001 starting from 7:00 p.m.(CT) and completing around 11:00 p.m. (CT). Application testing activities will begin at 11:00 p.m. (CT) once all network testing has completed.
+
+If you have any further questions, please contact Pete Castrejana at 713-410-0642 for more information.
+		    
+
+SCHEDULED SYSTEM OUTAGES: 
+
+ARDMORE DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+AZURIX: No Scheduled Outages.
+
+EB34 DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+EDI SERVER: No Scheduled Outages.
+
+ENRON CENTER SOUTH DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages
+
+ENRON NORTH AMERICAN LANS: 
+Impact:  ENS 
+Time:  Fri 6/8/2001 at  10:30:00 PM CT thru Fri 6/8/2001 at  11:30:00 PM CT
+	Fri 6/8/2001 at    8:30:00 PM PT thru Fri 6/8/2001 at    9:30:00 PM PT
+	Sat 6/9/2001 at  4:30:00 AM London thru Sat 6/9/2001 at  5:30:00 AM London
+Outage:  Upgrade code on Ardmore routers
+Environments Impacted:  Ardmore
+Purpose: There is a bug with the version of code that we are using that causes the switches to crash.
+Backout: 
+Contact(s): 	Scott Shishido    713-853-9780
+
+Impact:  CORP
+Time:  Fri 6/8/2001 at  5:30:00 PM CT thru Fri 6/8/2001 at  8:30:00 PM CT
+	Fri 6/8/2001 at  3:30:00 PM PT thru Fri 6/8/2001 at  6:30:00 PM PT
+	Fri 6/8/2001 at  11:30:00 PM London thru Sat 6/9/2001 at  2:30:00 AM London
+Outage:  Split VLAN 468 into a /27 network
+Environments Impacted:  Corp
+Purpose: Separate the load and traffic between AEXT, AEIN, & AX environments
+Backout: 
+Contact(s): 	Morgan Gothard  713-345-7387  
+		
+Impact:  CORP
+Time:  Fri 6/8/2001 at  5:30:00 PM CT thru Fri 6/8/2001 at  6:30:00 PM CT
+	Fri 6/8/2001 at  3:30:00 PM PT thru Fri 6/8/2001 at  4:30:00 PM PT
+	Fri 6/8/2001 at  11:30:00 PM London thru Sat 6/9/2001 at  12:30:00 AM London
+Outage:  AEINFW swap
+Environments Impacted:  Corp
+Purpose: Eminent growth and related stability issues.
+Backout: Reinstall original units
+Contact(s): 	Morgan Gothard  713-345-7387   
+FIELD SERVICES:  No Scheduled Outages.
+
+INTERNET: No Scheduled Outages.
+
+MESSAGING: 
+Impact:  Exchange
+Time:  Sat 6/9/2001 at  12:00:00 PM CT thru Sat 6/9/2001 at    2:00:00 PM CT
+	Sat 6/9/2001 at  10:00:00 AM PT thru Sat 6/9/2001 at  12:00:00 PM PT
+	Sat 6/9/2001 at  6:00:00 PM London thru Sat 6/9/2001 at  8:00:00 PM London
+Outage:  Apply latest hotfixes to Nahou-msmbx03v & Nahou-msmbx05v
+Environments Impacted:  Exchange Users on Nahou-msmbx03v & 05v
+Purpose: Ensure backups and data integrity
+Backout: Uninstall Hotfixes
+Contact(s): 	Scott Albright  713-345-9381  
+		Tim Hudson  713-853-9289
+   
+MARKET DATA: 
+Impact:  CORP
+Time:  Fri 6/8/2001 at  5:00:00 PM CT thru Fri 6/8/2001 at  7:00:00 PM CT
+	Fri 6/8/2001 at  3:00:00 PM PT  thru Fri 6/8/2001 at  5:00:00 PM PT
+	Fri 6/8/2001 at  11:00:00 PM London thru Sat 6/9/2001 at  1:00:00 AM London
+Outage:  Market Data TV systems upgrades
+Environments Impacted:  Trading Floors
+Purpose: Increase system reliability and systems management, also allow presentation of new infrastructure content to the trading floor plasma screens
+Backout: re-install original systems
+Contact(s): 	John Sieckman    713-345-7862  
+
+NT: No Scheduled Outages.
+
+OS/2:  No Scheduled Outages.
+
+OTHER SYSTEMS:    ALSO SEE ORIGINAL REPORT 
+Impact:  CORP
+Time:  Fri 6/8/2001 at  7:30:00 PM CT thru Fri 6/8/2001 at  9:30:00 PM CT
+	Fri 6/8/2001 at  5:30:00 PM PT thru Fri 6/8/2001 at  7:30:00 PM PT
+	Sat 6/9/2001 at  1:30:00 AM London thru Sat 6/9/2001 at  3:30:00 AM London
+Outage:  NAMEX-LN1 and NAMTY-LN1- Needs Rebooting
+Environments Impacted:  Local Office
+Purpose: Need to reload NETIQ Agents for NAMTY-LN1 and NAMEX-LN1
+Backout: 
+Contact(s): 	Wilma Bleshman    713-853-1562 
+ 
+Impact:  
+Time:  Sat 6/9/2001 at  10:00:00 PM CT thru Sun 6/10/2001 at  1:30:00 AM CT
+	Sat 6/9/2001 at    8:00:00 PM PT thru Sat 6/9/2001 at  11:30:00 PM PT
+	Sun 6/10/2001 at  4:00:00 AM London thru Sun 6/10/2001 at 7:30:00 AM London
+Outage:  Upgrade for E10K SSP tremor requires downtime on server moe.
+Environments Impacted:  Global
+Purpose: An SSP is the controlling server for an E10K platform.  Moe is a domain on the E10K platform named aftershock.  In order to complete the upgrade of moe, we must first upgrade the SSP.  The first phase will entail upgrading the SSP to Solaris 8 and the SSP software.  
+Backout: The SSP is really a new server that needs to be configured.  The old SSP will be there if we need to back out.
+Contact(s): 	Malcolm Wells    713-345-3716
+
+SITARA:  No Scheduled Outages.
+
+SUN/OSS SYSTEM: No Scheduled Outages.
+
+TELEPHONY:      SEE ORIGINAL REPORT 
+  
+TERMINAL SERVER:  No Scheduled Outages.
+
+UNIFY:       SEE ORIGINAL REPORT  
+ 
+-------------------------------------------------------------------------------------------------------------------------------------
+								FOR ASSISTANCE
+
+(713) 853-1411   Enron Resolution Center
+
+
+Specific Help:
+Information Risk Management			(713) 853-5536
+SAP/ISC                                                                               (713) 345-4727
+Unify On-Call 					(713) 284-3757  [Pager]
+Sitara On-Call					(713) 288-0101  [Pager]
+RUS/GOPS/GeoTools/APRS			(713) 639-9726  [Pager]
+OSS/UA4/TARP				(713) 285-3165  [Pager]
+CPR						(713) 284-4175  [Pager]
+EDI Support 					(713) 327-3893  [Pager]
+EES Help Desk					(713)853-9797 OR (888)853-9797
+TDS -Trader Decision Support On-Call                    (713) 327-6032 [Pager]

@@ -1,0 +1,91 @@
+Message-ID: <11506761.1075860841297.JavaMail.evans@thyme>
+Date: Thu, 13 Dec 2001 15:06:38 -0800 (PST)
+From: no.address@enron.com
+Subject: Weekend Outage Report for 12-14-01 through 12-16-01
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Enron Change Management Announcement@ENRON
+X-To: Houston Outage Report@ENRON <??SHouston Outage Report@ENRON>
+X-cc: 
+X-bcc: 
+X-Folder: \Kenneth_Lay_Mar2002\Lay, Kenneth\Inbox
+X-Origin: Lay-K
+X-FileName: klay (Non-Privileged).pst
+
+------------------------------------------------------------------------------------------------------
+W E E K E N D   S Y S T E M S   A V A I L A B I L I T Y
+
+F O R
+
+December 14, 2001 5:00pm through December 17, 2001 12:00am
+------------------------------------------------------------------------------------------------------
+
+
+SCHEDULED SYSTEM OUTAGES: 
+
+ARDMORE DATA CENTER - FACILITY OPERATIONS:   No Scheduled Outages.
+
+AZURIX: No Scheduled Outages.
+
+EB34 DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+EDI: No Scheduled Outages.
+
+EES:  No Scheduled Outages.
+
+ENRON CENTER SOUTH DATA CENTER - FACILITY OPERATIONS:   No Scheduled Outages.
+
+ENRON NORTH AMERICAN LANS:  
+
+Impact:   ENS
+Time:   Fri 12/14/2001 10:00:00 PM CT thru Fri 12/14/2001 11:00:00 PM CT
+	Fri 12/14/2001 8:00:00 PM PT thru Fri 12/14/2001 9:00:00 PM PT
+	Sat 12/15/2001 4:00:00 AM London thru Sat 12/15/2001 5:00:00 AM London
+Outage:   Clean up routing
+Environments Impacted:   ENS
+Purpose:    Optimize routing
+Backout:   enable vlan 7 on ecn-34-trd-dcr1/2
+Contact(s):   Shishido, Scott 713-853-9780 
+
+FIELD SERVICES:  No Scheduled Outages.
+
+INTERNET: No Scheduled Outages.
+
+MESSAGING: No Scheduled Outages.
+
+MARKET DATA: No Scheduled Outages.
+
+NT: No Scheduled Outages.
+
+OS/2:  No Scheduled Outages.
+
+OTHER SYSTEMS: No Scheduled Outages.
+
+SITARA:  No Scheduled Outages.
+
+SUN/OSS SYSTEM: No Scheduled Outages.
+
+TELEPHONY:  No Scheduled Outages.
+
+TERMINAL SERVER:  No Scheduled Outages.
+
+UNIFY:  No Scheduled Outages.
+
+----------------------------------------------------------------------------------------------------------------------------
+								FOR ASSISTANCE
+
+(713) 853-1411   Enron Resolution Center
+
+
+Specific Help:
+Information Risk Management			(713) 853-5536
+SAP/ISC                                                                               (713) 345-4727
+Unify On-Call 					(713) 284-3757  [Pager]
+Sitara On-Call					(713) 288-0101  [Pager]
+RUS/GOPS/GeoTools/APRS			(713) 639-9726  [Pager]
+OSS/UA4/TARP				(713) 285-3165  [Pager]
+CPR						(713) 284-4175  [Pager]
+EDI Support 					(713) 327-3893  [Pager]
+EES Help Desk					(713)853-9797 OR (888)853-9797
+TDS -Trader Decision Support On-Call                    (713) 327-6032 [Pager]

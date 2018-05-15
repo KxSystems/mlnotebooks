@@ -1,0 +1,100 @@
+Message-ID: <27289074.1075861575853.JavaMail.evans@thyme>
+Date: Fri, 2 Nov 2001 14:46:22 -0800 (PST)
+From: no.address@enron.com
+Subject: SUPPLEMENTAL Weekend Outage Report for 11-2-01 through 11-4-01
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Enron Change Management Announcement@ENRON
+X-To: Houston Outage Report@ENRON <??SHouston Outage Report@ENRON>
+X-cc: 
+X-bcc: 
+X-Folder: \JSKILLIN (Non-Privileged)\Skilling, Jeff\Inbox
+X-Origin: Skilling-J
+X-FileName: JSKILLIN (Non-Privileged).pst
+
+
+ ------------------------------------------------------------------------------------------------------
+ 
+W E E K E N D   S Y S T E M S   A V A I L A B I L I T Y
+
+F O R
+
+November 2, 2001 5:00pm through November 5, 2001 12:00am
+------------------------------------------------------------------------------------------------------
+		    		    		    				       		    				   		    			
+SCHEDULED SYSTEM OUTAGES: 
+
+ARDMORE DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+AZURIX: No Scheduled Outages.
+
+EB34 DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+EDI:      SEE ORIGINAL REPORT
+ 
+EES:     SEE ORIGINAL REPORT
+ 
+ENRON CENTER SOUTH DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages
+
+ENRON NORTH AMERICAN LANS:     SEE ORIGINAL REPORT
+
+FIELD SERVICES:  No Scheduled Outages.
+
+INTERNET: 
+Impact:  CORP
+Time:  Fri 11/2/2001 at  5:30:00 PM CT thru Fri 11/2/2001 at  6:30:00 PM CT
+	Fri 11/2/2001 at  3:30:00 PM PT thru Fri 11/2/2001 at  4:30:00 PM PT
+	Fri 11/2/2001 at  11:30:00 PM London thru Sat 11/3/2001 at  12:30:00 AM London
+Outage:  ENEFW5-F replacement
+Environments Impacted:  All
+Purpose: current PIX is unreliable
+Backout: revert back to original hardware
+Contact(s): 	Chris Trota    713-345-1697 
+ 
+MESSAGING:      SEE ORIGINAL REPORT
+ 
+MARKET DATA: No Scheduled Outages.
+
+NT: No Scheduled Outages.
+
+OS/2:  No Scheduled Outages.
+
+OTHER:      SEE ORIGINAL REPORT
+ 
+SITARA:  No Scheduled Outages.
+
+SUN/OSS SYSTEM: No Scheduled Outages.
+
+TELEPHONY: 
+Impact:  
+Time:  Sun 11/4/2001 at  7:00:00 PM CT thru Sun 11/4/2001 at  11:00:00 PM CT
+	Sun 11/4/2001 at  5:00:00 PM PT thru Sun 11/4/2001 at    9:00:00 PM PT
+	Mon 11/5/2001 at  1:00:00 AM London thru Mon 11/5/2001 at  5:00:00 AM London
+Outage:  Maintenance scheduled for CMS and Voicemail
+Environments Impacted:  
+Purpose: The maintenance was not supposed to be scheduled until next weekend, but with the 2 large move to ECS, we have been asked to do them this weekend. With all of the broadcast messages going out, we do not want to wait 3 weeks before we can do a our maintenance routine.
+Backout: 
+Contact(s): 	Kathy Link    713-345-5418 
+ 
+TERMINAL SERVER:  No Scheduled Outages.
+
+UNIFY:  No Scheduled Outages.
+
+----------------------------------------------------------------------------------------------------------------------------
+								FOR ASSISTANCE
+
+(713) 853-1411   Enron Resolution Center
+
+
+Specific Help:
+Information Risk Management			(713) 853-5536
+SAP/ISC                                                                               (713) 345-4727
+Unify On-Call 					(713) 284-3757  [Pager]
+Sitara On-Call					(713) 288-0101  [Pager]
+RUS/GOPS/GeoTools/APRS			(713) 639-9726  [Pager]
+OSS/UA4/TARP				(713) 285-3165  [Pager]
+CPR						(713) 284-4175  [Pager]
+EDI Support 					(713) 327-3893  [Pager]
+EES Help Desk					(713)853-9797 OR (888)853-9797
+TDS -Trader Decision Support On-Call                    (713) 327-6032 [Pager]

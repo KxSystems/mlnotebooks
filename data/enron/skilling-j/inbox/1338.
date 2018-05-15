@@ -1,0 +1,98 @@
+Message-ID: <32907373.1075852678131.JavaMail.evans@thyme>
+Date: Thu, 30 Aug 2001 19:18:32 -0700 (PDT)
+From: 40enron@enron.com
+Subject: Weekend Outage Report for 8-31-01 through 9-04-01
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Enron Change Management Announcement@ENRON <IMCEANOTES-Enron+20Change+20Management+20Announcement+40ENRON@ENRON.com>
+X-To: Houston Outage Report@ENRON
+X-cc: 
+X-bcc: 
+X-Folder: \JSKILLIN (Non-Privileged)\Inbox
+X-Origin: Dasovich-J
+X-FileName: JDASOVIC (Non-Privileged).pst
+
+
+
+------------------------------------------------------------------------------------------------------
+W E E K E N D   S Y S T E M S   A V A I L A B I L I T Y
+
+F O R
+
+August 31, 2001 5:00pm through September 4, 2001 12:00am
+------------------------------------------------------------------------------------------------------
+		
+SCHEDULED SYSTEM OUTAGES: 
+
+ARDMORE DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+AZURIX: No Scheduled Outages.
+
+EB34 DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+EDI SERVER: No Scheduled Outages.
+
+ENRON CENTER SOUTH DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages
+
+ENRON NORTH AMERICAN LANS:  
+Impact:  CORP
+Time:  Sat 9/1/2001 at  12:00:00 AM CT thru Sat 9/1/2001 at      1:00:00 AM CT
+	Fri 8/31/2001 at  10:00:00 PM PT thru Fri 8/31/2001 at  11:00:00 PM PT
+	Sat 9/1/2001 at  6:00:00 AM London thru Sat 9/1/2001 at  7:00:00 AM London
+Outage:  Increase bandwidth on the network core
+Environments Impacted:  All
+Purpose: When users are moved to the new building the traffic on the core will increase significantly.
+Backout: revert back to the one link
+Contact(s): 	Christopher M Ducker  713-345-8241  
+ 
+FIELD SERVICES:  No Scheduled Outages.
+
+INTERNET: No Scheduled Outages.
+
+MESSAGING: No Scheduled Outages.
+
+MARKET DATA: No Scheduled Outages.
+
+NT: No Scheduled Outages.
+
+OS/2:  No Scheduled Outages.
+
+OTHER SYSTEMS: 
+Impact:  Portland
+Time:  Fri 8/31/2001 at  7:00:00 PM CT thru Fri 8/31/2001 at  7:15:00 PM CT
+	Fri 8/31/2001 at  5:00:00 PM PT thru Fri 8/31/2001 at  5:15:00 PM PT
+	Sat 9/1/2001 at  1:00:00 AM London thru Sat 9/1/2001 at  1:15:00 AM London
+Outage:  EBS Links to homes in Portland to be disconnected (Tom Duff and Barry Lavine)
+Environments Impacted:  Portland
+Purpose: cost
+Backout: None
+Contact(s): 	Robert Humlicek    713-853-6366
+ 
+SITARA:  No Scheduled Outages.
+
+SUN/OSS SYSTEM: No Scheduled Outages.
+
+TELEPHONY: No Scheduled Outages
+
+TERMINAL SERVER:  No Scheduled Outages.
+
+UNIFY:  No Scheduled Outages.
+
+----------------------------------------------------------------------------------------------------------------------------
+								FOR ASSISTANCE
+
+(713) 853-1411   Enron Resolution Center
+
+
+Specific Help:
+Information Risk Management			(713) 853-5536
+SAP/ISC                                                                               (713) 345-4727
+Unify On-Call 					(713) 284-3757  [Pager]
+Sitara On-Call					(713) 288-0101  [Pager]
+RUS/GOPS/GeoTools/APRS			(713) 639-9726  [Pager]
+OSS/UA4/TARP				(713) 285-3165  [Pager]
+CPR						(713) 284-4175  [Pager]
+EDI Support 					(713) 327-3893  [Pager]
+EES Help Desk					(713)853-9797 OR (888)853-9797
+TDS -Trader Decision Support On-Call                    (713) 327-6032 [Pager]

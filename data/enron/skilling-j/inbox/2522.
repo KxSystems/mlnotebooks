@@ -1,0 +1,167 @@
+Message-ID: <25365278.1075861576830.JavaMail.evans@thyme>
+Date: Thu, 8 Nov 2001 14:51:58 -0800 (PST)
+From: no.address@enron.com
+Subject: Weekend Outage Report for 11-9-01 through 11-11-01
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Enron Change Management Announcement@ENRON
+X-To: Houston Outage Report@ENRON <??SHouston Outage Report@ENRON>
+X-cc: 
+X-bcc: 
+X-Folder: \JSKILLIN (Non-Privileged)\Skilling, Jeff\Inbox
+X-Origin: Skilling-J
+X-FileName: JSKILLIN (Non-Privileged).pst
+
+
+
+------------------------------------------------------------------------------------------------------
+W E E K E N D   S Y S T E M S   A V A I L A B I L I T Y
+
+F O R
+
+November 9, 2001 5:00pm through November 12, 2001 12:00am
+------------------------------------------------------------------------------------------------------
+
+SCHEDULED SYSTEM OUTAGES: 
+
+ARDMORE DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+AZURIX: No Scheduled Outages.
+
+EB34 DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+EDI:
+Impact:  CORP
+Time:  Fri 11/9/2001 at  12:00:00 PM CT thru Sat 11/10/2001 at  4:00:00 AM CT
+	Fri 11/9/2001 at  10:00:00 AM PT thru Sat 11/10/2001 at  2:00:00 AM PT
+	Fri 11/9/2001 at  6:00:00 PM London thru Sat 11/10/2001 at  10:00:00 AM London
+Outage:  EDI_QA Oracle database upgrade
+Environments Impacted:  Corp
+Purpose: To comply with corporate standardization
+Backout: Restore the database to its original state
+Contact(s): 	Maria Santiago  713-345-7354  
+		John Kratzer  713-345-7672  
+		Karen O'Grady  713-345-7149  
+ 
+ENRON CENTER SOUTH DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages
+
+ENRON NORTH AMERICAN LANS:  
+Impact:  EXTPIX1/HOPIX1
+Time:  Fri 11/9/2001 at  10:30:00 PM CT thru Sat 11/10/2001 at  12:30:00 AM CT
+	Fri 11/9/2001 at    8:30:00 PM PT thru Fri 11/9/2001 at  10:30:00 PM PT
+	Sat 11/10/2001 at  4:30:00 AM London thru Sat 11/10/2001 at  6:30:00 AM London
+Outage:  EXTPIX1 Maintenance
+Environments Impacted:  All
+Purpose: Prevent bottleneck
+Backout: undo changes
+Contact(s): 	Jim Brigham    713-345-4104
+
+Impact:  ECN 22, 25, 26, 27, 28, & 35
+Time:  Sat 11/10/2001 at  9:00:00 AM CT thru Sat 11/10/2001 at  6:00:00 PM CT
+	Sat 11/10/2001 at  7:00:00 AM PT thru Sat 11/10/2001 at  4:00:00 PM PT
+	Sat 11/10/2001 at  3:00:00 PM London thru Sun 11/11/2001 at  12:00:00 AM London
+Outage:  Telecom Clean Up
+Environments Impacted:  Corp
+Purpose: Better LAN management
+Backout: I (Mark Trevino) will be available to solve any issues that may occur (switches that do not come back online).
+Contact(s): 	Mark Trevino    713-345-9954
+ 
+FIELD SERVICES:  No Scheduled Outages.
+
+INTERNET: No Scheduled Outages.
+
+MESSAGING: 
+Impact:  Nany-msmbx01v
+Time:  Fri 11/9/2001 at  5:00:00 PM CT thru Sat 11/10/2001 at    1:00:00 AM CT
+	Fri 11/9/2001 at  3:00:00 PM PT thru Fri 11/9/2001 at  11:00:00 PM PT
+	Fri 11/9/2001 at  11:00:00 PM London thru Sat 11/10/2001 at  7:00:00 AM London
+Outage:  Upgrade Nany-msmbx01v
+Environments Impacted:  Users on Nany-msmbx01v
+Purpose: In order to standardize all E2k servers.
+Backout: 
+Contact(s): 	Dalak Malik    713-345-8219
+		    		    		    		
+Impact:  Exchange Servers
+Time:  Sat 11/10/2001 at  5:00:00 PM CT thru Sat 11/10/2001 at  9:00:00 PM CT
+	Sat 11/10/2001 at  3:00:00 PM PT thru Sat 11/10/2001 at  7:00:00 PM PT
+	Sat 11/10/2001 at  11:00:00 PM London thru Sun 11/11/2001 at  3:00:00 AM London
+Outage:  Installing EXifs.dll hotfix and store hotfix to the Exchange Servers
+Environments Impacted:  All Exchange users
+Purpose: Stability standardization
+Backout: 
+Contact(s): 	Dalak Malik    713-345-8219
+		    		    		    		
+Impact:  Nahou-msmbx01v
+Time:  Sat 11/10/2001 at  7:00:00 PM CT thru Sat 11/10/2001 at  9:00:00 PM CT
+	Sat 11/10/2001 at  5:00:00 PM PT thru Sat 11/10/2001 at  7:00:00 PM PT
+	Sun 11/11/2001 at  1:00:00 AM London thru Sun 11/11/2001 at  3:00:00 AM London
+Outage:  Exchange user database maintenance
+Environments Impacted:  Users on server nahou-msmbx01v
+Purpose: Database has over 13 GB white space
+Backout: 
+Contact(s): 	Dalak Malik    713-345-8219
+ 
+MARKET DATA: No Scheduled Outages.
+
+NT: No Scheduled Outages.
+
+OS/2:  No Scheduled Outages.
+
+OTHER: 
+Impact:  NAHOU-TSSAP01P
+Time:  Fri 11/9/2001 at  7:00:00 PM CT thru Fri 11/9/2001 at  8:00:00 PM CT
+	Fri 11/9/2001 at  5:00:00 PM PT thru Fri 11/9/2001 at  6:00:00 PM PT
+	Sat 11/10/2001 at  1:00:00 AM London thru Sat 11/10/2001 at  2:00:00 AM London
+Outage:  SAP GUI Patch 3.06 Installation
+Environments Impacted:  SAP Terminal Server users
+Purpose: Applying this patch will make the terminal server version of SAP consistent with the version on all SAP users desktops.
+Backout: Uninstall and remove SAP registry entries and install previous version.
+Contact(s): 	Russ Rimmerman    713-345-3466
+		    		    		    				    		
+Impact:  SAP
+Time:  Fri 11/9/2001 at  8:00:00 PM CT thru Sun 11/11/2001 at    2:00:00 AM CT
+	Fri 11/9/2001 at  6:00:00 PM PT thru Sun 11/11/2001 at  12:00:00 AM PT
+	Sat 11/10/2001 at  2:00:00 AM London thru Sun 11/11/2001 at  8:00:00 AM London
+Outage:  Add New SAP Storage
+Environments Impacted:  SAP
+Purpose: Disk growth in SAP required procurement of additional disk.
+Backout: Revert to current configuration. 
+Contact(s): 	Gary Sentiff    713-345-5125
+ 
+SITARA:  No Scheduled Outages.
+
+SUN/OSS SYSTEM: No Scheduled Outages.
+
+TELEPHONY: 
+Impact:  
+Time:  Sat 11/10/2001 at  5:00:00 AM CT thru Sat 11/10/2001 at  6:00:00 AM CT
+	Sat 11/10/2001 at  3:00:00 AM PT thru Sat 11/10/2001 at  4:00:00 AM PT
+	Sat 11/10/2001 at  11:00:00 AM London thru Sat 11/10/2001 at  12:00:00 PM London
+Outage:  Emergency Maintenance - VoiceMail Node 3
+Environments Impacted:  All
+Purpose: Bad port - affects performance of Intuity Voicemail
+Backout: None
+Contact(s): 	Cynthia Siniard    713-853-0558
+ 
+TERMINAL SERVER:  No Scheduled Outages.
+
+UNIFY:  No Scheduled Outages.
+
+----------------------------------------------------------------------------------------------------------------------------
+								FOR ASSISTANCE
+
+(713) 853-1411   Enron Resolution Center
+
+
+Specific Help:
+Information Risk Management			(713) 853-5536
+SAP/ISC                                                                               (713) 345-4727
+Unify On-Call 					(713) 284-3757  [Pager]
+Sitara On-Call					(713) 288-0101  [Pager]
+RUS/GOPS/GeoTools/APRS			(713) 639-9726  [Pager]
+OSS/UA4/TARP				(713) 285-3165  [Pager]
+CPR						(713) 284-4175  [Pager]
+EDI Support 					(713) 327-3893  [Pager]
+EES Help Desk					(713)853-9797 OR (888)853-9797
+TDS -Trader Decision Support On-Call                    (713) 327-6032 [Pager]

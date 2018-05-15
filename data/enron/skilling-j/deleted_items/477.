@@ -1,0 +1,70 @@
+Message-ID: <13528386.1075852659206.JavaMail.evans@thyme>
+Date: Thu, 24 May 2001 11:26:19 -0700 (PDT)
+From: david.delainey@enron.com
+To: david.delainey@enron.com, michael.philippe@enron.com, rick.buy@enron.com, 
+	wes.colwell@enron.com, david.cox@enron.com, janet.dietrich@enron.com, 
+	david.duran@enron.com, jim.fallon@enron.com, ben.glisan@enron.com, 
+	joe.gold@enron.com, mark.haedicke@enron.com, louise.james@enron.com, 
+	michael.kopper@enron.com, john.lavorato@enron.com, 
+	dan.leff@enron.com, jeffrey.mcmahon@enron.com, 
+	rob.milnthorp@enron.com, matthew.scrimshaw@enron.com, 
+	richard.jeffrey@enron.com, marty.sunde@enron.com
+Subject: Peer Group Mapping
+Cc: kenneth.lay@enron.com, james.cliff@enron.com, ken.rice@enron.com, 
+	steven.kean@enron.com, greg.whalley@enron.com, 
+	stanley.horton@enron.com, jeff.skilling@enron.com, 
+	richard.causey@enron.com, kevin.hannon@enron.com, 
+	mark.andrew@enron.com, lou.pai@enron.com, drew.david@enron.com, 
+	exec.jones@enron.com, mary.joyce@enron.com, marla.barnard@enron.com, 
+	kalen.pieper@enron.com, p..smith@enron.com, andrea.cindy@enron.com, 
+	cindy.olson@enron.com, gina.corteselli@enron.com, 
+	elspeth.inglis@enron.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Bcc: kenneth.lay@enron.com, james.cliff@enron.com, ken.rice@enron.com, 
+	steven.kean@enron.com, greg.whalley@enron.com, 
+	stanley.horton@enron.com, jeff.skilling@enron.com, 
+	richard.causey@enron.com, kevin.hannon@enron.com, 
+	mark.andrew@enron.com, lou.pai@enron.com, drew.david@enron.com, 
+	exec.jones@enron.com, mary.joyce@enron.com, marla.barnard@enron.com, 
+	kalen.pieper@enron.com, p..smith@enron.com, andrea.cindy@enron.com, 
+	cindy.olson@enron.com, gina.corteselli@enron.com, 
+	elspeth.inglis@enron.com
+X-From: Delainey, David </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=28FC501B-22D3A001-62569FB-57CAAA>
+X-To: Delainey, David </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=28FC501B-22D3A001-62569FB-57CAAA>, Philippe A Bibi/HOU/ECT@ENRON, Tim Belden/HOU/ECT@ENRON, Raymond Bowen/HOU/ECT@ENRON, Brown, Michael </O=ENRON/OU=EU/CN=RECIPIENTS/CN=MBROWN3>, Buy, Rick </O=ENRON/OU=NA/CN=RECIPIENTS/CN=RBUY>, Colwell, Wes </O=ENRON/OU=NA/CN=RECIPIENTS/CN=WCOLWEL>, Cox, David </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=50A4B2A8-9053CCF9-882567EE-70E587>, Dietrich, Janet </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=384ECA1E-36846EF5-62569FB-57DCF1>, Duran, W. David </O=ENRON/OU=NA/CN=RECIPIENTS/CN=DDURAN>, Fallon, Jim </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=9E84507F-B2CE0870-882568C6-70CB55>, Glisan, Ben </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=9D1CE1F4-F20B005F-8625654D-62FD40>, Gold, Joe </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=313A8011-9638E003-8625653F-4424C1>, Haedicke, Mark </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=496812C-A8259B42-8625650E-6A1DC1>, James A Hughes/ENRON_DEVELOPMENT@ENRON, Kitchen, Louise </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=E5CF97BB-467B6EEF-8625687A-893A0>, Kopper, Michael </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=2B6D0A0F-10140D34-8625651C-78A7BA>, Lavorato, John </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JLAVORA>, Leff, Dan </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=9BB28634-F7B2062D-862564DE-77878A>, McMahon, Jeffrey </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JMCMAHO>, Milnthorp, Rob </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=3D1BEA6C-BBB6D3E2-862564CF-2525D4>, Scrimshaw, Matthew </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=C6876994-E8A72538-8625653F-626D0E>, Jeffrey A Shankman/HOU/ECT@ENRON, Shapiro, Richard </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=6CEDF0C-82C4A03C-8625696C-7693A4>, Sunde, Marty </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=EA9FFF7E-4450F0AA-862564DB-689FAE>
+X-cc: Lay, Kenneth </O=ENRON/OU=NA/CN=RECIPIENTS/CN=KLAY>, Cliff Baxter/HOU/ECT@ENRON, Derrick Jr., James </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JDERRIC>, Rice, Ken </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=A7DB55D9-F1759DDD-8825687A-69EC86>, Kean, Steven </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=B86DC838-ECAFDC13-8625693C-57FA6D>, Whalley, Greg </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=DA82494B-FC99BFE6-862565DA-5FA576>, Horton, Stanley </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=F49599EF-D83718B8-862566D3-7CB879>, Skilling, Jeff </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JSKILLIN>, Causey, Richard </O=ENRON/OU=NA/CN=RECIPIENTS/CN=RCAUSEY>, Hannon, Kevin </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=A99B0059-D6E677D6-88256882-62B456>, Andrew S Fastow/HOU/ECT@ENRON, Frevert, Mark </O=ENRON/OU=NA/CN=RECIPIENTS/CN=MFREVERT>, Pai, Lou </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=29BD17ED-B5DF4365-862564C2-52A939>, David Oxley/HOU/ECT@ENRON, Lynch, Drew </O=ENRON/OU=EU/CN=RECIPIENTS/CN=DLYNCH>, Jones, Robert W.- HR Exec </O=ENRON/OU=NA/CN=RECIPIENTS/CN=RJONES2>, Joyce, Mary </O=ENRON/OU=NA/CN=RECIPIENTS/CN=MJOYCE>, Barnard, Marla </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=7F6EC37D-42EE72E3-88256878-7D9994>, Pieper, Kalen </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=4E8AE173-8311940B-862569C3-7E54FC>, Smith, Gary P. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=GSMITH7>, Cindy Skinner/HOU/ECT@ENRON, Yowman, Andrea </O=ENRON/OU=NA/CN=RECIPIENTS/CN=NOTESADDR/CN=D62B018E-B0A282B-86256716-788F52>, Olson, Cindy </O=ENRON/OU=NA/CN=RECIPIENTS/CN=COLSON>, Corteselli, Gina </O=ENRON/OU=NA/CN=RECIPIENTS/CN=GCORTESE>, Inglis, Elspeth </O=ENRON/OU=NA/CN=RECIPIENTS/CN=EINGLIS>
+X-bcc: 
+X-Folder: \JSKILLIN (Non-Privileged)\Deleted Items
+X-Origin: Skilling-J
+X-FileName: JSKILLIN (Non-Privileged).pst
+
+On May 10, 2001, a memo was sent out regarding "Peer Group Mapping".  This mapping is intended to illustrate from a functional view point where each activity was placed at Year End 2000 VP PRC.
+
+Please refer to the attached original memo, if you have not responded to David Oxley and have any comments 
+please respond to him by May 25, 2001.
+
+Dave Delainey
+
+
+
+Following my note last week please find attached the consolidated peer group mapping for all business units. This mapping is intended to illustrate from a functional view point where each activity was placed at Year End 2000 VP PRC.
+
+We were considering moving to a 3 Peer Group Structure however it as agreed at the last PRC Committee Meeting  to stay with the current structure since the data had been cleaned and everyone felt generally comfortable where most activities had been placed with the exception of just  2 or 3. It was agreed that we should concentrate on resolving these rather than undertaking an organization wide remapping excercise to consolidate to 3 Peer Groups. All functions/activities within the business units should now be reflected on the acttached. 
+
+The actions points from this excercise are:
+
+1	to review and agree the attached mapping 
+
+2    consider and comment on highlighted groups that we have discussed in previous PRC meetings and ask for your comments or objections to moving them 	as indicated on the attachment.
+
+3	invite your comments or questions on any other function that you consider questionable or requiring further explanation.
+
+      Please return your comments to David Oxley by Friday May 25.
+
+      To have this discussion now will save lengthy discussions in the final VP/MD PRC Meetings.  Definitions of the peer groups are also attached for your ease of
+      reference.
+
+
+
+	 

@@ -1,0 +1,147 @@
+Message-ID: <22588100.1075840162789.JavaMail.evans@thyme>
+Date: Thu, 31 May 2001 15:01:57 -0700 (PDT)
+From: no.address@enron.com
+Subject: Weekend Outage Report for 6-1-01 through 6-4-01
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Enron Change Management Announcement@ENRON
+X-To: ouston Outage Report@ENRON <H>
+X-cc: 
+X-bcc: 
+X-Folder: \jskillin\Inbox
+X-Origin: SKILLING-J
+X-FileName: jskillin.pst
+
+
+------------------------------------------------------------------------------------------------------
+W E E K E N D   S Y S T E M S   A V A I L A B I L I T Y
+
+F O R
+
+June 1, 2001 5:00pm through June 4, 2001 12:00am
+------------------------------------------------------------------------------------------------------
+
+
+ECS to ECN Network Interconnection, June 9th 2001
+
+This is a notification that the Enron Corp. I/T Networks team will be connecting the new building network infrastructure located in Enron Center South (ECS) to the existing Enron Center North (ECN) backbone network.  While this activity is not expected to produce a disruption to network services, this notice is designed to alert the organization to our activities.  No network hardware or systems are anticipated to be shutdown.  The actual physical interconnection of the networks will be performed in the EB 34th floor Data Center.
+
+Interconnection activities are scheduled to occur the evening of June 9th 2001 starting from 7:00 p.m.(CT) and completing around 11:00 p.m. (CT). Application testing activities will begin at 11:00 p.m. (CT) once all network testing has completed.
+
+If you have any further questions, please contact Pete Castrejana at 713-410-0642 for more information.
+		    
+
+SCHEDULED SYSTEM OUTAGES: 
+
+ARDMORE DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+AZURIX: No Scheduled Outages.
+
+EB34 DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+EDI SERVER: No Scheduled Outages.
+
+ENRON CENTER SOUTH DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages
+
+ENRON NORTH AMERICAN LANS:  
+Impact:  ENS
+Time:  Fri 6/1/2001 at  11:00:00 PM CT thru Fri 6/1/2001 at  11:45:00 PM CT
+	Fri 6/1/2001 at    9:00:00 PM PT thru Fri 6/1/2001 at     9:45:00 PM PT
+	Sat 6/2/2001 at  5:00:00 AM London thru Sat 6/2/2001 at  5:45:00 AM London
+Outage:  Enable routing on new router ecn-34-cor-ccr1
+Environments Impacted:  ENS
+Purpose: This router will be used to connect to the new building
+Backout: remove routing on the router.
+Contact(s): 	Scott Shishido    713-853-9780
+
+Impact:  AEP
+Time:  Fri 6/1/2001 at  8:00:00 PM CT thru Fri 6/1/2001 at  8:30:00 PM CT
+	Fri 6/1/2001 at  6:00:00 PM PT thru Fri 6/1/2001 at  6:30:00 PM PT
+	Sat 6/2/2001 at  2:00:00 AM London thru Sat 6/2/2001 at  2:30:00 AM London
+Outage:  Shutting off the internal link to 1201 Louisiana
+Environments Impacted:  AEP
+Purpose: Company occupying that space has been sold.
+Backout: None
+Contact(s): 	Garhett Clark         713-345-9953
+                        Robert Humlicek   713-853-6366   713-406-8293
+		    		    		    		
+Impact:  ENS/GCO
+Time:  Fri 6/1/2001    thru Wed 7/4/2001   
+Outage:  HPL migration to AEP
+Environments Impacted:  GCO
+Purpose: Sites sold
+Backout: None
+Contact(s): 	Garhett Clark         713-345-9953
+		Robert Humlicek   713-853-6366   713-406-8293
+
+FIELD SERVICES:  No Scheduled Outages.
+
+INTERNET: 
+Impact:  Internet
+Time:  Fri 6/1/2001 at  10:30:00 PM CT thru Fri 6/1/2001 at  10:45:00 PM CT
+	Fri 6/1/2001 at    8:30:00 PM PT thru Fri 6/1/2001 at     8:45:00 PM PT
+	Sat 6/2/2001 at  4:30:00 AM London thru Sat 6/2/2001 at  4:45:00 AM London
+Outage:  Reboot Enron.com edge routers
+Environments Impacted:  Internet
+Purpose: Regular reboot to prevent such problems as memory corruption. Intermettent disruption to last about five minutes.
+Backout: 
+Contact(s): 	John Shupak          713-853-7943
+		Bryan Aubuchon    713-345-8446 
+ 
+MESSAGING: 
+Impact:  Corp Notes
+Time:  Fri 6/1/2001 at  9:00:00 PM CT thru Sat 6/2/2001 at  1:00:00 AM CT
+	Fri 6/1/2001 at  7:00:00 PM PT thru Fri 6/1/2001 at 11:00:00 PM PT
+	Sat 6/2/2001 at  3:00:00 AM London thru Sat 6/2/2001 at  7:00:00 AM London
+Outage:  cNotes Server Reboots
+Environments Impacted:  All users on any of the mailservers listed below
+Purpose: Scheduled @ 2 week interval
+Backout: Make sure server comes up.
+Contact(s): 	Trey Rhodes  (713) 345-7792  
+		    		    		    		
+Impact:  EI
+Time:  Fri 6/1/2001 at  9:00:00 PM CT thru Sat 6/2/2001 at  1:00:00 AM CT
+	Fri 6/1/2001 at  7:00:00 PM PT thru Fri 6/1/2001 at 11:00:00 PM PT
+	Sat 6/2/2001 at  3:00:00 AM London thru Sat 6/2/2001 at  7:00:00 AM London
+Outage:  EI Notes Server Maintenance
+Environments Impacted:  EI Local/Domestic/Foreign Sites
+Purpose: Scheduled @ 2 week interval
+Backout: N/A
+Contact(s): 	David Ricafrente    713-646-7741
+ 
+MARKET DATA: No Scheduled Outages.
+
+NT: No Scheduled Outages.
+
+OS/2:  No Scheduled Outages.
+
+OTHER SYSTEMS: No Scheduled Outages.
+
+SITARA:  No Scheduled Outages.
+
+SUN/OSS SYSTEM: No Scheduled Outages.
+
+TELEPHONY: No Scheduled Outages
+
+TERMINAL SERVER:  No Scheduled Outages.
+
+UNIFY:  No Scheduled Outages.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+								FOR ASSISTANCE
+
+(713) 853-1411   Enron Resolution Center
+
+
+Specific Help:
+Information Risk Management			(713) 853-5536
+SAP/ISC                                                                               (713) 345-4727
+Unify On-Call 					(713) 284-3757  [Pager]
+Sitara On-Call					(713) 288-0101  [Pager]
+RUS/GOPS/GeoTools/APRS			(713) 639-9726  [Pager]
+OSS/UA4/TARP				(713) 285-3165  [Pager]
+CPR						(713) 284-4175  [Pager]
+EDI Support 					(713) 327-3893  [Pager]
+EES Help Desk					(713)853-9797 OR (888)853-9797
+TDS -Trader Decision Support On-Call                    (713) 327-6032 [Pager]

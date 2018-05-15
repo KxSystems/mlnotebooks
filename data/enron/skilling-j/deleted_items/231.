@@ -1,0 +1,112 @@
+Message-ID: <19217039.1075852652112.JavaMail.evans@thyme>
+Date: Thu, 12 Jul 2001 14:58:46 -0700 (PDT)
+From: 40enron@enron.com
+Subject: Weekend Outage Report for 7-13-01 through 7-16-01
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Enron Change Management Announcement@ENRON <IMCEANOTES-Enron+20Change+20Management+20Announcement+40ENRON@ENRON.com>
+X-To: Houston Outage Report@ENRON
+X-cc: 
+X-bcc: 
+X-Folder: \JSKILLIN (Non-Privileged)\Deleted Items
+X-Origin: Skilling-J
+X-FileName: JSKILLIN (Non-Privileged).pst
+
+
+
+------------------------------------------------------------------------------------------------------
+W E E K E N D   S Y S T E M S   A V A I L A B I L I T Y
+
+F O R
+
+July 13, 2001 5:00pm through July 16, 2001 12:00am
+------------------------------------------------------------------------------------------------------
+
+
+
+ECS to ECN Network Interconnection July 14, 2001
+
+This is a notification that the Enron Corp. I/T Networks team will be connecting the new building network infrastructure located in Enron Center South (ECS) to the existing Enron Center North (ECN) backbone network.  While this activity is not expected to produce a disruption to network services, this notice is designed to alert the organization to our activities.  No network hardware or systems are anticipated to be shutdown.  The actual physical interconnection of the networks will be performed in the EB 34th floor Data Center.
+
+Interconnection activities are scheduled to occur the evening of July 14, 2001 starting from 7:00 p.m.(CT) and completing around 11:00 p.m. (CT). Application testing activities will begin at 11:00 p.m. (CT) once all network testing has completed.
+
+If you have any further questions, please contact Pete Castrejana at 713-410-0642 for more information.
+
+Enron Telecommunications  July 14, 2001
+This Saturday, July 14, beginning at 9 a.m., Enron Telecommunications and Southwestern Bell will be re-configuring all local trunks in the Enron Building and 3AC telephone systems so that Caller ID Name and Number information will be delivered to telephone displays for local calls. Intermittent disruption of service may occur for local calling, both incoming and outgoing, while the trunks are reconfigured. This intermittent outage is scheduled to last approximately five hours. For more detail, please see the outage report below under the Telephony heading. 
+ 		    
+				    		    		    		
+SCHEDULED SYSTEM OUTAGES: 
+
+ARDMORE DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+AZURIX: No Scheduled Outages.
+
+EB34 DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+EDI SERVER: No Scheduled Outages.
+
+ENRON CENTER SOUTH DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages
+
+ENRON NORTH AMERICAN LANS:  
+Impact:  CORP
+Time:  Sat 7/14/2001 at  9:30:00 PM CT thru Sat 7/14/2001 at  10:30:00 PM CT
+	Sat 7/14/2001 at  7:30:00 PM PT thru Sat 7/14/2001 at    8:30:00 PM PT
+	Sun 7/15/2001 at  3:30:00 AM London thru Sun 7/15/2001 at  4:30:00 AM London
+Outage:  Nahou_UV2 CHKDSK
+Environments Impacted:  Corp
+Purpose: There are some user directories and user profiles that have corrupt files on them, we need to run chkdsk in order to fix the problem.
+Backout: Once the chkdsk begins, it cannot be stopped, we will do a full backup of the volume prior to running the chkdsk.
+Contact(s): 	Frank Coles    (713)406-0470 
+ 
+FIELD SERVICES:  No Scheduled Outages.
+
+INTERNET: No Scheduled Outages.
+
+MESSAGING: No Scheduled Outages.
+
+MARKET DATA: No Scheduled Outages.
+
+NT: No Scheduled Outages.
+
+OS/2:  No Scheduled Outages.
+
+OTHER SYSTEMS: No Scheduled Outages.
+
+SITARA:  No Scheduled Outages.
+
+SUN/OSS SYSTEM: No Scheduled Outages.
+
+TELEPHONY: 
+Impact:  
+Time:  Sat 7/14/2001 at  9:00:00 AM CT thru Sat 7/14/2001 at  3:00:00 PM CT
+	Sat 7/14/2001 at  7:00:00 AM PT thru Sat 7/14/2001 at  1:00:00 PM PT
+	Sat 7/14/2001 at  3:00:00 PM London thru Sat 7/14/2001 at  9:00:00 PM London
+Outage:  ISDN PRI Changes EB & 3AC (Caller ID Name & Number)
+Environments Impacted:  All
+Purpose: To allow for deliver of "name" and number (already get number) to be received for local incoming calls on telephone displays.   Deliver of Name from long distance carriers is determined by the serving local exchange carrier (LEC).  Not all LEC's around the country deliver the name and/or number information.
+Backout: Change software protocol back to original configuration.  Reset T-1 cards.
+Contact(s): 	Cynthia Siniard    713-853-0558
+ 
+TERMINAL SERVER:  No Scheduled Outages.
+
+UNIFY:  No Scheduled Outages.
+
+-----------------------------------------------------------------------------------------------------------------------------
+								FOR ASSISTANCE
+
+(713) 853-1411   Enron Resolution Center
+
+
+Specific Help:
+Information Risk Management			(713) 853-5536
+SAP/ISC                                                                               (713) 345-4727
+Unify On-Call 					(713) 284-3757  [Pager]
+Sitara On-Call					(713) 288-0101  [Pager]
+RUS/GOPS/GeoTools/APRS			(713) 639-9726  [Pager]
+OSS/UA4/TARP				(713) 285-3165  [Pager]
+CPR						(713) 284-4175  [Pager]
+EDI Support 					(713) 327-3893  [Pager]
+EES Help Desk					(713)853-9797 OR (888)853-9797
+TDS -Trader Decision Support On-Call                    (713) 327-6032 [Pager]

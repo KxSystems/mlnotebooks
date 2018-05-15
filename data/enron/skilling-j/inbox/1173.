@@ -1,0 +1,31 @@
+Message-ID: <8157397.1075852673420.JavaMail.evans@thyme>
+Date: Wed, 19 Sep 2001 18:23:17 -0700 (PDT)
+From: 40enron@enron.com
+Subject: Outage for Applications residing on the R:\ Drive
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Distributed Application Management@ENRON <IMCEANOTES-Distributed+20Application+20Management+40ENRON@ENRON.com>
+X-To: All Enron Employees North America@ENRON
+X-cc: 
+X-bcc: 
+X-Folder: \JSKILLIN (Non-Privileged)\Inbox
+X-Origin: Dasovich-J
+X-FileName: JDASOVIC (Non-Privileged).pst
+
+All applications residing on the R: drive will be temporarily unavailable from Friday, September 21, 2001 at 11:00 P.M. until 11:30 PM for users logging into the CORP domain serviced by Enron Net Works.  The outage is needed to perform required system maintenance updates and give us better monitoring ability to ensure consistent and  efficient operations.
+
+Any questions or concerns regarding this system outage can be directed to Michael S. White (713) 853-9001.  
+
+The following have been identified as business critical applications that will be affected by the outage:
+
+Sitara
+CMS
+Equity trading systems (R:\eqpm directory)
+Adaytum
+CQG
+TMS
+PowerMap Europe
+PowerDat Europe
+MapInfo Professional 
+Secretariat

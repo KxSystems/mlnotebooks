@@ -1,0 +1,99 @@
+Message-ID: <30468875.1075840162068.JavaMail.evans@thyme>
+Date: Fri, 25 May 2001 12:17:39 -0700 (PDT)
+From: no.address@enron.com
+Subject: SUPPLEMENTAL Weekend Outage Report for 5-25-01 through 5-29-01
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Enron Change Management Announcement@ENRON
+X-To: ouston Outage Report@ENRON <H>
+X-cc: 
+X-bcc: 
+X-Folder: \jskillin\Inbox
+X-Origin: SKILLING-J
+X-FileName: jskillin.pst
+
+
+
+------------------------------------------------------------------------------------------------------
+W E E K E N D   S Y S T E M S   A V A I L A B I L I T Y
+
+F O R
+
+May 25, 2001 5:00pm through May 29, 2001 12:00am
+------------------------------------------------------------------------------------------------------
+
+ECS to ECN Network Interconnection, June 9th 2001
+
+This is a notification that the Enron Corp. I/T Networks team will be connecting the new building network infrastructure located in Enron Center South (ECS) to the existing Enron Center North (ECN) backbone network.  While this activity is not expected to produce a disruption to network services, this notice is designed to alert the organization to our activities.  No network hardware or systems are anticipated to be shutdown.  The actual physical interconnection of the networks will be performed in the EB 34th floor Data Center.
+
+Interconnection activities are scheduled to occur the evening of June 9th 2001 starting from 7:00 p.m.(CT) and completing around 11:00 p.m. (CT). Application testing activities will begin at 11:00 p.m. (CT) once all network testing has completed.
+
+If you have any further questions, please contact Pete Castrejana at 713-410-0642 for more information.
+
+
+
+SCHEDULED SYSTEM OUTAGES: 
+
+ARDMORE DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+AZURIX: No Scheduled Outages.
+
+EB34 DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+EDI SERVER: No Scheduled Outages.
+
+ENRON CENTER SOUTH DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages
+
+ENRON NORTH AMERICAN LANS:  SEE ORIGINAL REPORT
+ 
+FIELD SERVICES:  No Scheduled Outages.
+
+INTERNET: No Scheduled Outages.
+
+MESSAGING:    SEE ORIGINAL REPORT
+ 
+MARKET DATA: No Scheduled Outages.
+
+NT: No Scheduled Outages.
+
+OS/2:  No Scheduled Outages.
+
+OTHER SYSTEMS:   SEE ORIGINAL REPORT
+ 
+SITARA:  No Scheduled Outages.
+
+SUN/OSS SYSTEM:
+
+Impact:  CORP
+Time:  Fri 5/25/2001 at  5:00:00 PM thru Fri 5/25/2001 at  7:00:00 PM
+Outage:  Memory replacement for server refraction.
+Disruption:  Total Disruption of Service
+Environments Impacted:  DPR and EnTelligence
+Purpose: To replace a memory module that has repeated error.
+Backout: Leave server in current configuration.
+Contact(s): 	Malcolm Wells    
+		    
+
+TELEPHONY: No Scheduled Outages
+
+TERMINAL SERVER:  No Scheduled Outages.
+
+UNIFY:  No Scheduled Outages.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+								FOR ASSISTANCE
+
+(713) 853-1411   Enron Resolution Center
+
+
+Specific Help:
+Information Risk Management			(713) 853-5536
+SAP/ISC                                                                               (713) 345-4727
+Unify On-Call 					(713) 284-3757  [Pager]
+Sitara On-Call					(713) 288-0101  [Pager]
+RUS/GOPS/GeoTools/APRS			(713) 639-9726  [Pager]
+OSS/UA4/TARP				(713) 285-3165  [Pager]
+CPR						(713) 284-4175  [Pager]
+EDI Support 					(713) 327-3893  [Pager]
+EES Help Desk					(713)853-9797 OR (888)853-9797

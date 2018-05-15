@@ -1,0 +1,171 @@
+Message-ID: <31513520.1075852675136.JavaMail.evans@thyme>
+Date: Fri, 14 Sep 2001 15:03:56 -0700 (PDT)
+From: 40enron@enron.com
+Subject: Supplemental Weekend Outage Report for 9-14-01 through 9-17-01
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Enron Change Management Announcement@ENRON <IMCEANOTES-Enron+20Change+20Management+20Announcement+40ENRON@ENRON.com>
+X-To: Houston Outage Report@ENRON
+X-cc: 
+X-bcc: 
+X-Folder: \JSKILLIN (Non-Privileged)\Inbox
+X-Origin: Dasovich-J
+X-FileName: JDASOVIC (Non-Privileged).pst
+
+
+------------------------------------------------------------------------------------------------------
+W E E K E N D   S Y S T E M S   A V A I L A B I L I T Y
+
+F O R
+
+September 14, 2001 5:00pm through September 17, 2001 12:00am
+------------------------------------------------------------------------------------------------------
+
+SCHEDULED SYSTEM OUTAGES:   NA 
+
+ARDMORE DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+AZURIX: No Scheduled Outages.
+
+EB34 DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+EDI SERVER:  
+Impact:  CORP                POSTPONED
+Time:  Sat 9/15/2001 at  11:00:00 PM CT thru Sun 9/16/2001 at  3:00:00 AM CT
+	Sat 9/15/2001 at    9:00:00 PM PT thru Sun 9/16/2001 at  1:00:00 AM PT
+	Sun 9/16/2001 at  5:00:00 AM London thru Sun 9/16/2001 at  9:00:00 AM London
+Outage:  Upgrade EDINET
+Environments Impacted:  Corp
+Purpose: Improve reliability, performance, and increase information output.
+Backout: 1. Switch IP DNS Entries for the Corp Domain for edinet.enron.com and ecnet.enron.com back to the original state
+2. Restore database tables for edi_hub systems.   
+3. Switch IP DNS Entries for the Corp Domain for edinet.enron.com and ecnet.enron.com.
+4. Save old code and script changes and install new code and configure new code from edi_qa.
+Contact(s): 	John Kratzer  713-345-4642  713-318-4746
+		Jack Metkus  713-853-0362  713-288-0743
+ 
+EES:     SEE ORIGINAL REPORT
+  
+ENRON CENTER SOUTH DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages
+
+ENRON NORTH AMERICAN LANS:  ALSO SEE ORIGINAL REPORT
+Impact:  EBS
+Time:  Sat 9/15/2001 at  12:00:00 PM CT thru Sat 9/15/2001 at    1:00:00 PM CT
+	Sat 9/15/2001 at  10:00:00 AM PT thru Sat 9/15/2001 at  11:00:00 AM PT
+	Sat 9/15/2001 at  6:00:00 PM London thru Sat 9/15/2001 at  7:00:00 PM London
+Outage:  Converting EBS to CORP Network
+Environments Impacted:  EBS
+Purpose: Incorporating EBS and CORP network
+Backout: 
+Contact(s): 	George Nguyen    713-853-0691 
+ 
+Impact:  CORP
+Time:  Sat 9/15/2001 at  9:00:00 AM CT thru Sat 9/15/2001 at    1:00:00 PM CT 
+	Sat 9/15/2001 at  7:00:00 AM PT thru Sat 9/15/2001 at  11:00:00 AM PT
+	Sat 9/15/2001 at  3:00:00 PM London thru Sat 9/15/2001 at  7:00:00 PM London
+Outage:  Uplink Corrections
+Environments Impacted:  ECN 4
+Purpose: To connect network switches to standard
+Backout: If any switches do not come back online, I will connect them back to the original connection.
+Contact(s): 	Mark Trevino    713-345-9954
+
+Impact:  CORP
+Time:  Fri 9/14/2001 at  6:00:00 PM CT thru Fri 9/14/2001 at  7:00:00 PM CT
+	Fri 9/14/2001 at  4:00:00 PM PT thru Fri 9/14/2001 at  5:00:00 PM PT
+	Sat 9/15/2001 at 12:00:00 AM London thru Sat 9/15/2001 at  1:00:00 AM London
+Outage:  Hopix and Extpix Flash and IOS upgrade
+Environments Impacted:  Corp
+Purpose: Need to bring IOS to standard level. image requires more flash memory
+Backout: Replace original flash card and set another day and time to upgrade
+Contact(s): 	Chris Trota  713-345-1697  
+ 
+FIELD SERVICES:  No Scheduled Outages.
+
+INTERNET: No Scheduled Outages.
+
+LOTUS NOTES:  SEE ORIGINAL REPORT
+ 
+MESSAGING:     SEE ORIGINAL REPORT
+  
+MARKET DATA: No Scheduled Outages.
+
+NT: No Scheduled Outages.
+
+OS/2:  No Scheduled Outages.
+
+OTHER SYSTEMS:   ALSO SEE ORIGINAL REPORT
+Impact:  CORP
+Time:  Fri 9/14/2001 at  5:00:00 PM CT thru Fri 9/14/2001 at  7:00:00 PM CT
+	Fri 9/14/2001 at  3:00:00 PM PT thru Fri 9/14/2001 at  5:00:00 PM PT
+	Fri 9/14/2001 at  11:00:00 PM London thru Sat 9/15/2001 at  1:00:00 AM London
+Outage:  Move LMS Production DB instance
+Environments Impacted:  All
+Purpose: HRGIM will be responsible for the Docent LMS application.
+Backout: 
+Contact(s): 	Brandon Bangerter    
+		Raj Perubhatla  713-345-8016  281-788-9307
+		Brian Ellis  713-345-8017  713-446-6193
+		Mark Calkin  713-345-7831  
+
+Impact:  EBS
+Time:  Fri 9/14/2001 at  6:00:00 PM CT 
+	Fri 9/14/2001 at  4:00:00 PM PT
+	Sat 9/15/2001 at  12:00:00 AM London
+Outage:  Decommission Pleasanton, CA EBS Servers
+Environments Impacted:  EBS
+Purpose: Office was sold and the servers are not required.
+Backout: Business critical data has been copied to Houston by Jeff Hughes and is already being backed up.
+Contact(s): 	Dan Dietrich    713-345-8836
+ 
+SITARA:    SEE ORIGINAL REPORT
+ 
+SUN/OSS SYSTEM: No Scheduled Outages.
+
+TELEPHONY: No Scheduled Outages
+
+TERMINAL SERVER:  No Scheduled Outages.
+
+UNIFY:  No Scheduled Outages.
+ 
+SCHEDULED SYSTEM OUTAGES:   SA 
+Impact:  File Server (EIBRASAL1C01)
+Time:  Sat 9/15/2001 at  5:00:00 AM CT thru Sat 9/15/2001 at  8:00:00 AM CT
+	Sat 9/15/2001 at  3:00:00 AM PT thru Sat 9/15/2001 at  6:00:00 AM PT
+	Sat 9/15/2001 at  7:00:00 AM Sao Paulo thru Sat 9/15/2001 at  10:00:00 AM Sao Paulo
+	Sat 9/15/2001 at  11:00:00 AM London thru Sat 9/15/2001 at  2:00:00 PM London
+Outage:  Electrical Maintenance
+Environments Impacted:  ESA - Salvador Office
+Purpose: Electrical maintenance
+Backout: 
+Contact(s): 	Paulo Barreto     
+ 
+SCHEDULED SYSTEM OUTAGES: LONDON
+Impact:  CORP
+Time:  Fri 9/14/2001 at  6:00:00 PM CT thru Sat 9/15/2001 at  9:00:00 PM  CT
+	Fri 9/14/2001 at  4:00:00 PM PT thru Sat 9/15/2001 at  7:00:00 PM   PT
+	Sat 9/15/2001 at  12:00:00 AM London thru Sun 9/16/2001 at  3:00:00 AM London  
+Outage:  Complete Powerdown of the London office
+Environments Impacted:  All
+Purpose: Installation of a third generator at Enron House
+Backout: Switch all equipment back on.
+Contact(s): 	Tracy Pearson    830-34238 London Tie Line
+ 
+
+----------------------------------------------------------------------------------------------------------------------------
+								FOR ASSISTANCE
+
+(713) 853-1411   Enron Resolution Center
+
+
+Specific Help:
+Information Risk Management			(713) 853-5536
+SAP/ISC                                                                               (713) 345-4727
+Unify On-Call 					(713) 284-3757  [Pager]
+Sitara On-Call					(713) 288-0101  [Pager]
+RUS/GOPS/GeoTools/APRS			(713) 639-9726  [Pager]
+OSS/UA4/TARP				(713) 285-3165  [Pager]
+CPR						(713) 284-4175  [Pager]
+EDI Support 					(713) 327-3893  [Pager]
+EES Help Desk					(713)853-9797 OR (888)853-9797
+TDS -Trader Decision Support On-Call                    (713) 327-6032 [Pager]

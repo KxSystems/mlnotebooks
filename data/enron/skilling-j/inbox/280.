@@ -1,0 +1,44 @@
+Message-ID: <27649252.1075840157979.JavaMail.evans@thyme>
+Date: Tue, 22 May 2001 13:22:36 -0700 (PDT)
+From: wilson@enron.com
+To: a..price@enron.com, r..brackett@enron.com, david.delainey@enron.com, 
+	fernley.dyson@enron.com, gary.hickerson@enron.com, 
+	georganne.hodges@enron.com, greg.whalley@enron.com, 
+	janet.dietrich@enron.com, joe.gold@enron.com, 
+	john.lavorato@enron.com, jeffrey.mcmahon@enron.com, 
+	a..shankman@enron.com, john.sherriff@enron.com, 
+	jeff.skilling@enron.com, kent.castleman@enron.com, 
+	kevin.hannon@enron.com, kenneth.lay@enron.com, 
+	kevin.presto@enron.com, louise.kitchen@enron.com, 
+	michael.brown@enron.com, mark.frevert@enron.com, 
+	raymond.bowen@enron.com, rick.buy@enron.com, 
+	richard.causey@enron.com, sally.beck@enron.com, tim.belden@enron.com, 
+	ted.murphy@enron.com, j.kaminski@enron.com, s..bradford@enron.com, 
+	wes.colwell@enron.com
+Subject: DPR by commodity
+Cc: anita.luong@enron.com, chris.abel@enron.com, david.port@enron.com, 
+	beth.apollo@enron.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Bcc: anita.luong@enron.com, chris.abel@enron.com, david.port@enron.com, 
+	beth.apollo@enron.com
+X-From: Wilson, Shona
+X-To: Price, Brent A. </o=ENRON/ou=NA/cn=Recipients/cn=BPRICE>, Brackett, Debbie R. </o=ENRON/ou=NA/cn=Recipients/cn=DBRACKE>, Delainey, David </o=ENRON/ou=NA/cn=Recipients/cn=NOTESADDR/CN=28FC501B-22D3A001-62569FB-57CAAA>, Dyson, Fernley </o=ENRON/ou=NA/cn=Recipients/cn=EU/CN=RECIPIENTS/CN=FDYSON>, Hickerson, Gary </o=ENRON/ou=NA/cn=Recipients/cn=GHICKER>, Hodges, Georganne </o=ENRON/ou=NA/cn=Recipients/cn=GHODGES>, Whalley, Greg </o=ENRON/ou=NA/cn=Recipients/cn=NOTESADDR/CN=DA82494B-FC99BFE6-862565DA-5FA576>, Dietrich, Janet </o=ENRON/ou=NA/cn=Recipients/cn=NOTESADDR/CN=384ECA1E-36846EF5-62569FB-57DCF1>, Gold, Joe </o=ENRON/ou=NA/cn=Recipients/cn=NOTESADDR/CN=313A8011-9638E003-8625653F-4424C1>, Lavorato, John </o=ENRON/ou=NA/cn=Recipients/cn=JLAVORA>, McMahon, Jeffrey </o=ENRON/ou=NA/cn=Recipients/cn=JMCMAHO>, Shankman, Jeffrey A. </o=ENRON/ou=NA/cn=Recipients/cn=JSHANKM>, Sherriff, John </o=ENRON/ou=NA/cn=Recipients/cn=NOTESADDR/CN=A177817E-7D75C390-8625653F-6307BB>, Skilling, Jeff </o=ENRON/ou=NA/cn=Recipients/cn=JSKILLIN>, Castleman, Kent </o=ENRON/ou=NA/cn=Recipients/cn=KCASTLE>, Hannon, Kevin </o=ENRON/ou=NA/cn=Recipients/cn=NOTESADDR/CN=A99B0059-D6E677D6-88256882-62B456>, Lay, Kenneth </o=ENRON/ou=NA/cn=Recipients/cn=KLAY>, Presto, Kevin </o=ENRON/ou=NA/cn=Recipients/cn=NOTESADDR/CN=CBB04D6A-1246FCEA-862564AD-678FA4>, Kitchen, Louise </o=ENRON/ou=NA/cn=Recipients/cn=NOTESADDR/CN=E5CF97BB-467B6EEF-8625687A-893A0>, Brown, Michael </o=ENRON/ou=NA/cn=Recipients/cn=EU/CN=RECIPIENTS/CN=MBROWN3>, Frevert, Mark </o=ENRON/ou=NA/cn=Recipients/cn=MFREVERT>, Bowen Jr., Raymond </o=ENRON/ou=NA/cn=Recipients/cn=RBOWEN>, Buy, Rick </o=ENRON/ou=NA/cn=Recipients/cn=RBUY>, Causey, Richard </o=ENRON/ou=NA/cn=Recipients/cn=RCAUSEY>, Beck, Sally </o=ENRON/ou=NA/cn=Recipients/cn=SBECK>, Belden, Tim </o=ENRON/ou=NA/cn=Recipients/cn=TBELDEN>, Murphy, Ted </o=ENRON/ou=NA/cn=Recipients/cn=EU/CN=RECIPIENTS/CN=TMURPH1>, Kaminski, Vince J </o=ENRON/ou=NA/cn=Recipients/cn=VKAMINS>, Bradford, William S. </o=ENRON/ou=NA/cn=Recipients/cn=WBRADFO>, Colwell, Wes </o=ENRON/ou=NA/cn=Recipients/cn=WCOLWEL>
+X-cc: Luong, Anita </o=ENRON/ou=NA/cn=Recipients/cn=NOTESADDR/CN=93DC14F0-DCA47D04-862564CD-6EEA4D>, Abel, Chris </o=ENRON/ou=NA/cn=Recipients/cn=NOTESADDR/CN=47C1B49-A28949D7-8625676F-7566DE>, Port, David </o=ENRON/ou=NA/cn=Recipients/cn=DPORT>, Apollo, Beth </o=ENRON/ou=NA/cn=Recipients/cn=BAPOLLO>
+X-bcc: 
+X-Folder: \jskillin\Inbox
+X-Origin: SKILLING-J
+X-FileName: jskillin.pst
+
+We have designed an additional Daily Position Report which consolidates P&L, positions, maturity gap, and VAR by commodity rather than business unit.  In accordance with the Risk Policy paragraph III - Limit Structure, possible breaches of limits are monitored against commodities rather than Business Units.
+
+This report is currently being published to the Executive Viewer under the name of DPR RAC (will be retitled to DPR commodity). We are in the process of granting each one of you access to this report.  When access is granted to all DPR viewers, we plan to remove the limits amount off of the Business Unit Daily Position Report as the limits are granted by commodity, not business unit.
+
+Please contact me with any questions/comments or concerns.
+
+Thank you
+
+Shona Wilson (X39123)
+Director
+Global Risk Operations

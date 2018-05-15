@@ -1,0 +1,210 @@
+Message-ID: <20721632.1075852666794.JavaMail.evans@thyme>
+Date: Thu, 11 Oct 2001 14:40:35 -0700 (PDT)
+From: no.address@enron.com
+Subject: Weekend Outage Report for 10-12-01 through 10-14-01
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Enron Change Management Announcement@ENRON
+X-To: Houston Outage Report@ENRON
+X-cc: 
+X-bcc: 
+X-Folder: \JSKILLIN (Non-Privileged)\Inbox
+X-Origin: Dasovich-J
+X-FileName: JDASOVIC (Non-Privileged).pst
+
+
+
+------------------------------------------------------------------------------------------------------
+W E E K E N D   S Y S T E M S   A V A I L A B I L I T Y
+
+F O R
+
+October 12, 2001 5:00pm through October 15, 2001 12:00am
+------------------------------------------------------------------------------------------------------
+
+SCHEDULED SYSTEM OUTAGES: 
+
+ARDMORE DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+AZURIX: No Scheduled Outages.
+
+EB34 DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+EDI SERVER: No Scheduled Outages.
+
+EES: 
+Impact:  EES
+Time:  Fri 10/12/2001 at  5:00:00 PM CT thru Fri 10/12/2001 at 6:00:00 PM CT
+	Fri 10/12/2001 at  3:00:00 PM PT thru Fri 10/12/2001 at 4:00:00 PM PT
+	Fri 10/12/2001 at  11:00:00 PM London thru Sat 10/13/2001 at  12:00:00 AM London
+Outage:  PCCS IE5.5 Upgrade
+Environments Impacted:  EES
+Purpose: Required to make the PCCS application compatible with new browser version being rolled out.
+Backout: Restore prior ASP pages and determine issues.
+Contact(s): 	Burt Bailey  713 853-9164  888-886-7432
+		Robert Lamberson  713-345-3350  
+		Suchitra Narra    
+		    		 
+ENRON CENTER SOUTH DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages
+
+ENRON NORTH AMERICAN LANS: 
+Impact:  CORP
+Time:  Sat 10/13/2001 at  9:00:00 AM CT thru Sat 10/13/2001 at    2:00:00 PM CT
+	Sat 10/13/2001 at  7:00:00 AM PT thru Sat 10/13/2001 at  12:00:00 PM PT
+	Sat 10/13/2001 at  3:00:00 PM London thru Sat 10/13/2001 at  8:00:00 PM London
+Outage:  Replacement of Printer 3com Hubs w/ Cisco Switches
+Environments Impacted:  Printers
+Purpose: Cisco 2820 switches are manageable, 3com hubs are not
+Backout: For any reason the printers do not connect to the printer network after the change, I will change every back to the original state.
+Contact(s): 	Mark Trevino    713-345-9954
+		    		    		    		
+Impact:  ECN 6
+Time:  Sat 10/13/2001 at  9:00:00 AM CT thru Sat 10/13/2001 at  2:00:00 PM CT
+	Sat 10/13/2001 at  7:00:00 AM PT thru Sat 10/13/2001 at  12:00:00 PM PT
+	Sat 10/13/2001 at  3:00:00 PM London thru Sat 10/13/2001 at  8:00:00 PM London
+Outage:  Cisco 2820 Replacement
+Environments Impacted:  ECN 6
+Purpose: 2924 Cisco switches are a better switch.  
+Backout: 
+Contact(s): 	Mark Trevino    713-345-9954
+
+Impact:  EBS
+Time:  Sat 10/13/2001 at  11:00:00 AM CT thru Sat 10/13/2001 at  12:00:00 PM CT
+	Sat 10/13/2001 at    9:00:00 AM PT thru Sat 10/13/2001 at  10:00:00 AM PT
+	Sat 10/13/2001 at  5:00:00 PM London thru Sat 10/13/2001 at  6:00:00 PM London
+Outage:  Converting EBS to Corp Network
+Environments Impacted:  EBS
+Purpose: Incorporating EBS and CORP network
+Backout: 
+Contact(s): 	George Nguyen    713-853-0691
+
+FIELD SERVICES:  No Scheduled Outages.
+
+INTERNET: No Scheduled Outages.
+
+MESSAGING: 
+Impact:  Napdx-msmbx01v
+Time:  Fri 10/12/2001 at  6:30:00 PM CT thru Sat 10/13/2001 at   1:30:00 AM CT
+	Fri 10/12/2001 at  4:30:00 PM PT thru Fri 10/12/2001 at  11:30:00 PM PT
+	Sat 10/13/2001 at 12:30:00 AM London thru Sat 10/13/2001 at  7:30:00 AM London
+Outage:  upgrade Napdx-msmbx01v
+Environments Impacted:  Users on Napdx-msmbx01v
+Purpose: In order to standardize all E2k servers.
+Backout: Restore from Backup
+Contact(s): 	David Lin    713-345-1619
+ 
+MARKET DATA: No Scheduled Outages.
+
+NT: No Scheduled Outages.
+
+OS/2:  No Scheduled Outages.
+
+OTHER SYSTEMS: 
+Impact:  CORP
+Time:  Sat 10/13/2001 at  6:00:00 PM CT thru Sun 10/14/2001 at  6:00:00 AM CT
+	Sat 10/13/2001 at  4:00:00 PM PT thru Sun 10/14/2001 at  4:00:00 AM PT
+	Sun 10/14/2001 at  12:00:00 AM London thru Sun 10/14/2001 at  12:00:00 PM London
+Outage:  Croaker general maintenance.
+Environments Impacted:  Custom Logs (CEI)
+Purpose: Monthly general maintenance schedule.
+Backout: Back out patches and reboot.
+Contact(s): 	Malcolm Wells    713-345-3716
+		    		    		    				    		    		    		
+Impact:  CORP
+Time:  Sat 10/13/2001 at  6:00:00 PM CT thru Sun 10/14/2001 at  6:00:00 AM CT
+	Sat 10/13/2001 at  4:00:00 PM PT thru Sun 10/14/2001 at  4:00:00 AM PT
+	Sun 10/14/2001 at  12:00:00 AM London thru Sun 10/14/2001 at  12:00:00 PM London
+Outage:  General maintenance for charon.
+Environments Impacted:  OPM
+Purpose: Test/Dev monthly maintenance schedule.
+Backout: Backout the patches
+reboot the server
+Contact(s): 	Malcolm Wells    713-345-3716
+		    		    		    		
+Impact:  CORP
+Time:  Sat 10/13/2001 at  10:00:00 PM CT thru Sun 10/14/2001 at  10:00:00 AM CT
+	Sat 10/13/2001 at    8:00:00 PM PT thru Sun 10/14/2001 at    8:00:00 AM PT
+	Sun 10/14/2001 at  4:00:00 AM London thru Sun 10/14/2001 at  4:00:00 PM London
+Outage:  Maintenance and upgrades for adcupalpha.
+Environments Impacted:  SAP / Project Sunrise
+Purpose: Maintenance and upgrades to enhance performance and stability.
+Backout: Restore from backup.
+Contact(s): 	Malcolm Wells    713-345-3716
+		    		    		    		
+Impact:  CORP
+Time:  Sat 10/13/2001 at  6:00:00 PM CT thru Sun 10/14/2001 at  6:00:00 PM CT
+	Sat 10/13/2001 at  4:00:00 PM PT thru Sun 10/14/2001 at  4:00:00 PM PT
+	Sun 10/14/2001 at  12:00:00 AM London thru Mon 10/15/2001 at  12:00:00 AM London
+Outage:  Maintenance, New disk layout and cpu upgrades for adcupbravo.
+Environments Impacted:  SAP / Project Sunrise
+Purpose:  Maintenance and upgrades to enhance performance and stability.
+Backout: Restore  from backup.
+Contact(s): 	Malcolm Wells    713-345-3716
+		    				    		    		    		
+Impact:  CORP
+Time:  Sat 10/13/2001 at    1:00:00 PM CT thru Sat 10/13/2001 at  3:00:00 PM CT
+	Sat 10/13/2001 at  11:00:00 AM PT thru Sat 10/13/2001 at  1:00:00 PM PT
+	Sat 10/13/2001 at  7:00:00 PM London thru Sat 10/13/2001 at  9:00:00 PM London
+Outage:  Maintenance for server refraction.
+Environments Impacted:  DPR
+Purpose: Check seating of new cpu modules.
+Backout: None
+Contact(s): 	Malcolm Wells    713-345-3716
+ 
+SITARA:  
+Impact:  Sitara/CPR
+Time:  Sat 10/13/2001 at  7:00:00 PM CT thru Sun 10/14/2001 at  7:00:00 AM CT
+	Sat 10/13/2001 at  5:00:00 PM PT thru Sun 10/14/2001 at  5:00:00 AM PT
+	Sun 10/14/2001 at  1:00:00 AM London thru Sun 10/14/2001 at  1:00:00 PM London
+Outage:  Sitara/CRP impact due to Solar Migration 
+Environments Impacted:  All
+Purpose: New hardware migration to done by Enterprise Storage Team
+Backout: 
+Contact(s): 	SitaraonCall    713-288-0101
+		CPRonCall    713-284-4175
+
+Impact:  Production Reporting 
+Time:  Sat 10/13/2001 at  12:00:00 PM CT thru Sun 10/14/2001 at  7:00:00 AM CT
+	Sat 10/13/2001 at  10:00:00 AM PT thru Sun 10/14/2001 at  5:00:00 AM PT
+	Sat 10/13/2001 at   6:00:00 PM London thru Sun 10/14/2001 at  1:00:00 PM London
+Outage:  Sitara Reports
+Environments Impacted:  Corp
+Purpose: Hardware upgrade
+Backout: Reverting back to Moe
+Contact(s): 	SitaraonCall    713-288-0101
+
+SUN/OSS SYSTEM: No Scheduled Outages.
+
+TELEPHONY: 
+Impact:  
+Time:  Sat 10/13/2001 at  10:00:00 PM CT thru Sun 10/14/2001 at  12:00:00 AM CT
+	Sat 10/13/2001 at    8:00:00 PM PT thru Sat 10/13/2001 at  10:00:00 PM PT
+	Sun 10/14/2001 at  4:00:00 AM London thru Sun 10/14/2001 at  6:00:00 AM London
+Outage:  Monthly Maintenance - Lucent CMS & Conversant Full Back-up
+Environments Impacted:  Call Centers
+Purpose: Monthly Maintenance
+Backout: 
+Contact(s): 	Cynthia Siniard    713-853-0558
+ 
+TERMINAL SERVER:  No Scheduled Outages.
+
+UNIFY:  No Scheduled Outages.
+
+-----------------------------------------------------------------------------------------------------------------------------
+								FOR ASSISTANCE
+
+(713) 853-1411   Enron Resolution Center
+
+
+Specific Help:
+Information Risk Management			(713) 853-5536
+SAP/ISC                                                                               (713) 345-4727
+Unify On-Call 					(713) 284-3757  [Pager]
+Sitara On-Call					(713) 288-0101  [Pager]
+RUS/GOPS/GeoTools/APRS			(713) 639-9726  [Pager]
+OSS/UA4/TARP				(713) 285-3165  [Pager]
+CPR						(713) 284-4175  [Pager]
+EDI Support 					(713) 327-3893  [Pager]
+EES Help Desk					(713)853-9797 OR (888)853-9797
+TDS -Trader Decision Support On-Call                    (713) 327-6032 [Pager]

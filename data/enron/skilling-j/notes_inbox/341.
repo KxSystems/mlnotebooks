@@ -1,0 +1,133 @@
+Message-ID: <4490346.1075845514591.JavaMail.evans@thyme>
+Date: Fri, 11 May 2001 08:57:00 -0700 (PDT)
+From: enron.announcements@enron.com
+To: houston.report@enron.com
+Subject: SUPPLEMENTAL Weekend Outage Report for 5-11-01 through 5-14-01
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Enron Announcements
+X-To: Houston Outage Report
+X-cc: 
+X-bcc: 
+X-Folder: \Jeff_Skilling_Oct2001\Notes Folders\Notes inbox
+X-Origin: SKILLING-J
+X-FileName: jskillin.nsf
+
+------------------------------------------------------------------------------
+------------------------
+W E E K E N D   S Y S T E M S   A V A I L A B I L I T Y
+
+F O R
+
+May 11, 2001 5:00pm through May 14, 2001 12:00am
+------------------------------------------------------------------------------
+------------------------
+
+SCHEDULED SYSTEM OUTAGES: 
+
+ARDMORE DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+AZURIX: No Scheduled Outages.
+
+EB34 DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+EDI SERVER: No Scheduled Outages.
+
+ENRON CENTER SOUTH DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages
+
+ENRON NORTH AMERICAN LANS:      AlSO SEE ORIGINAL REPORT 
+Impact:  CORP
+Time:  Fri 5/11/2001 at  6:15:00 PM CT thru Fri 5/11/2001 at  7:00:00 PM CT
+ Fri 5/11/2001 at  4:15:00 PM PT thru Fri 5/11/2001 at  5:00:00 PM PT
+ Sat 5/12/2001 at  12:15:00 AM London thru Sat 5/12/2001 at 1:00:00 AM London
+Outage:  Trader DFS Re-Configuration
+Environments Impacted:  Corp
+Purpose: Data access
+Backout: Continue to use ENEHOU
+Contact(s):  Frank Coles    (713)406-0470
+  John Cheng     (713)853-1672 
+  
+FIELD SERVICES:  No Scheduled Outages.
+
+INTERNET: No Scheduled Outages.
+
+MESSAGING: No Scheduled Outages.
+
+MARKET DATA: No Scheduled Outages.
+
+NT: No Scheduled Outages.
+
+OS/2:  No Scheduled Outages.
+
+OTHER SYSTEMS:         ALSO SEE ORIGINAL REPORT 
+Impact:  CORP
+Time:  Sat 5/12/2001 at  10:00:00 AM CT thru Sat 5/12/2001 at  5:00:00 PM CT
+ Sat 5/12/2001 at    8:00:00 AM PT thru Sat 5/12/2001 at  3:00:00 PM PT
+ Sat 5/12/2001 at  4:00:00 PM London thru Sat 5/12/2001 at  11:00:00 PM London
+Outage:  Disk upgrade for dual boot on server gfp1.
+Environments Impacted:  Infinity development
+Purpose: Disk upgrade needed to establish dual boot redundancy.
+Backout: reinstall old configuration
+Contact(s):  Malcolm Wells    713-345-3716
+                    
+Impact:  CORP NFS
+Time:  Fri 5/11/2001 at  8:00:00 PM CT  thru Fri 5/11/2001 at  10:00:00 PM CT
+ Fri 5/11/2001 at  6:00:00 PM PT thru Fri 5/11/2001 at   8:00:00 PM PT
+ Sat 5/12/2001 at  2:00:00 AM London thru Sat 5/12/2001 at  4:00:00 AM London
+Outage:  OS upgrade on NFS servers calvin and hobbes.
+Environments Impacted:  Sitara, Weather App. Infifity NFS
+Purpose: The upgrade is needed for added SIFS functionality and support.  
+SIFs is the component that allows NT/UNIX access.
+Backout: We can revert to one of several previous OS version stored on disks.
+Contact(s):  Malcolm Wells    713-345-3716
+
+Impact:  Unix
+Time:  Sat 5/12/2001 at  2:00:00 PM CT thru Sat 5/12/2001 at  4:00:00 PM CT
+ Sat 5/12/2001 at  12:00:00 PM PT thru Sat 5/12/2001 at  2:00:00 PM PT
+ Sat 5/12/2001 at  8:00:00 PM London thru Sat 5/12/2001 at  10:00:00 PM London
+Outage:  Neutron - Add a CPU boardd
+Environments Impacted:  UniX Users
+Purpose: increase cpus
+Backout: Remove / replace board.
+Contact(s):  Adam DeRidder    713-853-1428
+  Michael Barber      713-853-5530
+  Wilford Stevens     713-853-7564
+  
+SITARA:    See above    
+ 
+SUN/OSS SYSTEM: No Scheduled Outages.
+
+TELEPHONY:       SEE ORIGINAL REPORT  
+ 
+TERMINAL SERVER:  No Scheduled Outages.
+
+UNIFY:   ALSO SEE ORIGINAL REPORT  
+Impact:  CORP
+Time:  Fri 5/11/2001 at  4:00:00 PM CT thru Sat 5/12/2001 at  3:30:00 PM CT
+ Fri 5/11/2001 at  2:00:00 PM PT thru Sat 5/12/2001 at  1:30:00 PM PT
+ Fri 5/11/2001 at 10:00:00 PM London thru Sat 5/12/2001 at 9:30:00 PM London
+Outage:  Configure new hard disk and install all necessary OS and software.
+Environments Impacted:  Power Settlements users
+Purpose: Upgrade server
+Backout: Re-install old hard disk, fall back to stand-by server as last 
+resort.
+Contact(s):  Michael Cuccia    713-853-6629   
+------------------------------------------------------------------------------
+-----------------------------------------------
+        FOR ASSISTANCE
+
+(713) 853-1411   Enron Resolution Center
+
+
+Specific Help:
+Information Risk Management   (713) 853-5536
+SAP/ISC                                                                       
+        (713) 345-4727
+Unify On-Call      (713) 284-3757  [Pager]
+Sitara On-Call     (713) 288-0101  [Pager]
+RUS/GOPS/GeoTools/APRS   (713) 639-9726  [Pager]
+OSS/UA4/TARP    (713) 285-3165  [Pager]
+CPR      (713) 284-4175  [Pager]
+EDI Support      (713) 327-3893  [Pager]
+EES Help Desk     (713)853-9797 OR (888)853-9797

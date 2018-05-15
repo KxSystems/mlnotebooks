@@ -1,0 +1,155 @@
+Message-ID: <13920740.1075852662928.JavaMail.evans@thyme>
+Date: Fri, 26 Oct 2001 14:45:53 -0700 (PDT)
+From: no.address@enron.com
+Subject: Supplemental Weekend Outage Report for 10-26-01 through 10-28-01
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Enron Change Management Announcement@ENRON
+X-To: Houston Outage Report@ENRON
+X-cc: 
+X-bcc: 
+X-Folder: \JSKILLIN (Non-Privileged)\Inbox
+X-Origin: Dasovich-J
+X-FileName: JDASOVIC (Non-Privileged).pst
+
+
+------------------------------------------------------------------------------------------------------
+W E E K E N D   S Y S T E M S   A V A I L A B I L I T Y
+
+F O R
+
+October 26, 2001 5:00pm through October 29, 2001 12:00am
+------------------------------------------------------------------------------------------------------
+
+3 ALLEN CENTER POWER OUTAGE:
+Time:  Sat 10/27/2001 at  4:00:00 PM CT thru Sat 10/27/2001 at  8:00:00 PM CT
+	Sat 10/27/2001 at  2:00:00 PM PT thru Sat 10/27/2001 at  6:00:00 PM PT
+	Sat 10/27/2001 at  10:00:00 PM London thru Sun 10/28/2001 at  2:00:00 AM London 
+From 4:00 - 8:00 p.m., Trizechan Properties has scheduled a shutdown of all electrical service at 3 Allen Center.  Enron Network Services will power down the 3AC network infrastructure between 3:30-4:00.  There will be no 3 Allen Center network access during the electrical maintenance and the outage will continue until ENS is able to power up all of the networking devices.  
+All 3AC and 2AC employees will have no telephone or voicemail service during outage period. When power is restored to building, systems will be powered back up and telco services tested for dial tone and connectivity.
+If you need access to 3AC anytime that Saturday, you will need to contact Trizechan Properties beforehand with your security information (Jael Olson at 713-336-2300).  Anyone who attempts to enter the building on Saturday that is not on the list will be denied access.
+
+
+
+SCHEDULED SYSTEM OUTAGES: 
+
+ARDMORE DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+AZURIX: No Scheduled Outages.
+
+EB34 DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+EDI SERVER:   SEE ORIGINAL REPORT
+ 
+EES: 
+Impact:  EES
+Time:  Fri 10/26/2001 at  7:00:00 PM CT thru Fri 10/26/2001 at  7:30:00 PM CT
+	Fri 10/26/2001 at  5:00:00 PM PT thru Fri 10/26/2001 at  5:30:00 PM PT
+	Sat 10/27/2001 at  1:00:00 AM London thru Sat 10/27/2001 at  1:30:00 AM London
+Outage:  Upgrade IOS On Chicago Router
+Environments Impacted:  EES
+Purpose: Voice Tie Lines not working correctly.
+Backout: Load a different IOS.
+Contact(s): 	Garhett Clark    713-345-9953
+
+Impact:  EES      POSTPONED
+Time:  Sat 10/27/2001 at  6:00:00 PM CT thru Sun 10/28/2001 at  12:00:00 AM CT
+	Sat 10/27/2001 at  4:00:00 PM PT thru Sat 10/27/2001 at   10:00:00 PM PT
+	Sun 10/28/2001 at  12:00:00 AM London thru Sun 10/28/2001 at  6:00:00 AM London
+Outage:  Migrate EESHOU-FS1to SAN
+Environments Impacted:  EES
+Purpose: New Cluster server is on SAN and SAN backups
+This will provide better performance, server redundancy, and backups should complete without problems.
+Backout: Take new server offline,
+Bring up old servers
+change users profiles back to original settings.
+Contact(s): 	Roderic H Gerlach    713-345-3077
+ 
+EI:  ALSO SEE ORIGINAL REPORT
+Impact:  EI
+Time:  Sat 10/27/2001 at   2:00:00 PM CT thru Sat 10/27/2001 at  8:30:00 PM CT
+	Sat 10/27/2001 at 12:00:00 PM PT thru Sat 10/27/2001 at  6:30:00 PM PT
+	Sat 10/27/2001 at  8:00:00 PM London thru Sun 10/287/2001 at  2:30:00 AM London
+Outage:  Moving ei-dns01 and ei-dns02 from 3AC 17th floor to 35th floor.
+Environments Impacted:  DNS
+Purpose: We are losing the space on 17th floor in 3AC.  We are moving during the building power outage so that we take the server down only once.
+Backout: None,  we have to move before Nov.1.
+Contact(s): 	Malcolm Wells    713-345-3716
+  
+ENRON CENTER SOUTH DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages
+
+ENRON NORTH AMERICAN LANS:  
+Impact:  Corp
+Time:  Sat 10/27/2001 at  12:00:00 AM CT thru  Sat 10/27/2001 at  6:00:00 AM CT
+	Fri 10/26/2001 at   10:00:00 PM PT thru  Sat 10/27/2001 at  4:00:00 AM PT
+	Sat 10/27/2001 at  6:00:00 AM London thru Sat 10/27/2001 at  12:00:00 PM London
+Outage:  AT@T Cable & Wireless
+Environments Impacted:  Houston T1 to Quebec
+Purpose: 
+Backout: 
+Contact(s): 	Brandy Brumbaugh   800-486-9999
+
+Impact:  CORP
+Time:  Fri 10/26/2001 at  6:00:00 PM CT thru Fri 10/26/2001 at  6:15:00 PM CT
+	Fri 10/26/2001 at  4:00:00 PM PT thru Fri 10/26/2001 at  4:15:00 PM PT
+	Sat 10/27/2001 at  12:00:00 AM London thru Sat 10/27/2001 at  12:15:00 AM London
+Outage:  Nortel VPN cable run
+Environments Impacted:  Corp 
+Purpose: To change VPN routing from 3AC to ECN
+Backout: pull cables. 
+Contact(s): 	Chrissy Grove  713-345-8269  
+		Vince Fox  713-853-5337  
+		    		   		
+Impact:  CORP
+Time:  Fri 10/26/2001 at  10:30:00 PM CT thru Fri 10/26/2001 at  11:00:00 PM CT
+	Fri 10/26/2001 at    8:30:00 PM PT thru Fri 10/26/2001 at    9:00:00 PM PT
+	Sat 10/27/2001 at  4:30:00 AM London thru Sat 10/27/2001 at  5:00:00 AM London
+Outage:  Nortel VPN router change
+Environments Impacted:  Corp
+Purpose: To migrate out of 3AC to avoid power outage this weekend.
+Backout: Turn routing to 3AC back on.
+Contact(s): 	Chrissy Grove  713-345-8269  
+		Vince Fox  713-853-5337   
+ 
+FIELD SERVICES:  No Scheduled Outages.
+
+INTERNET: No Scheduled Outages.
+
+MESSAGING: No Scheduled Outages.
+
+MARKET DATA: No Scheduled Outages.
+
+NT: No Scheduled Outages.
+
+OS/2:  No Scheduled Outages.
+
+OTHER SYSTEMS:   SEE ORIGINAL REPORT
+ 
+SITARA:  No Scheduled Outages.
+
+SUN/OSS SYSTEM: No Scheduled Outages.
+
+TELEPHONY:    SEE ORIGINAL REPORT
+ 
+TERMINAL SERVER:  No Scheduled Outages.
+
+UNIFY:  No Scheduled Outages.
+
+----------------------------------------------------------------------------------------------------------------------------
+								FOR ASSISTANCE
+
+(713) 853-1411   Enron Resolution Center
+
+
+Specific Help:
+Information Risk Management			(713) 853-5536
+SAP/ISC                                                                               (713) 345-4727
+Unify On-Call 					(713) 284-3757  [Pager]
+Sitara On-Call					(713) 288-0101  [Pager]
+RUS/GOPS/GeoTools/APRS			(713) 639-9726  [Pager]
+OSS/UA4/TARP				(713) 285-3165  [Pager]
+CPR						(713) 284-4175  [Pager]
+EDI Support 					(713) 327-3893  [Pager]
+EES Help Desk					(713)853-9797 OR (888)853-9797
+TDS -Trader Decision Support On-Call                    (713) 327-6032 [Pager]

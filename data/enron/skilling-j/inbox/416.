@@ -1,0 +1,129 @@
+Message-ID: <3363995.1075840162819.JavaMail.evans@thyme>
+Date: Thu, 7 Jun 2001 14:54:14 -0700 (PDT)
+From: no.address@enron.com
+Subject: Weekend Outage Report for 6-8-01 through 6-11-01
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Enron Change Management Announcement@ENRON
+X-To: ouston Outage Report@ENRON <H>
+X-cc: 
+X-bcc: 
+X-Folder: \jskillin\Inbox
+X-Origin: SKILLING-J
+X-FileName: jskillin.pst
+
+
+------------------------------------------------------------------------------------------------------
+W E E K E N D   S Y S T E M S   A V A I L A B I L I T Y
+
+F O R
+
+June 8, 2001 5:00pm through June 11, 2001 12:00am
+------------------------------------------------------------------------------------------------------
+
+
+ECS to ECN Network Interconnection, June 9th 2001         POSTPONED
+This is a notification that the Enron Corp. I/T Networks team will be connecting the new building network infrastructure located in Enron Center South (ECS) to the existing Enron Center North (ECN) backbone network.  While this activity is not expected to produce a disruption to network services, this notice is designed to alert the organization to our activities.  No network hardware or systems are anticipated to be shutdown.  The actual physical interconnection of the networks will be performed in the EB 34th floor Data Center.
+
+Interconnection activities are scheduled to occur the evening of June 9th 2001 starting from 7:00 p.m.(CT) and completing around 11:00 p.m. (CT). Application testing activities will begin at 11:00 p.m. (CT) once all network testing has completed.
+
+If you have any further questions, please contact Pete Castrejana at 713-410-0642 for more information.
+		    
+
+SCHEDULED SYSTEM OUTAGES: 
+
+ARDMORE DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+AZURIX: No Scheduled Outages.
+
+EB34 DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+EDI SERVER: No Scheduled Outages.
+
+ENRON CENTER SOUTH DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages
+
+ENRON NORTH AMERICAN LANS:  No Scheduled Outages.
+
+FIELD SERVICES:  No Scheduled Outages.
+
+INTERNET: No Scheduled Outages.
+
+MESSAGING: No Scheduled Outages.
+
+MARKET DATA: No Scheduled Outages.
+
+NT: No Scheduled Outages.
+
+OS/2:  No Scheduled Outages.
+
+OTHER SYSTEMS: 
+Impact:  pdx-ad-03.ebs.enron.net [DS] Site: Portland
+Time:  Sat 6/9/2001 at  9:00:00 PM CT thru Sat 6/9/2001 at  9:15:00 PM CT
+	Sat 6/9/2001 at  7:00:00 PM PT thru Sat 6/9/2001 at  7:15:00 PM PT
+	Sun 6/10/2001 at  3:00:00 AM London thru Sun 6/10/2001 at  3:15:00 PM London
+Outage:  Increase EBS domain account password complexity
+Environments Impacted:  EBS (enron_comm) users
+Purpose: Increasing password complexity reduces the security risk for the CORP domain and corp security based applications.
+Backout: Deinstall the password filter.
+Contact(s): 	Marlin Gubser    713-853-4281
+		    
+Impact:  CORP
+Time:  Sat 6/9/2001 at  10:00:00 PM CT thru Sun 6/10/2001 at    1:00:00 AM CT
+	Sat 6/9/2001 at    8:00:00 PM PT  thru Sat 6/9/2001 at  11:00:00 PM PT
+	Sun 6/10/2001 at  4:00:00 AM London thru Sun 6/10/2001 at  7:00:00 AM London
+Outage:  Memory upgrade and storage relocation for server fracture.
+Environments Impacted:  RMS global company OFS
+Purpose: Add memory for performance improvement.  Permanently rack D1000 disk array.
+Backout: Restore to original configuration without memory.
+Contact(s): 	Malcolm Wells    713-345-3716
+ 
+SITARA:  No Scheduled Outages.
+
+SUN/OSS SYSTEM: No Scheduled Outages.
+
+TELEPHONY: 
+Impact:  CORP
+Time:  Fri 6/8/2001 at  5:00:00 PM Calgary thru Sun 6/10/2001 at  12:00:00 PM Calgary
+	Fri 6/8/2001 at  6:00:00 PM CT thru Sun 6/10/2001 at    1:00:00 PM CT
+	Fri 6/8/2001 at  4:00:00 PM PT thru Sun 6/10/2001 at  11:00:00 AM PT
+	Sat 6/9/2001 at  12:00:00 AM London thru Sun 6/10/2001 at  7:00:00 PM London
+Outage:  Enron Canada-Calgary PBX Upgrade
+Environments Impacted:  Corp Calgary
+Purpose: To bring Enron Calgary up to Enron standards.  Allow 4 digit dialing between Enron Canada Corp. and Enron Direct Limited Partnership, and network the voicemail. Enron Calgary will be without phone service for the duration of the upgrade.
+Backout: As a complete new cabinet "A" will be installed we will have the old cabinet with processor on site that can be reinstalled in the event that problems arise. 
+Contact(s): 	Brad K Martin  (403) 974-6922  (403) 212-9280
+ 
+TERMINAL SERVER:  No Scheduled Outages.
+
+UNIFY:  
+Impact:  CORP
+Time:  Fri 6/8/2001 at    2:00:00 PM CT thru Mon 6/11/2001 at    2:00:00 AM CT
+	Fri 6/8/2001 at  12:00:00 PM PT thru Mon 6/11/2001 at  12:00:00 AM PT
+	Fri 6/8/2001 at 8:00:00 PM London thru Mon 6/11/2001 at  8:00:00 AM London
+Outage:  Unify Gas Migration from Sybase to SQL Server
+Environments Impacted:  Unify Users
+Purpose: Increase reliability and scalability of Unify system
+Backout: Reinstate Sybase version if insurmountable problems occur during the conversion weekend.
+Contact(s): 	Brian Ripley    713-345-4709
+		Matt Pena        713-345-4209
+		Ramesh Rao   713-349-4207 
+		Bob Ward        713-345-4409
+ 
+-------------------------------------------------------------------------------------------------------------------------------------
+								FOR ASSISTANCE
+
+(713) 853-1411   Enron Resolution Center
+
+
+Specific Help:
+Information Risk Management			(713) 853-5536
+SAP/ISC                                                                               (713) 345-4727
+Unify On-Call 					(713) 284-3757  [Pager]
+Sitara On-Call					(713) 288-0101  [Pager]
+RUS/GOPS/GeoTools/APRS			(713) 639-9726  [Pager]
+OSS/UA4/TARP				(713) 285-3165  [Pager]
+CPR						(713) 284-4175  [Pager]
+EDI Support 					(713) 327-3893  [Pager]
+EES Help Desk					(713)853-9797 OR (888)853-9797
+TDS -Trader Decision Support On-Call                    (713) 327-6032 [Pager]

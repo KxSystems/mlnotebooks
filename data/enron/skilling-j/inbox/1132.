@@ -1,0 +1,57 @@
+Message-ID: <6692685.1075852672089.JavaMail.evans@thyme>
+Date: Mon, 24 Sep 2001 13:25:05 -0700 (PDT)
+From: 40enron@enron.com
+Subject: Outlook Communication
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ANSI_X3.4-1968
+Content-Transfer-Encoding: quoted-printable
+X-From: Enron Global Technology@ENRON <IMCEANOTES-Enron+20Global+20Technology+40ENRON@ENRON.com>
+X-To: All Enron Houston@ENRON
+X-cc: 
+X-bcc: 
+X-Folder: \JSKILLIN (Non-Privileged)\Inbox
+X-Origin: Dasovich-J
+X-FileName: JDASOVIC (Non-Privileged).pst
+
+Over the past few weeks, we have experienced significant issues with our em=
+ail environment that have caused business interruptions and frustration for=
+ Outlook users.  The purpose of this e-mail is to outline the issues that w=
+e have encountered and what we are doing to resolve the issues.=20
+?=09During the last week of August, we encountered a bug in Microsoft's Exc=
+hange Server -- the mail server that is used by Outlook clients.  This bug,=
+ which impacted approximately 3,000 users, delayed mail delivery for the be=
+tter part of a day.  At that time, we applied a fix from Microsoft which ap=
+pears to have resolved the problem.  We have carefully monitored the Exchan=
+ge servers for four weeks, and have not seen a re-occurrence of the bug.
+?=09Also during the last week of August, another Exchange Server experience=
+d database corruption issues -- again, this impacted approximately 3,000 Ou=
+tlook users.  To resolve this, we moved the 3,000 users to different Exchan=
+ge servers and made several hardware/software upgrades to the affected serv=
+er.  We have not yet returned the repaired server to full production use --=
+ we are closely monitoring it to ensure that there are no more problems wit=
+h the server.  While this event did not cause e-mail outages during the bus=
+iness week, we had to do maintenance on the server during the evenings on W=
+ednesday, Thursday, and Friday, and throughout the Labor day weekend to mov=
+e users to different servers.  During these evenings and weekend, the impac=
+ted users could not access their e-mail.
+?=09During the last three weeks, there have been a number of new and danger=
+ous viruses on the internet.  We have a multi-layered defense against virus=
+es that include virus scanning software on servers and desktops.  All mail =
+is scanned on the Exchange servers and all files are scanned on the desktop=
+s.  During the last few weeks, we have had to apply numerous virus scanning=
+ updates to the Exchange servers - sometimes even several updates per day. =
+ The result is that when new virus scanning updates arrive, the performance=
+ of the Exchange servers diminishes for several hours while the anti-virus =
+product rescans every message in every mailbox.  This is unfortunate, but w=
+e believe necessary to prevent viruses from causing outages in the Enron co=
+mputing environment and threaten our revenue generating systems.  At this t=
+ime, we are working with the vendor to arrive at a technical solution that =
+will speed up the virus scanning process.  We have made some progress as th=
+e performance has improved during virus scans, however, it can continue to =
+get better.
+There is no question that the email issues we have encountered over the las=
+t few weeks are unacceptable.  We are continuing to monitor and improve the=
+ overall performance to ensure that we substantially reduce the outages and=
+ meet Enron's business needs and expectations.
+
+Enron Global Technology

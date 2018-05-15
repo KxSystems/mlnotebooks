@@ -1,0 +1,155 @@
+Message-ID: <18621172.1075852655267.JavaMail.evans@thyme>
+Date: Fri, 15 Jun 2001 15:17:13 -0700 (PDT)
+From: 40enron@enron.com
+Subject: SUPPLEMENTAL Weekend Outage Report for 6-15-01 through 6-18-01
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Enron Change Management Announcement@ENRON <IMCEANOTES-Enron+20Change+20Management+20Announcement+40ENRON@ENRON.com>
+X-To: Houston Outage Report@ENRON
+X-cc: 
+X-bcc: 
+X-Folder: \JSKILLIN (Non-Privileged)\Deleted Items
+X-Origin: Skilling-J
+X-FileName: JSKILLIN (Non-Privileged).pst
+
+
+------------------------------------------------------------------------------------------------------
+W E E K E N D   S Y S T E M S   A V A I L A B I L I T Y
+
+F O R
+
+June 15, 2001 5:00pm through June 18, 2001 12:00am
+------------------------------------------------------------------------------------------------------
+
+
+
+ECS to ECN Network Interconnection WILL BE RESCHEDULED	
+
+This is a notification that the Enron Corp. I/T Networks team will be connecting the new building network infrastructure located in Enron Center South (ECS) to the existing Enron Center North (ECN) backbone network.  While this activity is not expected to produce a disruption to network services, this notice is designed to alert the organization to our activities.  No network hardware or systems are anticipated to be shutdown.  The actual physical interconnection of the networks will be performed in the EB 34th floor Data Center.
+
+If you have any further questions, please contact Pete Castrejana at 713-410-0642 for more information.
+		    
+
+SCHEDULED SYSTEM OUTAGES: 
+		   
+ARDMORE DATA CENTER - FACILITY OPERATIONS: 
+Impact:  Ardmore Data Center
+Time:  Sat 6/16/2001 at  8:00:00 AM CT thru Sat 6/16/2001 at  10:00:00 AM CT 
+	Sat 6/16/2001 at  6:00:00 AM PT thru Sat 6/16/2001 at    8:00:00 AM PT 
+	Sat 6/16/2001 at  2:00:00 PM London thru Sat 6/16/2001 at  4:00:00 PM London
+Outage:  PDU-E at Ardmore Data Center
+Environments Impacted:  EES
+Purpose: To safely monitor voltage and amp readings on PDU.
+Backout: 
+Contact(s): 	Joe Montemayor  713-345-3370 
+		Steve Ritter          713-408-8734  
+AZURIX: No Scheduled Outages.
+
+EB34 DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+EDI SERVER: No Scheduled Outages.
+
+ENRON CENTER SOUTH DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages
+
+ENRON NORTH AMERICAN LANS:  SEE ORIGINAL REPORT
+		    
+FIELD SERVICES:  No Scheduled Outages.
+
+INTERNET: No Scheduled Outages.
+
+MESSAGING:   ALSO SEE ORIGINAL REPORT		    
+Impact:  Corp Notes
+Time:  Fri 6/15/2001 at  9:00:00 PM CT thru Sat 6/16/2001 at   1:00:00 AM CT
+	Fri 6/15/2001 at  7:00:00 PM PT thru  Fri 6/15/2001 at 11:00:00 PM PT
+	Sat 6/16/2001 at  3:00:00 AM London thru Sat 6/16/2001 at  7:00:00 AM London
+Outage:  cNotes Server Reboots
+Environments Impacted:  All users on any of the mailservers listed below
+Purpose: Scheduled @ 2 week interval
+Backout: Make sure server comes up.
+Contact(s): 	Trey Rhodes  (713) 345-7792  
+		    		    		    		    		
+Impact:  EI
+Time:  Fri 6/15/2001 at  9:00:00 PM CT thru Sat 6/16/2001 at  1:00:00 AM CT
+	Fri 6/15/2001 at  7:00:00 PM PT thru  Fri 6/15/2001 at 11:00:00 PM PT
+	Sat 6/16/2001 at  3:00:00 AM London thru Sat 6/16/2001 at  7:00:00 AM London
+Outage:  EI Notes Server Maintenance
+Environments Impacted:  EI Local/Domestic/Foreign Sites
+Purpose: Scheduled @ 2 week interval
+Backout: N/A
+Contact(s): 	David Ricafrente    713-646-7741 
+MARKET DATA: No Scheduled Outages.
+
+NT: SEE ORIGINAL REPORT
+	
+OS/2:  No Scheduled Outages.
+
+OTHER SYSTEMS:    ALSO SEE ORIGINAL REPORT		    
+Impact:  172.28.10. production segment
+Time:  Mon 6/11/2001 at  5:00:00 AM CT thru Sun 6/17/2001 at  7:00:00 AM CT
+	Mon 6/11/2001 at  3:00:00 AM PT thru Sun 6/17/2001 at  5:00:00 AM PT
+	Mon 6/11/2001 at  11:00:00 AM London thru Sun 6/17/2001 at  1:00:00 PM London
+Outage:  Production Video Streaming Servers
+Environments Impacted:  None
+Purpose: 
+Backout: 
+Contact(s): 	Todd Thelen    713-853-9320
+		    		    		    		
+Impact:  CORP
+Time:  Sat 6/16/2001 at  8:00:00 PM CT thru Sun 6/17/2001 at  9:00:00 AM CT
+	Sat 6/16/2001 at  6:00:00 PM PT thru Sun 6/17/2001 at  7:00:00 AM PT
+	Sun 6/17/2001 at  2:00:00 AM London thru Sun 6/17/2001 at  3:00:00 PM London
+Outage:  Memory replacement for server madrid.
+Environments Impacted:  sitara
+Purpose: Repeat memory errors on one DIMM.
+Backout: Reboot with bad DIMM offline.
+Contact(s): 	Malcolm Wells    713-345-3716
+		    
+Impact:  EBS
+Time:  Thu 6/14/2001 at  12:00:00 PM CT thru Fri 6/22/2001 at  12:00:00 PM CT
+	Thu 6/14/2001 at  10:00:00 AM PT thru Fri 6/22/2001 at  10:00:00 AM PT
+	Thu 6/14/2001 at  6:00:00 PM London thru Fri 6/22/2001 at  6:00:00 PM London
+Outage:  PPCS install at Greenspoint
+Environments Impacted:  UNIX Users
+Purpose: Need PPCS servers on EIN
+Backout: Go back to utilizing the servers at Ardmore.
+Contact(s): 	Charlotte Ratliff  713-345-3120 
+
+Impact:  CORP
+Time:  Sat 6/16/2001 at  11:00:00 PM CT thru Sun 6/17/2001 at  12:00:00 AM CT
+	Sat 6/16/2001 at    9:00:00 PM PT thru Sat 6/16/2001 at  10:00:00 PM PT
+	Sun 6/17/2001 at  5:00:00 AM London thru Sun 6/17/2001 at  6:00:00 AM London
+Outage:  User Volume Maintenence
+Environments Impacted:  Corp
+Purpose: There are a number of files showing up corrupt on the volume and the messages in Event Viewer say to run CHKDSK on the volume. 
+Backout: Will run a backup before running chkdsk.
+Contact(s): 	Frank Coles    (713)406-0470 
+
+SITARA:    SEE ORIGINAL REPORT
+		CANCELLED
+
+SUN/OSS SYSTEM: No Scheduled Outages.
+
+TELEPHONY: No Scheduled Outages		
+		    		    
+TERMINAL SERVER:  No Scheduled Outages.
+
+UNIFY:  No Scheduled Outages.
+
+                                        -----------------------------------------------------------------------------------------------------------------------------
+								FOR ASSISTANCE
+
+(713) 853-1411   Enron Resolution Center
+
+
+Specific Help:
+Information Risk Management			(713) 853-5536
+SAP/ISC                                                                               (713) 345-4727
+Unify On-Call 					(713) 284-3757  [Pager]
+Sitara On-Call					(713) 288-0101  [Pager]
+RUS/GOPS/GeoTools/APRS			(713) 639-9726  [Pager]
+OSS/UA4/TARP				(713) 285-3165  [Pager]
+CPR						(713) 284-4175  [Pager]
+EDI Support 					(713) 327-3893  [Pager]
+EES Help Desk					(713)853-9797 OR (888)853-9797
+TDS -Trader Decision Support On-Call                    (713) 327-6032 [Pager]

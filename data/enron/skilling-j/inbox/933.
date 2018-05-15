@@ -1,0 +1,159 @@
+Message-ID: <16785214.1075852665309.JavaMail.evans@thyme>
+Date: Fri, 19 Oct 2001 14:40:57 -0700 (PDT)
+From: no.address@enron.com
+Subject: SUPPLEMENTAL Weekend Outage Report for 10-19-01 through 10-21-01
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Enron Change Management Announcement@ENRON
+X-To: Houston Outage Report@ENRON
+X-cc: 
+X-bcc: 
+X-Folder: \JSKILLIN (Non-Privileged)\Inbox
+X-Origin: Dasovich-J
+X-FileName: JDASOVIC (Non-Privileged).pst
+
+
+------------------------------------------------------------------------------------------------------
+W E E K E N D   S Y S T E M S   A V A I L A B I L I T Y
+
+F O R
+
+October 19, 2001 5:00pm through October 22, 2001 12:00am
+------------------------------------------------------------------------------------------------------
+		    		    		    				    		    		    				    			    		    		
+SCHEDULED SYSTEM OUTAGES: 
+
+ECS power outage
+
+A power outage will occur in Enron Center South on Saturday, October 20, 2001 to complete repairs to the electrical riser system required to correct issues resulting from Tropical Storm Allison.
+
+IDF's and thus network resident applications and data will be off line on all ECS floors 3 through 6 from 10:00 a.m. Saturday until 8:00 a.m. Sunday.
+
+Trading floors 3, 4, 5 and 6 desktop power will be off beginning 2:00 p.m. Saturday until 12:00 noon Sunday.
+
+Avaya telephony phone system will be unaffected.  However, the turret system will be offline starting 11:00 a.m. Saturday until 1:00 p.m. Sunday.
+
+Additionally, during this power outage the cooling system will be upgraded.  This upgrade may take up to 2 hours.  Occupants in the building may experience as much as a five degree rise in temperature.
+ 
+Contacts: Stuart Fieldhouse  713-853-5699  
+	     Lance Jameson       713-345-4423  
+ 
+ARDMORE DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+AZURIX: No Scheduled Outages.
+
+EB34 DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+EDI SERVER: No Scheduled Outages.
+ 
+EES: 
+Impact:  EES	
+Outage:  EESHOU-DBPCCS - Sat 8-10am CT
+EESTEST-DBPCCS - Sun 9:30-11:30 am CT
+EESTEST-WBPCCS - Sun 10am-12pm CT
+EESHOU-EEIS - Fri 6-8pm CT
+EESHOU-WBPCCS - Sun 8:30-10:35am CT
+EESHOU-DBRPS3 - Sat 9-10am CT
+EESHOU-OMS01 - Fri 5:30-7:30pm CT
+Environments Impacted:  EES
+Purpose: Install monitoring tools.
+Backout: Uninstall
+Contact(s): 	David DeVoll        713-345-8970
+		Animesh Solanki  713-853-5147
+   
+ENRON CENTER SOUTH DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages
+
+ENRON NORTH AMERICAN LANS:   ALSO SEE ORIGINAL REPORT
+Impact:  ECN 46
+Time:  Sat 10/20/2001 at  9:00:00 AM CT thru Sat 10/20/2001 at  4:00:00 PM CT
+	Sat 10/20/2001 at  7:00:00 AM PT thru Sat 10/20/2001 at  2:00:00 PM PT
+	Sat 10/20/2001 at  3:00:00 PM London thru Sat 10/20/2001 at  10:00:00 PM London
+Outage:  Telecom Closet Clean Up ECN 46
+Environments Impacted:  ECN 46
+Purpose: IDF and port management
+Backout: 
+Contact(s): 	Mark Trevino    713-345-9954  
+ 
+FIELD SERVICES:  No Scheduled Outages.
+
+INTERNET: No Scheduled Outages.
+ 
+HR:          SEE ORIGINAL REPORT
+ 
+MESSAGING:      SEE ORIGINAL REPORT
+  
+MARKET DATA: No Scheduled Outages.
+
+NT: No Scheduled Outages.
+
+OS/2:  No Scheduled Outages.
+
+OTHER SYSTEMS:     ALSO SEE ORIGINAL REPORT
+Impact:  nahou-wwirf01t nahou-wwirf01d nahou-wwjrn01d nahou-wwjrn01tnahou-wwiwn01d
+Time:  Thu 10/18/2001 at  5:00:00 PM CT thru Fri 10/19/2001 at  7:00:00 PM CT
+	Thu 10/18/2001 at  3:00:00 PM PT thru Fri 10/19/2001 at  5:00:00 PM PT
+	Thu 10/18/2001 at  11:00:00 PM London thru Sat 10/20/2001 at  1:00:00 AM London
+Outage:  SP2   Hotfix 301625   WINS-DNS update
+Environments Impacted:  Developers and Testers of the server listed below
+Purpose: This is our new standard for ALL Web and App servers in our group.
+Backout: Rollback SP2 Hot Fix and put old WINS and DNS entries back 
+Contact(s): 	Clint Tate    713-345-4256  
+
+Impact:  CORP
+Time:  Sun 10/21/2001 at  6:00:00 AM CT thru Sun 10/21/2001 at  6:00:00 PM CT
+	Sun 10/21/2001 at  4:00:00 AM PT thru Sun 10/21/2001 at  4:00:00 PM PT
+	Sun 10/21/2001 at  12:00:00 PM London thru Mon 10/22/2001 at 12:00:00 AM London
+Outage:  RMSPROD table/index reorg
+Environments Impacted:  Corp
+Purpose:  reduce fragmentation and increase performance.
+Backout: Disable restricted session.
+Contact(s): 	Emmett Cleveland    713-345-3873 
+
+SITARA:  
+Impact:  Production
+Time:  Sat 10/20/2001 at  7:00:00 PM CT thru Sun 10/21/2001 at  7:00:00 AM CT
+	Sat 10/20/2001 at  5:00:00 PM PT thru Sun 10/21/2001 at  5:00:00 AM PT
+	Sun 10/21/2001 at  1:00:00 AM London thru Sun 10/21/2001 at  1:00:00 PM London
+Outage:  New Hardware - Trinity
+Environments Impacted:  Corp
+Purpose: Improve Sitara performance with Hardware enhancement.
+Backout: revert to Madrid as primary.
+Contact(s): 	SitaraonCall    713-288-0101 
+ 
+SUN/OSS SYSTEM: No Scheduled Outages.
+
+TELEPHONY:      SEE OIGINAL REPORT
+ 
+TERMINAL SERVER:  No Scheduled Outages.
+
+UNIFY:  No Scheduled Outages.
+ 
+SCHEDULED SYSTEM OUTAGES: LONDON 
+Impact:  CORP
+Time:  Fri 10/19/2001 at  6:00:00 PM CT thru Sat 10/20/2001 at  9:00:00 PM CT
+	Fri 10/19/2001 at  4:00:00 PM PT thru Sat 10/20/2001 at  7:00:00 PM PT
+	Sat 10/20/2001 at  12:00:00 AM London thru Sun 10/21/2001 at  3:00:00 AM London
+Outage:  Complete Powerdown of the London Office
+Environments Impacted:  All
+Purpose: To complete the final works and testing to install a third generator in Enron House
+Backout: Switch all equipment back on once power has been restored.
+Contact(s): 	Tracy Pearson   830-34238 London Tie Line 
+ 
+----------------------------------------------------------------------------------------------------------------------------
+								FOR ASSISTANCE
+
+(713) 853-1411   Enron Resolution Center
+
+
+Specific Help:
+Information Risk Management			(713) 853-5536
+SAP/ISC                                                                               (713) 345-4727
+Unify On-Call 					(713) 284-3757  [Pager]
+Sitara On-Call					(713) 288-0101  [Pager]
+RUS/GOPS/GeoTools/APRS			(713) 639-9726  [Pager]
+OSS/UA4/TARP				(713) 285-3165  [Pager]
+CPR						(713) 284-4175  [Pager]
+EDI Support 					(713) 327-3893  [Pager]
+EES Help Desk					(713)853-9797 OR (888)853-9797
+TDS -Trader Decision Support On-Call                    (713) 327-6032 [Pager]

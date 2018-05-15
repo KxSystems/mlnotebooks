@@ -1,0 +1,87 @@
+Message-ID: <9519730.1075840151709.JavaMail.evans@thyme>
+Date: Fri, 20 Apr 2001 19:37:00 -0700 (PDT)
+From: enron.announcement@enron.com
+To: houston.report@enron.com
+Subject: SUPPLEMENTAL Weekend Outage Report for 4-20-01 through 4-23-01
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Enron Change Management Announcement
+X-To: Houston Outage Report <Houston Outage Report@ENRON>
+X-cc: 
+X-bcc: 
+X-Folder: \jskillin\Inbox
+X-Origin: SKILLING-J
+X-FileName: jskillin.pst
+
+
+------------------------------------------------------------------------------------------------------
+W E E K E N D   S Y S T E M S   A V A I L A B I L I T Y
+
+F O R
+
+April 20, 2001 5:00pm through April 23, 2001 12:00am
+------------------------------------------------------------------------------------------------------
+		    		    		    		
+SCHEDULED SYSTEM OUTAGES: 
+
+ARDMORE DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+AZURIX: No Scheduled Outages.
+
+EB34 DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+EDI SERVER: No Scheduled Outages.
+
+ENRON NORTH AMERICAN LANS:      SEE ORIGINAL REPORT
+ 
+FIELD SERVICES:  No Scheduled Outages.
+
+INTERNET: No Scheduled Outages.
+
+MESSAGING:     SEE ORIGINAL REPORT
+ 
+MARKET DATA: No Scheduled Outages.
+
+NT: No Scheduled Outages.
+
+OS/2:  No Scheduled Outages.
+
+OTHER SYSTEMS:        ALSO SEE ORIGINAL REPORT 
+Impact:  CORP
+Time:  Fri 4/20/2001 at  5:00:00 PM CT thru Mon 4/23/2001 at  8:00:00 AM CT
+	Fri 4/20/2001 at  3:00:00 PM PT thru Mon 4/23/2001 at  6:00:00 AM PT
+	Fri 4/20/2001 at  11:00:00 PM London thru Mon 4/23/2001 at  2:00:00 PM London
+Outage:  SysAdmiral Maintenance
+Environments Impacted:  SysAdmiral Users
+Purpose: SysAdmiral terminal server icons on General Cluster will not be available due to maintenance. 
+Once the maintenance is completed the icons will point to the new 2.3.11 production and development environments.
+Backout:  None
+Contact(s):  Rusty Cheves  713-345-3798  	     
+ 
+SITARA:  No Scheduled Outages.
+
+SUN/OSS SYSTEM: No Scheduled Outages.
+
+TELEPHONY: No Scheduled Outages
+
+TERMINAL SERVER:  No Scheduled Outages.
+
+UNIFY:       SEE ORIGINAL REPORT  
+ 
+-----------------------------------------------------------------------------------------------------------------------------
+								FOR ASSISTANCE
+
+(713) 853-1411   Enron Resolution Center
+
+
+Specific Help:
+Information Risk Management			(713) 853-5536
+SAP/ISC                                                                               (713) 345-4727
+Unify On-Call 					(713) 284-3757  [Pager]
+Sitara On-Call					(713) 288-0101  [Pager]
+RUS/GOPS/GeoTools/APRS			(713) 639-9726  [Pager]
+OSS/UA4/TARP				(713) 285-3165  [Pager]
+CPR						(713) 284-4175  [Pager]
+EDI Support 					(713) 327-3893  [Pager]
+EES Help Desk					(713)853-9797 OR (888)853-9797

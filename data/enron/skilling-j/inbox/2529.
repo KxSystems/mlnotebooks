@@ -1,0 +1,108 @@
+Message-ID: <4180518.1075861577109.JavaMail.evans@thyme>
+Date: Fri, 9 Nov 2001 14:55:37 -0800 (PST)
+From: no.address@enron.com
+Subject: SUPPLEMENTAL Weekend Outage Report for 11-9-01 through 11-11-01
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Enron Change Management Announcement@ENRON
+X-To: Houston Outage Report@ENRON <??SHouston Outage Report@ENRON>
+X-cc: 
+X-bcc: 
+X-Folder: \JSKILLIN (Non-Privileged)\Skilling, Jeff\Inbox
+X-Origin: Skilling-J
+X-FileName: JSKILLIN (Non-Privileged).pst
+
+
+------------------------------------------------------------------------------------------------------
+W E E K E N D   S Y S T E M S   A V A I L A B I L I T Y
+
+F O R
+
+November 9, 2001 5:00pm through November 12, 2001 12:00am
+------------------------------------------------------------------------------------------------------
+
+SCHEDULED SYSTEM OUTAGES: 
+
+ARDMORE DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+AZURIX: No Scheduled Outages.
+
+EB34 DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+EDI:         SEE ORIGINAL REPORT
+ 
+ENRON CENTER SOUTH DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages
+
+ENRON NORTH AMERICAN LANS:      SEE ORIGINAL REPORT
+ 
+FIELD SERVICES:  No Scheduled Outages.
+
+INTERNET: No Scheduled Outages.
+
+MESSAGING:     SEE ORIGINAL REPORT
+ 
+MARKET DATA: No Scheduled Outages.
+
+NT: No Scheduled Outages.
+
+OS/2:  No Scheduled Outages.
+
+OTHER:     ALSO SEE ORIGINAL REPORT		    		    		    				    		
+Impact:  SAP                 POSTPONED 
+Time:  Fri 11/9/2001 at  8:00:00 PM CT thru Sun 11/11/2001 at    2:00:00 AM CT
+	Fri 11/9/2001 at  6:00:00 PM PT thru Sun 11/11/2001 at  12:00:00 AM PT
+	Sat 11/10/2001 at  2:00:00 AM London thru Sun 11/11/2001 at  8:00:00 AM London
+Outage:  Add New SAP Storage
+Environments Impacted:  SAP
+Purpose: Disk growth in SAP required procurement of additional disk.
+Backout: Revert to current configuration. 
+Contact(s): 	Gary Sentiff    713-345-5125
+ 
+Impact:  CORP
+Time:  Sun 11/11/2001 at  5:00:00 PM CT thru Sun 11/11/2001 at  9:30:00 PM CT
+	Sun 11/11/2001 at  3:00:00 PM PT thru Sun 11/11/2001 at  7:30:00 PM PT
+	Sun 11/11/2001 at  11:00:00 PM London thru Mon 11/12/2001 at  3:30:00 AM London
+Outage:  CPR
+Environments Impacted:  All
+Purpose:  CPR routine database maintenance
+Backout: 
+Contact(s): 	CPR Support    (713) 284-4175   
+
+SITARA:  
+Impact:  CORP
+Time:  Sat 11/10/2001 at  8:00:00 PM CT thru Sun 11/11/2001 at  7:00:00 AM CT
+	Sat 11/10/2001 at  6:00:00 PM PT thru Sun 11/11/2001 at  5:00:00 AM PT
+	Sun 11/11/2001 at  2:00:00 AM London thru Sun 11/11/2001 at  1:00:00 PM London
+Outage:  Sitara and CPR
+Environments Impacted:  All
+Purpose: Sitara and CPR routine database maintenance
+Backout: 
+Contact(s): 	CPR Support    (713) 284-4175 
+		Sitara on Call    (713) 288-0101 		
+    		    		
+SUN/OSS SYSTEM: No Scheduled Outages.
+
+TELEPHONY:     SEE ORIGINAL REPORT
+ 
+TERMINAL SERVER:  No Scheduled Outages.
+
+UNIFY:  No Scheduled Outages.
+
+----------------------------------------------------------------------------------------------------------------------------
+								FOR ASSISTANCE
+
+(713) 853-1411   Enron Resolution Center
+
+
+Specific Help:
+Information Risk Management			(713) 853-5536
+SAP/ISC                                                                               (713) 345-4727
+Unify On-Call 					(713) 284-3757  [Pager]
+Sitara On-Call					(713) 288-0101  [Pager]
+RUS/GOPS/GeoTools/APRS			(713) 639-9726  [Pager]
+OSS/UA4/TARP				(713) 285-3165  [Pager]
+CPR						(713) 284-4175  [Pager]
+EDI Support 					(713) 327-3893  [Pager]
+EES Help Desk					(713)853-9797 OR (888)853-9797
+TDS -Trader Decision Support On-Call                    (713) 327-6032 [Pager]

@@ -1,0 +1,258 @@
+Message-ID: <15787075.1075852665634.JavaMail.evans@thyme>
+Date: Thu, 18 Oct 2001 14:26:45 -0700 (PDT)
+From: no.address@enron.com
+Subject: Weekend Outage Report for 10-19-01 through 10-21-01
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Enron Change Management Announcement@ENRON
+X-To: Houston Outage Report@ENRON
+X-cc: 
+X-bcc: 
+X-Folder: \JSKILLIN (Non-Privileged)\Inbox
+X-Origin: Dasovich-J
+X-FileName: JDASOVIC (Non-Privileged).pst
+
+
+
+------------------------------------------------------------------------------------------------------
+W E E K E N D   S Y S T E M S   A V A I L A B I L I T Y
+
+F O R
+
+October 19, 2001 5:00pm through October 22, 2001 12:00am
+------------------------------------------------------------------------------------------------------
+		    		    		    				    		    		    				    			    		    		
+SCHEDULED SYSTEM OUTAGES: 
+
+ECS power outage
+
+A power outage will occur in Enron Center South on Saturday, October 20, 2001 to complete repairs to the electrical riser system required to correct issues resulting from Tropical Storm Allison.
+
+IDF's and thus network resident applications and data will be off line on all ECS floors 3 through 6 from 10:00 a.m. Saturday until 8:00 a.m. Sunday.
+
+Trading floors 3, 4, 5 and 6 desktop power will be off beginning 2:00 p.m. Saturday until 12:00 noon Sunday.
+
+Avaya telephony phone system will be unaffected.  However, the turret system will be offline starting 11:00 a.m. Saturday until 1:00 p.m. Sunday.
+
+Additionally, during this power outage the cooling system will be upgraded.  This upgrade may take up to 2 hours.  Occupants in the building may experience as much as a five degree rise in temperature.
+ 
+Contacts: Stuart Fieldhouse  713-853-5699  
+	     Lance Jameson       713-345-4423  
+ 
+ARDMORE DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+AZURIX: No Scheduled Outages.
+
+EB34 DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+EDI SERVER: No Scheduled Outages.
+
+ENRON CENTER SOUTH DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages
+
+ENRON NORTH AMERICAN LANS:  
+Impact:  EBS
+Time:  Fri 10/19/2001 at  5:00:00 PM CT thru Fri 10/19/2001 at  5:30:00 PM CT
+	Fri 10/19/2001 at  3:00:00 PM PT thru Fri 10/19/2001 at  3:30:00 PM PT
+	Fri 10/19/2001 at  11:00:00 PM London thru Fri 10/19/2001 at  11:30:00 PM London
+Outage:  Decommission PROWLER firewall
+Environments Impacted:  EBS
+Purpose: Migration of EBS internal network to Corp
+Backout: 
+Contact(s): 	Chris Shirkoff    713-853-1111
+		    		    		  		
+Impact:  3AC
+Time:  Fri 10/19/2001 at  6:00:00 PM CT thru Fri 10/19/2001 at  10:00:00 PM CT
+	Fri 10/19/2001 at  4:00:00 PM PT thru Fri 10/19/2001 at    8:00:00 PM PT
+	Sat 10/20/2001 at  12:00:00 AM London thru Sat 10/20/2001 at  4:00:00 AM London
+Outage:  Migrate 3AC 8th and 9th Floor to Corp IP space
+Environments Impacted:  All
+Purpose: EBS Consolidation
+Backout: In the event of a failure, I will put the original links and switches back in place, putting 8 and 9 back on EBS IP space.
+Contact(s): 	Micah Staggs    713-345-1696
+
+Impact:  CORP
+Time:  Fri 10/19/2001 at  6:00:00 PM CT thru Fri 10/19/2001 at  7:00:00 PM CT
+	Fri 10/19/2001 at  4:00:00 PM PT thru Fri 10/19/2001 at  5:00:00 PM PT
+	Sat 10/20/2001 at  12:00:00 AM London thru Sat 10/20/2001 at  1:00:00 AM London
+Outage:  Change internal routing to EIN
+Environments Impacted:  All
+Purpose: EBS Integration
+Backout: Remove static route, go back through EBS environment on 44
+Contact(s): 	Dennis McGough    713-345-3143
+ 
+FIELD SERVICES:  No Scheduled Outages.
+
+INTERNET: No Scheduled Outages.
+ 
+HR:
+Impact:  HR
+Time:  Sat 10/20/2001 at  7:30:00 AM CT thru Sat 10/20/2001 at  3:30:00 PM CT
+	Sat 10/20/2001 at  5:30:00 AM PT thru Sat 10/20/2001 at  1:30:00 PM PT
+	Sat 10/20/2001 at  1:30:00 PM London thru Sat 10/20/2001 at  9:30:00 PM London
+Outage:  Memory Upgrade for HR-DB-1, 4, and 5
+Environments Impacted:  All
+Purpose: More memory is need on these servers for additional databases.
+Backout: Restore to previous configuration.
+Contact(s): 	Brandon Bangerter   713-345-4904
+		Mark Calkin               713-345-7831  
+		Raj Perubhatla      713-345-8016  281-788-9307 
+ 
+MESSAGING: 
+Impact:  EES
+Time:  Fri 10/19/2001 at  8:30:00 PM CT thru Fri 10/19/2001 at  11:30:00 PM CT
+	Fri 10/19/2001 at  6:30:00 PM PT thru Fri 10/19/2001 at    9:30:00 PM PT
+	Sat 10/20/2001 at  2:30:00 AM London thru Sat 10/20/2001 at  5:30:00 AM London
+Outage:  EES Notes Server Reboots
+Environments Impacted:  All users on any of the mailservers listed below
+Purpose: Scheduled @ 2 week interval on 1st and the 3rd Friday of each month.
+Backout: 
+Contact(s): 	Dalak Malik    713-345-8219
+
+Impact:  Corp Notes
+Time:  Fri 10/19/2001 at  9:00:00 PM CT thru Sat 10/20/2001 at    1:00:00 AM CT
+	Fri 10/19/2001 at  7:00:00 PM PT thru Fri 10/19/2001 at  11:00:00 PM PT
+	Sat 10/20/2001 at  3:00:00 AM London thru Sat 10/20/2001 at  7:00:00 AM London
+Outage:  cNotes Server Reboots
+Environments Impacted:  All users on any of the mailservers listed below
+Purpose: Scheduled @ 2 week interval
+Backout: Make sure server comes up.
+Contact(s): 	Trey Rhodes  (713) 345-7792  
+		    		    		   		
+Impact:  EI
+Time:  Fri 10/19/2001 at  9:00:00 PM CT thru Sat 10/20/2001 at    1:00:00 AM CT
+	Fri 10/19/2001 at  7:00:00 PM PT thru Fri 10/19/2001 at  11:00:00 PM PT
+	Sat 10/20/2001 at  3:00:00 AM London thru Sat 10/20/2001 at  7:00:00 AM London
+Outage:  EI Notes Server Maintenance
+Environments Impacted:  EI Local/Domestic/Foreign Sites
+Purpose: Scheduled @ 2 week interval
+Backout: N/A
+Contact(s): 	David Ricafrente    713-646-7741
+ 
+MARKET DATA: No Scheduled Outages.
+
+NT: No Scheduled Outages.
+
+OS/2:  No Scheduled Outages.
+
+OTHER SYSTEMS: 
+Impact:  SAP
+Time:  Fri 10/19/2001 at  8:00:00 PM CT thru Sun 10/21/2001 at  8:00:00 AM CT
+	Fri 10/19/2001 at  6:00:00 PM PT thru Sun 10/21/2001 at  6:00:00 AM PT
+	Sat 10/20/2001 at  2:00:00 AM London thru Sun 10/21/2001 at  2:00:00 PM London
+Outage:  Sombra upgrade and maintenance for ACTA server adcupkilo.
+Environments Impacted:  ACTA
+Purpose: Improve reliability with the new mirrored cache cpu module and protect against ecache parity bug.  Reconfigure the disk layout.
+Backout: 
+Fall back to old cpus
+Restore the disk layout restore to old configuration
+Contact(s): 	Malcolm Wells    713-345-3716
+		    		    		
+Impact:  SAP
+Time:  Fri 10/19/2001 at  8:00:00 PM thru Sun 10/21/2001 at  8:00:00 AM
+	Fri 10/19/2001 at  6:00:00 PM PT thru Sun 10/21/2001 at  6:00:00 AM PT
+	Sat 10/20/2001 at  2:00:00 AM London thru Sun 10/21/2001 at  2:00:00 PM London
+Outage:  Sombra upgrade and maintenance for ACTA server adcupklima.
+Environments Impacted:  ACTA
+Purpose:  Improve reliability with the new mirrored cache cpu module and protect against ecache parity bug.  Reconfigure the disk layout.
+Backout: Fall back to old cpus
+Restore the disk layout restore to old configuration
+Contact(s): 	Malcolm Wells   713-345-3716 		    		    		    				    		    		    				    		    		    				    		    		    		
+Impact:  CORP
+Time:  Sat 10/20/2001 at    1:00:00 PM CT thru Sat 10/20/2001 at  5:00:00 PM CT
+	Sat 10/20/2001 at  11:00:00 AM PT thru Sat 10/20/2001 at  3:00:00 PM PT
+	Sat 10/20/2001 at  7:00:00 PM London thru Sat 10/20/2001 at  11:00:00 PM London
+Outage:  Patching and reboot of app server quark.
+Environments Impacted:  EnLighten
+Purpose: Patching and reboot needed to address file system automount issues.
+Backout: No back out.  Task has to be completed.
+Contact(s): 	Malcolm Wells    713-345-3716
+		    		    		    		
+Impact:  CORP
+Time:  Sat 10/20/2001 at  12:00:00 PM CT thru Sat 10/20/2001 at  6:00:00 PM CT
+	Sat 10/20/2001 at  10:00:00 AM PT thru Sat 10/20/2001 at  4:00:00 PM PT
+	Sat 10/20/2001 at  6:00:00 PM London thru Sun 10/21/2001 at  12:00:00 AM London
+Outage:  Sombra cpu upgrade for server neptune.
+Environments Impacted:  TAGG
+Purpose: Improve reliability with the new mirrored cache cpu module and protect against ecache parity bug.
+Backout: regress to old boards
+Contact(s): 	Malcolm Wells       713-345-3716
+
+Impact:  CORP
+Time:  Sun 10/21/2001 at  10:00:00 AM CT thru Sun 10/21/2001 at    2:00:00 PM CT
+	Sun 10/21/2001 at    8:00:00 AM PT thru Sun 10/21/2001 at  12:00:00 PM PT
+	Sun 10/21/2001 at  4:00:00 PM London thru Sun 10/21/2001 at  8:00:00 PM London
+Outage:  Memory upgrade for server emerald.
+Environments Impacted:  CAS
+Purpose: Add resources for growth and performance.
+Backout: Pull new memory and reboot under the old configuration.
+Contact(s): 	Malcolm Wells   713-345-3716 
+		    		    		    		
+Impact:  CORP
+Time:  Sat 10/20/2001 at  6:00:00 PM CT thru Sat 10/20/2001 at  9:00:00 PM CT
+	Sat 10/20/2001 at  4:00:00 PM PT thru Sat 10/20/2001 at  7:00:00 PM PT
+	Sun 10/21/2001 at  12:00:00 AM London thru Sun 10/21/2001 at  3:00:00 AM London
+Outage:  Sombra cpu upgrade for server spectre.
+Environments Impacted:  BOND / Global Products
+Purpose:  Improve reliability with the new mirrored cache cpu module and protect against ecache parity bug
+Backout: regress to old boards
+Contact(s): 	Malcolm Wells    713-345-3716
+		    		    		    		
+Impact:  CORP
+Time:  Sat 10/20/2001 at  6:00:00 PM CT thru Sun 10/21/2001 at  6:00:00 AM CT
+	Sat 10/20/2001 at  4:00:00 PM PT thru Sun 10/21/2001 at  4:00:00 AM PT
+	Sun 10/21/2001 at  12:00:00 AM London thru Sun 10/21/2001 at  12:00:00 PM London
+Outage:  Test/Dev maintenance for multiple servers.
+Environments Impacted:  All ENW test and dev environments
+Purpose: General maintenance window for ENW Test and Development servers.  See the list below.
+Backout: roll back to any original configuration.
+Contact(s): 	Malcolm Wells    713-345-3716
+ 
+SITARA:  No Scheduled Outages.
+
+SUN/OSS SYSTEM: No Scheduled Outages.
+
+TELEPHONY: 
+Impact:  CORP
+Time:  Sat 10/20/2001 at  11:00:00 AM CT thru Sat 10/20/2001 at  12:00:00 PM CT
+	Sat 10/20/2001 at    9:00:00 AM PT thru Sat 10/20/2001 at  10:00:00 AM PT
+	Sat 10/20/2001 at  5:00:00 PM London thru Sat 10/20/2001 at  6:00:00 PM London
+Outage:  Telephony Apps IP Switch Replacement
+Environments Impacted:  All
+Purpose: Replace old 2924 switch (Token Ring config) with 2 new 2948s to minimize the exposure to critical telephony applications in the event of IP switch failure.  New switches can also be added to the Paging System.  Critical telephony applications currently sharing 1 switch include all voice mail.  Loss of network connectivity would prevent anyone from accessing their messages. 
+Backout: Revert to old switches.
+Contact(s): 	Rebecca Sutherland    713-345-7192
+		Bruce Mikulski              713-853-7409
+		George Nguyen            713-853-0691 
+TERMINAL SERVER:  No Scheduled Outages.
+
+UNIFY:  No Scheduled Outages.
+ 
+SCHEDULED SYSTEM OUTAGES: LONDON 
+Impact:  CORP
+Time:  Fri 10/19/2001 at  6:00:00 PM CT thru Sat 10/20/2001 at  9:00:00 PM CT
+	Fri 10/19/2001 at  4:00:00 PM PT thru Sat 10/20/2001 at  7:00:00 PM PT
+	Sat 10/20/2001 at  12:00:00 AM London thru Sun 10/21/2001 at  3:00:00 AM London
+Outage:  Complete Powerdown of the London Office
+Environments Impacted:  All
+Purpose: To complete the final works and testing to install a third generator in Enron House
+Backout: Switch all equipment back on once power has been restored.
+Contact(s): 	Tracy Pearson   830-34238 London Tie Line 
+ 
+-----------------------------------------------------------------------------------------------------------------------------
+								FOR ASSISTANCE
+
+(713) 853-1411   Enron Resolution Center
+
+
+Specific Help:
+Information Risk Management			(713) 853-5536
+SAP/ISC                                                                               (713) 345-4727
+Unify On-Call 					(713) 284-3757  [Pager]
+Sitara On-Call					(713) 288-0101  [Pager]
+RUS/GOPS/GeoTools/APRS			(713) 639-9726  [Pager]
+OSS/UA4/TARP				(713) 285-3165  [Pager]
+CPR						(713) 284-4175  [Pager]
+EDI Support 					(713) 327-3893  [Pager]
+EES Help Desk					(713)853-9797 OR (888)853-9797
+TDS -Trader Decision Support On-Call                    (713) 327-6032 [Pager]

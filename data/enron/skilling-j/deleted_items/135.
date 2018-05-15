@@ -1,0 +1,129 @@
+Message-ID: <23498631.1075852649347.JavaMail.evans@thyme>
+Date: Thu, 26 Jul 2001 14:52:55 -0700 (PDT)
+From: 40enron@enron.com
+Subject: Weekend Outage Report for 7-27-01 through 7-30-01
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Enron Change Management Announcement@ENRON <IMCEANOTES-Enron+20Change+20Management+20Announcement+40ENRON@ENRON.com>
+X-To: Houston Outage Report@ENRON
+X-cc: 
+X-bcc: 
+X-Folder: \JSKILLIN (Non-Privileged)\Deleted Items
+X-Origin: Skilling-J
+X-FileName: JSKILLIN (Non-Privileged).pst
+
+
+------------------------------------------------------------------------------------------------------
+W E E K E N D   S Y S T E M S   A V A I L A B I L I T Y
+
+F O R
+
+July 27, 2001 5:00pm through July 30, 2001 12:00am
+------------------------------------------------------------------------------------------------------
+
+
+SCHEDULED SYSTEM OUTAGES: 
+
+ARDMORE DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+AZURIX: No Scheduled Outages.
+
+EB34 DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+EDI SERVER: No Scheduled Outages.
+
+ENRON CENTER SOUTH DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages
+
+ENRON NORTH AMERICAN LANS: 
+Impact:  ETS
+Time:  Fri 7/27/2001 at  10:30:00 PM CT thru Fri 7/27/2001 at  11:30:00 PM CT
+	Fri 7/27/2001 at    8:30:00 PM PT thru Fri 7/27/2001 at    9:30:00 PM PT
+	Sat 7/28/2001 at  4:30:00 AM London thru Sat 7/28/2001 at  5:30:00 AM London
+Outage:  Reconfigure switches on 172.30.10.0 network
+Environments Impacted:  ETS
+Purpose: Need gig links to Enron network due to installation of SAN at Ardmore.  Currently using 100Mbps.
+Backout: Put switch configuration back to original state.
+Contact(s): 	Mary Vollmer        713-853-3381
+		George Nguyen    713-853-0691
+
+Impact:  EBS Wireless
+Time:  Sat 7/28/2001 at    2:00:00 PM CT thru Sat 7/28/2001 at  5:00:00 PM CT
+	Sat 7/28/2001 at  12:00:00 PM PT thru Sat 7/28/2001 at  3:00:00 PM PT
+	Sat 7/28/2001 at  8:00:00 PM London thru Sat 7/28/2001 at  11:00:00 PM London
+Outage:  EBS Wireless Migration to Corp Switches
+Environments Impacted:  Wireless users on EBS floors ECN
+Purpose: To start merger of EBS/Corp networks as one
+Backout: Reverse chages back to current cores
+Contact(s): 	Jason Kilgo    713-345-3198
+
+FIELD SERVICES:  No Scheduled Outages.
+
+INTERNET: No Scheduled Outages.
+
+MESSAGING: No Scheduled Outages.
+
+MARKET DATA: No Scheduled Outages.
+
+NT: No Scheduled Outages.
+
+OS/2:  No Scheduled Outages.
+
+OTHER SYSTEMS: 
+Impact:  CORP
+Time:  Sat 7/28/2001 at  10:00:00 AM CT thru Sat 7/28/2001 at     2:00:00 PM CT
+	Sat 7/28/2001 at    8:00:00 AM PT thru Sat 7/28/2001 at  12:00:00 PM PT
+	Sat 7/28/2001 at  4:00:00 PM London thru Sat 7/28/2001 at  8:00:00 PM London
+Outage:  Sombra cpu upgrade for server zeus.
+Environments Impacted:  none 
+Purpose: Replace existing cpus with new mirrored cache modules that protect against ecache parity errors.
+Backout: None
+Contact(s): 	Malcolm Wells  713-345-3716  
+		    		    		
+Impact:  CORP
+Time:  Fri 7/27/2001 at  9:00:00 AM CT thru Sun 7/29/2001 at  6:00:00 PM CT
+	Fri 7/27/2001 at  7:00:00 AM PT thru Sun 7/29/2001 at  4:00:00 PM PT
+	Fri 7/27/2001 at  3:00:00 PM London thru Mon 7/30/2001 at  12:00:00 AM London
+Outage:  Development database migration from dev server autonoms to diablo.
+Environments Impacted:  OFS, ECM, PEP, SEM Development
+Purpose: Migrate databases (ofstest semtest peptest ecmibank) to new more robust server so autonoms can be decomissioned and rebuilt for redeployment.
+Backout: None
+Contact(s): 	Malcolm Wells    713-345-3716
+
+Impact:  EBS
+Time:  Sat 7/28/2001 at  10:00:00 PM CT thru Sat 7/28/2001 at  10:30:00 PM CT
+	Sat 7/28/2001 at    8:00:00 PM PT thru Sat 7/28/2001 at    8:30:00 PM PT
+	Sun 7/29/2001 at  4:00:00 AM London thru Sun 7/29/2001 at  4:30:00 AM London
+Outage:  EBS Lotus Notes servers reboots
+Environments Impacted:  EBS
+Purpose: EBS DNS will be going offline next week
+Backout: return to orginal settings
+Contact(s): 	Mark Jordan  713-562-4247  
+
+SITARA:  No Scheduled Outages.
+
+SUN/OSS SYSTEM: No Scheduled Outages.
+
+TELEPHONY: No Scheduled Outages
+
+TERMINAL SERVER:  No Scheduled Outages.
+
+UNIFY:  No Scheduled Outages.
+
+----------------------------------------------------------------------------------------------------------------------------
+								FOR ASSISTANCE
+
+(713) 853-1411   Enron Resolution Center
+
+
+Specific Help:
+Information Risk Management			(713) 853-5536
+SAP/ISC                                                                               (713) 345-4727
+Unify On-Call 					(713) 284-3757  [Pager]
+Sitara On-Call					(713) 288-0101  [Pager]
+RUS/GOPS/GeoTools/APRS			(713) 639-9726  [Pager]
+OSS/UA4/TARP				(713) 285-3165  [Pager]
+CPR						(713) 284-4175  [Pager]
+EDI Support 					(713) 327-3893  [Pager]
+EES Help Desk					(713)853-9797 OR (888)853-9797
+TDS -Trader Decision Support On-Call                    (713) 327-6032 [Pager]

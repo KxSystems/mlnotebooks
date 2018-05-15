@@ -1,0 +1,214 @@
+Message-ID: <31313439.1075852673041.JavaMail.evans@thyme>
+Date: Thu, 20 Sep 2001 14:40:32 -0700 (PDT)
+From: 40enron@enron.com
+Subject: Weekend Outage Report for 9-21-01 through 9-23-01
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Enron Change Management Announcement@ENRON <IMCEANOTES-Enron+20Change+20Management+20Announcement+40ENRON@ENRON.com>
+X-To: Houston Outage Report@ENRON
+X-cc: 
+X-bcc: 
+X-Folder: \JSKILLIN (Non-Privileged)\Inbox
+X-Origin: Dasovich-J
+X-FileName: JDASOVIC (Non-Privileged).pst
+
+
+
+------------------------------------------------------------------------------------------------------
+W E E K E N D   S Y S T E M S   A V A I L A B I L I T Y
+
+F O R
+
+September 21, 2001 5:00pm through September 24, 2001 12:00am
+------------------------------------------------------------------------------------------------------
+		    		    		    		
+		    				    		    		    				    		    				   		    		    			    		    		    		
+SCHEDULED SYSTEM OUTAGES: 
+
+ARDMORE DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+AZURIX: No Scheduled Outages.
+
+EB34 DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages.
+
+EDI SERVER: 
+Impact:  CORP
+Time:  Sat 9/22/2001 at  6:00:00 PM CT thru Sun 9/23/2001 at  3:00:00 AM CT
+	Sat 9/22/2001 at  4:00:00 PM PT thru Sun 9/23/2001 at  1:00:00 AM PT
+	Sun 9/23/2001 at  12:00:00 AM London thru Sun 9/23/2001 at  9:00:00 AM London
+Outage:  Upgrade EDINET
+Environments Impacted:  Corp
+Purpose: Improve reliability, performance, and increase information output.
+Backout: 1. Switch IP DNS Entries for the Corp Domain for edinet.enron.com and ecnet.enron.com back to the original state
+2. Restore database tables for edi_hub systems.   
+3. Switch IP DNS Entries for the Corp Domain for edinet.enron.com and ecnet.enron.com.
+4. Save old code and script changes and install new code and configure new code from edi_qa.
+Contact(s): 	John Kratzer  713-345-7672  
+		Jack Metkus  713-853-0362  713-288-0743
+ 
+ENRON CENTER SOUTH DATA CENTER - FACILITY OPERATIONS: No Scheduled Outages
+
+ENRON NORTH AMERICAN LANS:  
+Impact:  EBS
+Time:  Sat 9/22/2001 at  7:00:00 AM CT thru Sat 9/22/2001 at  9:00:00 AM CT
+	Sat 9/22/2001 at  5:00:00 AM PT thru Sat 9/22/2001 at  7:00:00 AM PT
+	Sat 9/22/2001 at  1:00:00 PM London thru Sat 9/22/2001 at  3:00:00 PM London
+Outage:  Add network cards to (acta/oss/ossdw/fact) ebs cluster servers owl & osprey.
+Environments Impacted:  acta/oss/ossdw/fact
+Purpose: The network cards that are being added were not available at the time of implementation.
+Backout: Reboot the server without the hardware proposed to be added
+Contact(s): 	Malcolm Wells    713-345-3716 
+ 
+FIELD SERVICES:  No Scheduled Outages.
+
+INTERNET: 
+Impact:  CORP
+Time:  Fri 9/21/2001 at  10:30:00 PM CT thru Sat 9/22/2001 at  12:15:00 AM CT
+	Fri 9/21/2001 at    8:30:00 PM PT thru  Fri 9/21/2001 at  10:15:00 PM PT
+	Sat 9/22/2001 at  4:30:00 AM London thru Sat 9/22/2001 at  6:15:00 AM London
+Outage:  Upgrade Enron.com infrastructure
+Environments Impacted:  All
+Purpose: Standardization and address high peak Internet utilization
+Backout: Replace with original equipment
+Contact(s): 	Chris Trota    713-345-1697
+ 
+MESSAGING: 
+Impact:  Corp Notes
+Time:  Fri 9/21/2001 at  9:00:00 PM CT thru Sat 9/22/2001 at   1:00:00 AM CT
+	Fri 9/21/2001 at  7:00:00 PM PT thru Fri 9/21/2001 at  11:00:00 PM PT
+	Sat 9/22/2001 at  3:00:00 AM London thru Sat 9/22/2001 at 7:00:00 AM London
+Outage:  cNotes Server Reboots
+Environments Impacted:  All users on any of the mailservers listed below
+Purpose: Scheduled @ 2 week interval
+Backout: Make sure server comes up.
+Contact(s): 	Trey Rhodes  (713) 345-7792  
+		    		    		    		
+Impact:  EI
+Time:  Fri 9/21/2001 at  9:00:00 PM CT thru Sat 9/22/2001 at   1:00:00 AM CT
+	Fri 9/21/2001 at  7:00:00 PM PT thru Fri 9/21/2001 at  11:00:00 PM PT
+	Sat 9/22/2001 at  3:00:00 AM London thru Sat 9/22/2001 at 7:00:00 AM London
+Outage:  EI Notes Server Maintenance
+Environments Impacted:  EI Local/Domestic/Foreign Sites
+Purpose: Scheduled @ 2 week interval
+Backout: N/A
+Contact(s): 	David Ricafrente    713-646-7741
+ 
+MARKET DATA: No Scheduled Outages.
+
+NT: No Scheduled Outages.
+
+OS/2:  No Scheduled Outages.
+
+OTHER: 
+Impact:  CORP
+Time:  Fri 9/21/2001 at  5:00:00 PM CT thru Fri 9/21/2001 at  6:00:00 PM CT
+	Fri 9/21/2001 at  3:00:00 PM PT thru Fri 9/21/2001 at  4:00:00 PM PT
+	Fri 9/21/2001 at  11:00:00 PM London thru Sat 9/22/2001 at  12:00:00 AM London
+Outage:  Server Move
+Environments Impacted:  Corp, SysAdmiral
+Purpose: Server is currently in an unreliable rack and will be moved
+Backout: Move the Server Back
+Contact(s): 	Ryan Brennan  713-853-4545  
+		Joe Sanchez  713-286-5051  
+		    		    		
+Impact:  CORP
+Time:  Fri 9/21/2001 at  11:00:00 PM CT thru Fri 9/21/2001 at  11:30:00 PM CT
+	Fri 9/21/2001 at    9:00:00 PM PT thru Fri 9/21/2001 at    9:30:00 PM PT
+	Sat 9/22/2001 at  5:00:00 AM London thru Sat 9/22/2001 at  5:30:00 AM London
+Outage:  Reboot nahou-appr1 and nahou-appr2
+Environments Impacted:  Corp. Sitara, CMS, Equity trading systems (R:\eqpm directory), Adaytum, CQG, TMS, PowerMap Europe, PowerDat Europe, MapInfo Professional, Secretariat
+Purpose: Need to reboot servers to get NET IQ functioning for monitoring purposes. All applications residing on the R: drive will be temporarily unavailable from Friday, September 21, 2001 at 11:00 P.M. until 11:30 PM for users logging into the CORP domain serviced by Enron Net Works.  The outage is needed to perform required system maintenance updates and give us better monitoring ability to ensure consistent and  efficient operations.
+Backout: no backout plan
+Contact(s): 	Michael S White  713-853-9001  (887)687-7024
+		    		    		    		
+Impact:  CORP
+Time:  Fri 9/21/2001 at  7:00:00 PM CT thru Fri 9/21/2001 at  9:00:00 PM CT
+	Fri 9/21/2001 at  5:00:00 PM PT thru Fri 9/21/2001 at  7:00:00 PM PT
+	Sat 9/22/2001 at  1:00:00 AM London thru Sat 9/22/2001 at  3:00:00 AM London
+Outage:  Reboot HR DataWarehouse SAN Switches
+Environments Impacted:  All. Hr applications namely eHRonline, GCS, HRGlobal, Expertfinder
+Purpose: SAN switches need to be rebooted.
+Backout: 
+Contact(s): 	Brandon Bangerter    713-345-4904
+		Mark Calkin                713-345-7831  
+		Raj Perubhatla          713-345-8016  281-788-9307
+		    				    		    		    				    		    		
+Impact:  EBS
+Time:  Sat 9/22/2001 at  7:00:00 AM CT thru Sat 9/22/2001 at  3:00:00 PM CT
+	Sat 9/22/2001 at  5:00:00 AM PT thru Sat 9/22/2001 at  1:00:00 PM PT
+	Sat 9/22/2001 at  1:00:00 PM London thru Sat 9/22/2001 at  9:00:00 PM London
+Outage:  Migrate EBS Databases Cptrprod, Fibrprod, & Ipnprod
+Environments Impacted:  EBS
+Purpose: Migrate EBS Databases into ENW infrastructure environment
+Backout: Switch back to previous database servers
+Contact(s): 	Scott Williamson    713-853-6792
+		Jim Robertson       713.345.6905  712.854.7910
+		    		    		
+Impact:  CORP
+Time:  Sat 9/22/2001 at  5:00:00 PM CT thru Sat 9/22/2001 at  6:00:00 PM CT
+	Sat 9/22/2001 at  3:00:00 PM PT thru Sat 9/22/2001 at  4:00:00 PM PT
+	Sat 9/22/2001 at  11:00:00 PM London thru Sun 9/23/2001 at  12:00:00 AM London
+Outage:  Move Ecttor-fs1 into the Corp Domain
+Environments Impacted:  Corp Toronto
+Purpose: 
+Backout: NA
+Contact(s): 	Clayton Rondeau    403-974-6904
+		    		    		    		
+Impact:  CORP
+Time:  Sat 9/22/2001 at  7:00:00 PM CT thru Sat 9/22/2001 at  8:00:00 PM CT
+	Sat 9/22/2001 at  5:00:00 PM PT thru Sat 9/22/2001 at  6:00:00 PM PT
+	Sun 9/23/2001 at  1:00:00 AM London thru Sun 9/23/2001 at  2:00:00 AM London
+Outage:  Move Ecttor-ln1 into the Corp domain
+Environments Impacted:  Corp Toronto
+Purpose: 
+Backout: NA
+Contact(s): 	Clayton Rondeau    403-974-6904
+		    		    		    		
+Impact:  CORP
+Time:  Sun 9/23/2001 at  8:00:00 PM CT thru Sun 9/23/2001 at  10:00:00 PM CT
+	Sun 9/23/2001 at  6:00:00 PM PT thru Sun 9/23/2001 at    8:00:00 PM PT
+	Mon 9/24/2001 at  2:00:00 AM London thru Mon 9/24/2001 at  4:00:00 AM London
+Outage:  rmancat relocation
+Environments Impacted:  Corp
+Purpose: Consolidation of all infrastructure products. To provide better stability for backup catalog.
+Backout: Restart original rmancat database and recopy name.ora file then bounce the onames server.
+Contact(s): 	Emmett Cleveland   713-345-3873 
+		    		    		    		
+Impact:  CORP
+Time:  Sun 9/23/2001 at  8:00:00 AM CT thru Sun 9/23/2001 at  10:00:00 AM CT
+	Sun 9/23/2001 at  6:00:00 AM PT thru Sun 9/23/2001 at    8:00:00 AM PT
+	Sun 9/23/2001 at  2:00:00 PM London thru Sun 9/23/2001 at  4:00:00 PM London
+Outage:  Relocate the EBU catalog database
+Environments Impacted:  ENA
+Purpose: Consolidation of infrastructure products.  To provide better stability for backups of 7.3.4 Oracle databases.
+Backout: Re-open the database on neutron.
+Contact(s): 	Charlene Fricker    713-345-3487
+ 
+SITARA:  No Scheduled Outages.
+
+SUN/OSS SYSTEM: No Scheduled Outages.
+
+TELEPHONY: No Scheduled Outages
+
+TERMINAL SERVER:  No Scheduled Outages.
+
+UNIFY:  No Scheduled Outages.
+
+-----------------------------------------------------------------------------------------------------------------------------
+								FOR ASSISTANCE
+
+(713) 853-1411   Enron Resolution Center
+
+
+Specific Help:
+Information Risk Management			(713) 853-5536
+SAP/ISC                                                                               (713) 345-4727
+Unify On-Call 					(713) 284-3757  [Pager]
+Sitara On-Call					(713) 288-0101  [Pager]
+RUS/GOPS/GeoTools/APRS			(713) 639-9726  [Pager]
+OSS/UA4/TARP				(713) 285-3165  [Pager]
+CPR						(713) 284-4175  [Pager]
+EDI Support 					(713) 327-3893  [Pager]
+EES Help Desk					(713)853-9797 OR (888)853-9797
+TDS -Trader Decision Support On-Call                    (713) 327-6032 [Pager]
