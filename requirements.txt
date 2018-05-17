@@ -1,33 +1,11 @@
-#neural nets
 Keras==2.0.9
 scikit_learn==0.19.1
-
-#Dimemsionality reduction
 numpy==1.14.0
-matplotlib==2.1.1
-Keras==2.0.9
-scikit_learn==0.19.1
-
-#kNN
-numpy==1.14.0
-scikit_learn==0.19.1
-
-#FE
-Keras==2.0.9
-numpy==1.14.0
-scikit_learn==0.19.1
-
-#Decision trees
-numpy==1.14.0
+matplotlib==2.1.2
 scipy==1.0.0
-graphviz==0.5.2
-scikit_learn==0.19.1
-xgboost==0.7.post3
-
-#Random forests
-numpy==1.14.0
+graphviz
+xgboost
 pandas==0.20.3
-scikit_learn==0.19.1
-xgboost==0.7.post3
-
-
+tensorflow-gpu
+beatifulsoup4
+spacy
