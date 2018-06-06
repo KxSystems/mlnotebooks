@@ -7,5 +7,5 @@ graphviz
 xgboost
 pandas==0.20.3
 tensorflow-gpu
-beatifulsoup4
+beautifulsoup4
 spacy
