@@ -11,3 +11,18 @@ The following notebooks provide examples that bring together these concepts and 
 * **ML05 Decision Trees**: A decision tree is trained to detect if a patient has either benign or malignant cancer. The performance of the model is measured by computing the confusion matrix and the ROC curve.
 * **ML06 Random Forests**: Random Forest and XGBoost classifiers are trained to identify satisfied and unsatisfied bank clients. Different parameters are tuned and tested and the classifier performance is evaluated using the ROC curve.
 * **ML07 Natural Language Processing**: Parsing, clustering, sentiment analysis and outlier detection are demonstated on a range of corpora, including the novel *Moby Dick*, the emails of the Enron CEOs, and the 2014 IEEE Vast Challenge articles.
+
+## Docker
+A prebuilt docker image is available with all the dependencies installed. If you have [Docker installed](https://www.docker.com/community-edition) run it with:
+
+	docker run -it -p 8888:8888 --name mymlnotebooks kxsys/mlnotebooks
+
+Now point your browser at http://localhost:8888/tree/notebooks/
+
+For subsequent runs, you will not be prompted to redo the license setup when calling:
+
+	docker start -ai mymlnotebooks
+
+
+**N.B.** [build instructions for the image are available](docker/README.md)
+

@@ -1,0 +1,26 @@
+language: c
+os:
+- linux
+git:
+  depth: 1
+jobs:
+  include:
+    - stage: docker
+      sudo: required
+      services:
+        - docker
+      script:
+        - docker build -t kxsys/mlnotebooks:latest -f docker/Dockerfile .
+        - docker tag kxsys/mlnotebooks:latest kxsys/mlnotebooks:$TRAVIS_BRANCH
+      deploy:
+        provider: script
+        script:
+          - echo $DOCKER_PASSWORD|docker login --username $DOCKER_USERNAME --password-stdin && docker push kxsys/mlnotebooks:latest && docker push kxsys/mlnotebooks:$TRAVIS_BRANCH
+        skip_cleanup: true
+        on:
+          tags: true
+          condition: $TRAVIS_BRANCH =~ ^[0-9]+\.
+notifications:
+  slack:
+   secure: "D7R6fdEL3V2vn39LEQFvhYR4Du7YbfwKSAeIxkENpp3uNSrS9jGNR57lZJlE6Rhjgi5oJre0FiIJZkFi7O1d9sX/lC1Df0kjlm7fNipyKNNddTPJAHYnQX9m+hTaOn6X7ckAt029gI7IaLyiQ2II8VlCbnN9Dur24WtE38sygolXk7rmmz8iFOmDMq/s9dDIl8zk5oiuiqnQA3qb9jlCrqzdjO6oyZNTPFro5AhSM2OWk+DiKt5uTw0EjzBR6vd8GT6AqvxRLv9KrGw9IPGKV+CetyxtTeKca9gIoYrvzYM4zz0ueUaAp+SnN3ZpCh+rn4l+Dhy7muegcDl5JHy9MDWZxMLixVcBoXsoxZ9lxeQeLfXwH/ypY1bBIDbWqCXV3ttkpPaavFxHKJm8U7WUTvaenHBs7DWjQ1BZTi3GuK3nmd1LGcq7WJADdOcB7NPVn7YbKYfzrQI8UK3maEfrbSHrMD+eDzEW/XaNOY1RHGhWc+TM7nfdjJHdYrvyu1NcbGKfQfml9xEd9cZ0Bu9X3hz/qlkVobARX4Xx0sWfGhWfcG16acDZXNBE0KLsMeUGDM4rC/co+eWj9ihYDH1sbKMRdZsruCUSAQ5rT7WvCdHd2w2LRFa1KyCTKyRBFLCJ+xEIaatvUHC9nt9RowMPUrg/5YpQqfrxkXjv/fPsK00="
+
