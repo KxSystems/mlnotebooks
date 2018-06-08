@@ -19,7 +19,7 @@ The following notebooks provide examples that bring together these concepts and 
 - [jupyterq](https://github.com/KxSystems/jupyterq)
 - [nlp library](https://github.com/KxSystems/nlp)
 
-
+#### Dependencies
 Install the Python dependencies with
 
 pip
