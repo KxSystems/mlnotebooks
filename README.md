@@ -12,6 +12,26 @@ The following notebooks provide examples that bring together these concepts and 
 * **ML06 Random Forests**: Random Forest and XGBoost classifiers are trained to identify satisfied and unsatisfied bank clients. Different parameters are tuned and tested and the classifier performance is evaluated using the ROC curve.
 * **ML07 Natural Language Processing**: Parsing, clustering, sentiment analysis and outlier detection are demonstated on a range of corpora, including the novel *Moby Dick*, the emails of the Enron CEOs, and the 2014 IEEE Vast Challenge articles.
 
+## Requirements 
+- kdb+>=? v3.5 64-bit
+- Anaconda Python 3.x
+- [embedPy](https://github.com/KxSystems/embedPy)
+- [jupyterq](https://github.com/KxSystems/jupyterq)
+- [nlp library](https://github.com/KxSystems/nlp)
+
+#### Dependencies
+Install the Python dependencies with
+
+pip
+```bash
+pip install -r requirements.txt
+```
+or with conda
+```bash
+conda install --file requirements.txt
+```
+**N.B.** Graphviz requires to be installed with conda and pip. Please check this [notebook](https://github.com/KxSystems/mlnotebooks/blob/master/notebooks/ML05%20Decision%20Trees.ipynb) for further details. 
+
 ## Docker
 A prebuilt docker image is available with all the dependencies installed. If you have [Docker installed](https://www.docker.com/community-edition) run it with:
 
