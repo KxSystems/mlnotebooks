@@ -30,6 +30,13 @@ or with conda
 ```bash
 conda install --file requirements.txt
 ```
+
+One additional requirement is to conda install `xgboost` through `py-xgboost`. This must be done through conda given the absence of an equivalent within pip. The install of `xgboost` in the form `py-xgboost` is used as it works on Linux, Windows and Mac. The command to do so is as follows
+
+```bash
+conda install -c anaconda py-xgboost
+```
+
 **N.B.** Graphviz requires to be installed with conda and pip. Please check this [notebook](https://github.com/KxSystems/mlnotebooks/blob/master/notebooks/ML05%20Decision%20Trees.ipynb) for further details. 
 
 ## Docker
