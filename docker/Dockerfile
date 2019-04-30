@@ -51,13 +51,14 @@ RUN chown -R kx:kx /opt/kx/mlnotebooks
 
 USER kx
 # jupyterq is the base, install requirements for nlp and mlnotebooks
-RUN . /opt/conda/etc/profile.d/conda.sh \
-	&& conda activate kx \
-	&& conda install --file /opt/kx/nlp/requirements.txt \
-	&& pip install -r /opt/kx/mlnotebooks/requirements.txt \
-	&& conda install -c anaconda graphviz \
-	&& conda clean -y --all \
-	&& python -m spacy download en
+RUN . /opt/conda/etc/profile.d/conda.sh
+RUN conda activate kx
+RUN pip install --upgrade setuptools
+RUN conda install --file /opt/kx/nlp/requirements.txt
+RUN pip install -r /opt/kx/mlnotebooks/requirements.txt
+RUN conda install -c anaconda graphviz
+RUN conda clean -y --all
+RUN python -m spacy download en
 
 USER root
 
