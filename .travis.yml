@@ -4,7 +4,6 @@ os:
 git:
   depth: 1
 
-
 jobs:
   include:
     - stage: docker
@@ -12,7 +11,7 @@ jobs:
       services:
         - docker
       script:
-        - travis wait 30 docker build -t kxsys/mlnotebooks:latest -f docker/Dockerfile .
+        - travis_wait 30 docker build -t kxsys/mlnotebooks:latest -f docker/Dockerfile .
         - docker tag kxsys/mlnotebooks:latest kxsys/mlnotebooks:$TRAVIS_BRANCH
       deploy:
         provider: script
