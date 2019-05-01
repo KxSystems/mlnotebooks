@@ -3,7 +3,8 @@ os:
 - linux
 git:
   depth: 1
-install: travis_wait 30 mvn install
+
+
 jobs:
   include:
     - stage: docker
@@ -11,7 +12,7 @@ jobs:
       services:
         - docker
       script:
-        - docker build -t kxsys/mlnotebooks:latest -f docker/Dockerfile .
+        - travis wait 30 docker build -t kxsys/mlnotebooks:latest -f docker/Dockerfile .
         - docker tag kxsys/mlnotebooks:latest kxsys/mlnotebooks:$TRAVIS_BRANCH
       deploy:
         provider: script
