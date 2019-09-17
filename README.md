@@ -24,8 +24,6 @@ The contents of the notebooks are as follows:
 
 9. **K Nearest Neighbours**: The basic steps to follow in a standard machine learning problem previous to final model training are performed: features are scaled, data is split into training and test datasets and parameter tuning is done by measuring accuracy of a K-Nearest Neighbours model for different values of parameter K.
 
-10. **Clustering**: Examples of how to use algorithms in the ML clustering library are provided, with a comparison been all of the algorithms provided in the latter half of the notebook.
-
 ## Requirements 
 
 - kdb+>=? v3.5 64-bit
@@ -47,7 +45,7 @@ or with conda
 ```bash
 conda install --file requirements.txt
 ```
-**N.B.** Graphviz requires to be installed with conda and pip. Please check this [notebook](https://github.com/KxSystems/mlnotebooks/blob/master/notebooks/ML05%20Decision%20Trees.ipynb) for further details. 
+**N.B.** Additionally, [graphviz](http://www.graphviz.org/download/) must be installed on the system running the notebooks.
 
 ## Docker
 
