@@ -30,8 +30,8 @@ The contents of the notebooks are as follows:
 - Python 3.x
 - [embedPy](https://github.com/KxSystems/embedPy)
 - [JupyterQ](https://github.com/KxSystems/jupyterq)
-- [NLP library](https://github.com/KxSystems/nlp)
-- [ML-Toolkit](https://github.com/KxSystems/ml)
+- [NLP library](https://github.com/KxSystems/nlp) (v0.1.2)
+- [ML-Toolkit](https://github.com/KxSystems/ml) (v0.3.x)
 
 ### Dependencies
 
