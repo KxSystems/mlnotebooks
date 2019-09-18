@@ -1,7 +1,6 @@
 /imports
 .p.import[`warnings;`:filterwarnings]"ignore";
-np:.p.import`numpy
-npa:np`:array
+npa:.p.import[`numpy]`:array
 
 / funcs
 round:{y*"j"$x%y}
