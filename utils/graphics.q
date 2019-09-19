@@ -1,9 +1,54 @@
-// Import needed libraries
+.ml.loadfile`:util/init.q
+
+/ import libraries
 plt:.p.import`matplotlib.pyplot
-np:.p.import`numpy
+.p.import[`mpl_toolkits.mplot3d]`:Axes3D;
 itertools:.p.import`itertools
-rocCurve:roc
 display:{x y;}.p.import[`kxpy.kx_backend_inline;`:display]
+
+/ graphics functions
+
+displayCM:{[cm;classes;title;cmap]
+    
+    if[cmap~();cmap:plt`:cm.Blues];
+    subplots:plt[`:subplots][`figsize pykw 5 5];
+    fig:subplots[`:__getitem__][0];
+    ax:subplots[`:__getitem__][1];
+
+    ax[`:imshow][cm;`interpolation pykw`nearest;`cmap pykw cmap];
+    ax[`:set_title][`label pykw title];
+    tickMarks:til count classes;
+    ax[`:xaxis.set_ticks]tickMarks;
+    ax[`:set_xticklabels]classes;
+    ax[`:yaxis.set_ticks]tickMarks;
+    ax[`:set_yticklabels]classes;
+
+    thresh:max[raze cm]%2;
+    shape:.ml.shape cm;
+    {[cm;thresh;i;j]
+     plt[`:text][j;i;string cm[i;j];`horizontalalignment pykw`center;`color pykw $[thresh<cm[i;j];`white;`black]]
+     }[cm;thresh;;]. 'cross[til shape 0;til shape 1];
+    plt[`:xlabel]["Predicted Label";`fontsize pykw 12];
+    plt[`:ylabel]["Actual label";`fontsize pykw 12];
+    fig[`:tight_layout][];
+    plt[`:show][];}
+
+
+displayROC:{[y;yPredProb]
+
+    rocval:`frp`tpr!.ml.roc[y;yPredProb];
+    rocauc:.ml.rocaucscore[y;yPredProb];
+
+    plt[`:plot][rocval`frp;rocval`tpr;`color pykw`darkorange;`lw pykw 2;`label pykw"ROC (Area = ",string[rocauc],")"];
+    plt[`:plot][0 1;0 1;`color pykw`navy;`lw pykw 2;`linestyle pykw"--"];
+
+    plt[`:xlim]0 1;
+    plt[`:ylim]0 1.05;
+    plt[`:xlabel]"False Positive Rate";
+    plt[`:ylabel]"True Positive Rate";
+    plt[`:title]"Reciever operating characteristic example";
+    plt[`:legend][`loc pykw "lower right"];
+    plt[`:show][];}
 
 
 plotAccMSE:{[accuracy;valAccuracy;loss;valLoss]
@@ -32,56 +77,6 @@ plotAccMSE:{[accuracy;valAccuracy;loss;valLoss]
     plt[`:legend][`train`test;`loc pykw "right"];
     plt[`:show][];
  }
-
-
-displayROCcurve:{[y;yPredProb]
-
-    // calculating the roc curve and appending it to a dictionary
-    rocdict:`frp`tpr`x!rocCurve[y;yPredProb];
-    // calculating the auc value
-    rocAuc:auc[rocdict`frp; rocdict`tpr];
-
-
-    lw:2;
-    plt[`:plot][rocdict`frp;rocdict`tpr;`color pykw "darkorange";`lw pykw lw;`label pykw "ROC curve (Area = ",string[rocAuc]," )"];
-    plt[`:plot][0 1;0 1;`color pykw "navy";`lw pykw lw;`linestyle pykw "--"];
-
-    // customising the plot
-    plt[`:xlim][0 1];
-    plt[`:ylim][0 1.05];
-    plt[`:xlabel]["False Positive Rate"];
-    plt[`:ylabel]["True Positive Rate"];
-    plt[`:title]["Reciever operating characteristic example"];
-    plt[`:legend][`loc pykw "upper left"];
-    plt[`:show][];
- }
-
-
-displayCM:{[cm;classes;title;cmap]
-    
-    if[cmap~();cmap:plt`:cm.Blues];
-    subplots:plt[`:subplots][`figsize pykw 10 10];
-    fig:subplots[`:__getitem__][0];
-    ax:subplots[`:__getitem__][1];
-
-    ax[`:imshow][cm;`interpolation pykw `nearest;`cmap pykw cmap];
-    ax[`:set_title][`label pykw title];
-    tickMarks:til count classes;
-    ax[`:xaxis.set_ticks][tickMarks];
-    ax[`:set_xticklabels][classes];
-    ax[`:yaxis.set_ticks][tickMarks];
-    ax[`:set_yticklabels][classes];
-
-    thresh:(max raze cm)%2;
-    shp:shape cm;
-    {[cm;thresh;i;j] plt[`:text][j;i;(string cm[i;j]);`horizontalalignment pykw `center;`color pykw $[thresh<cm[i;j];`white;`black]]}[cm;thresh;;]. 'cross[til shp[0];til shp[1]];
-    plt[`:xlabel]["Predicted Label";`fontsize pykw 12];
-    plt[`:ylabel]["Actual label";`fontsize pykw 12];
-    fig[`:tight_layout][];
-    plt[`:show][];
-
- }
-
 
 
 plotGridSequences:{[sequences;labels;text;title]
@@ -133,4 +128,17 @@ plotAccXent:{[metrics]
         
     plt[`:legend][`train`test;`loc pykw "right"];
     plt[`:show][];
+ }
+
+plotprxpred:{
+    plt[`:close][]`;
+    plt[`:figure][`figsize pykw (15 5)]`;
+    plt[`:title][`$"Next day close price prediction"];
+    plt[`:plot][x;"r";`label pykw `$"real value"]`;
+    plt[`:plot][y;"k--";`label pykw `$"predicted value"]`;
+    plt[`:legend][]`;
+    plt[`:xlim][200;300]`;
+    plt[`:xlabel]["Random predicted date"];
+    plt[`:ylabel]["Close Price"];
+    plt[`:show][]`;
  }
