@@ -45,7 +45,11 @@ or with conda
 ```bash
 conda install --file requirements.txt
 ```
-**N.B.** Additionally, [graphviz](http://www.graphviz.org/download/) must be installed on the system running the notebooks.
+
+**N.B.** Additionally the following must be installed to ensure that all the notebooks can be run correctly.
+
+1. [graphviz](http://www.graphviz.org/download/) must be installed on the system running the notebooks.
+2. xgboost must be installed via either conda using the following command `conda install -c anaconda py-xgboost` or using the instructions provided here https://xgboost.readthedocs.io/en/latest/build.html
 
 ## Docker
 
