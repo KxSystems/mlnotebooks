@@ -1,5 +1,3 @@
-.ml.loadfile`:util/init.q
-
 / import libraries
 plt:.p.import`matplotlib.pyplot
 .p.import[`mpl_toolkits.mplot3d]`:Axes3D;
