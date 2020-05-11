@@ -140,19 +140,3 @@ plotprxpred:{
     plt[`:ylabel]["Close Price"];
     plt[`:show][]`;
  }
-
-featurebarplot:{[d]
- sub:plt[`:subplots].(1;n:count cd:cols d),`gridspec_kw pykw enlist[`wspace]!enlist 0.1;
- fig:sub[@;0];axs:sub[@;1];
- ax:{x[@;y]}[axs]each tn:til n;
- fig[`:set_figheight;7];
- fig[`:set_figwidth;20];
- {[d;c;a]
-  g:kg!g kg:asc key g:count each group d c;
-  a[`:bar][i:til cg:count g;value g];
-  a[`:set_xticks]i;
-  a[`:set_xticklabels]$[15<cg;"";string key g];
-  a[`:set_xlabel][c;`fontsize pykw 15];
-  a[`:set_ylabel]["no. of entries";`fontsize pykw 15];
-  a[`:label_outer][];}[d]'[cd;ax];
- plt[`:show][];}
