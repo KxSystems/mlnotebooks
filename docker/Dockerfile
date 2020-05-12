@@ -49,8 +49,7 @@ RUN apt-get -yy --no-install-recommends install build-essential \
 
 RUN chown -R kx:kx /opt/kx/mlnotebooks 
 
-RUN apt-get update && \
-      apt-get -y install sudo
+RUN apt-get install libfreetype6-dev
 
 USER kx
 # jupyterq is the base, install requirements for nlp and mlnotebooks
@@ -58,7 +57,6 @@ RUN . /opt/conda/etc/profile.d/conda.sh \
 	&& conda activate kx \
 	&& conda install --file /opt/kx/nlp/requirements.txt \
 	&& pip install --upgrade setuptools \
-	&& sudo apt-get install libfreetype6-dev \
 	&& pip install -r /opt/kx/mlnotebooks/requirements.txt \
 	&& conda install -c anaconda graphviz \
 	&& conda clean -y --all \
