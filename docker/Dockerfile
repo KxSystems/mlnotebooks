@@ -51,9 +51,6 @@ RUN chown -R kx:kx /opt/kx/mlnotebooks
 
 RUN apt-get update
 RUN apt-get install -yy --no-install-recommends \
-        libfreetype6-dev \
-        libjpeg62-turbo-dev \
-        libpng-dev \
 	pkg-config  
 
 USER kx
@@ -61,7 +58,6 @@ USER kx
 RUN . /opt/conda/etc/profile.d/conda.sh \
 	&& conda activate kx \
 	&& conda install --file /opt/kx/nlp/requirements.txt \
-	&& pip install --upgrade setuptools \
 	&& pip install -r /opt/kx/mlnotebooks/requirements.txt \
 	&& conda install -c anaconda graphviz \
 	&& conda clean -y --all \
