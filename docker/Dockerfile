@@ -49,7 +49,7 @@ RUN apt-get -yy --no-install-recommends install build-essential \
 
 RUN chown -R kx:kx /opt/kx/mlnotebooks 
 
-RUN apt-get install libfreetype6-dev
+RUN apt-get -y install libfreetype6-dev
 
 USER kx
 # jupyterq is the base, install requirements for nlp and mlnotebooks
