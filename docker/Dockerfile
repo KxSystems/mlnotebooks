@@ -53,7 +53,8 @@ RUN apt-get update
 RUN apt-get install -yy --no-install-recommends \
         libfreetype6-dev \
         libjpeg62-turbo-dev \
-        libpng-dev \
+        libpng-dev 
+
 USER kx
 # jupyterq is the base, install requirements for nlp and mlnotebooks
 RUN . /opt/conda/etc/profile.d/conda.sh \
