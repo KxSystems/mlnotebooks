@@ -1,4 +1,4 @@
-Keras
+Keras==2.0.9
 scikit-learn
 numpy
 matplotlib
