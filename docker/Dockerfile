@@ -49,17 +49,12 @@ RUN apt-get -yy --no-install-recommends install build-essential \
 
 RUN chown -R kx:kx /opt/kx/mlnotebooks 
 
-RUN apt-get update
-RUN apt-get install -yy --no-install-recommends \
-	pkg-config  
-
 USER kx
 # jupyterq is the base, install requirements for nlp and mlnotebooks
 RUN . /opt/conda/etc/profile.d/conda.sh \
 	&& conda activate kx \
 	&& conda install --file /opt/kx/nlp/requirements.txt \
 	&& conda install -c conda-forge --file /opt/kx/mlnotebooks/requirements.txt \
-	&& conda install -c anaconda graphviz \
 	&& conda clean -y --all \
 	&& python -m spacy download en
 
