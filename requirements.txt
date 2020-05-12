@@ -8,3 +8,4 @@ pandas==0.20.3
 tensorflow-gpu
 beautifulsoup4
 spacy
+
