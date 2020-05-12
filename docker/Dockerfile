@@ -54,7 +54,8 @@ USER kx
 RUN . /opt/conda/etc/profile.d/conda.sh \
 	&& conda activate kx \
 	&& conda install --file /opt/kx/nlp/requirements.txt \
-	&& pip install ez_setup \
+	&& pip install --upgrade setuptools \
+	&& apt-get install libfreetype6-dev \
 	&& pip install -r /opt/kx/mlnotebooks/requirements.txt \
 	&& conda install -c anaconda graphviz \
 	&& conda clean -y --all \
