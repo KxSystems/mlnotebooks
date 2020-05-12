@@ -49,8 +49,11 @@ RUN apt-get -yy --no-install-recommends install build-essential \
 
 RUN chown -R kx:kx /opt/kx/mlnotebooks 
 
-RUN apt-get -y install libfreetype6-dev
-
+RUN apt-get update
+RUN apt-get install -yy --no-install-recommends \
+        libfreetype6-dev \
+        libjpeg62-turbo-dev \
+        libpng-dev \
 USER kx
 # jupyterq is the base, install requirements for nlp and mlnotebooks
 RUN . /opt/conda/etc/profile.d/conda.sh \
