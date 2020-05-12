@@ -2,12 +2,10 @@
 
 ARG jupyterq_img=kxsys/jupyterq:latest
 ARG nlp_img=kxsys/nlp:latest
-ARG ml_img=kxsys/ml:latest
 
 ####
 FROM $nlp_img AS nlp
 FROM $jupyterq_img AS jupyterq
-FROM $ml_img AS ml
 
 FROM jupyterq AS mlnotebooks
 
@@ -29,8 +27,6 @@ EXPOSE ${port}/tcp
 
 COPY --from=nlp /opt/kx/nlp/ /opt/kx/nlp/
 COPY --from=nlp /opt/kx/q/nlp/ /opt/kx/q/nlp/
-COPY --from=ml /opt/kx/ml/ /opt/kx/ml/
-COPY --from=ml /opt/kx/q/ml/ /opt/kx/q/ml/
 
 ARG VCS_REF=dev
 ARG BUILD_DATE=dev
