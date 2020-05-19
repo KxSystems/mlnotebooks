@@ -2,9 +2,13 @@
 
 ARG jupyterq_img=kxsys/jupyterq:latest
 ARG nlp_img=kxsys/nlp:latest
+ARG ml_img=kxsys/ml:latest
+ARG automl_img=kxsys/automl:latest
 
 ####
 FROM $nlp_img AS nlp
+FROM $ml_img AS ml
+FROM $automl_img AS automl
 FROM $jupyterq_img AS jupyterq
 
 FROM jupyterq AS mlnotebooks
@@ -17,11 +21,12 @@ COPY utils/ /opt/kx/mlnotebooks/utils/
 #hack, better way, tensorflow-gpu should be used if possible
 RUN sed -i s/tensorflow-gpu/tensorflow/g /opt/kx/mlnotebooks/requirements.txt
 
+
 # do not clean here, its cleaned later!
 RUN apt-get update \
 	&& apt-get -yy update
 
-ARG port=8888
+ARG port=8080
 ENV PORT=${port}
 EXPOSE ${port}/tcp
 
@@ -52,15 +57,24 @@ RUN chown -R kx:kx /opt/kx/mlnotebooks
 USER kx
 # jupyterq is the base, install requirements for nlp and mlnotebooks
 RUN . /opt/conda/etc/profile.d/conda.sh \
-	&& conda activate kx \
+	&& conda activate kx \ 
 	&& conda install --file /opt/kx/nlp/requirements.txt \
 	&& conda update wrapt \
 	&& pip install -r /opt/kx/mlnotebooks/requirements.txt \
 	&& conda install -c anaconda graphviz \
+	&& pip install -r /opt/kx/ml/requirements.txt \
+	&& pip install -r /opt/kx/automl/requirements.txt \
 	&& conda clean -y --all \
 	&& python -m spacy download en
 
 USER root
 
+ARG nbroot=/opt/kx/mlnotebooks/notebooks
+ARG nbdata=/opt/kx/mlnotebooks/data
+ARG nbscripts=/opt/kx/mlnotebooks/notebooks
+
+ENV NBROOT=${nbroot}
+ENV NBDATA=${nbdata}
+ENV NBSCRIPTS=${nbscipts}
+
 ENTRYPOINT ["/init"]
-CMD ["/bin/sh", "-l", "-c", "printf '\npoint your browser at http://127.0.0.1:%s/tree/notebooks/\n\n' $PORT && exec jupyter notebook --notebook-dir=/opt/kx/mlnotebooks --ip='0.0.0.0' --port=$PORT --no-browser"]
