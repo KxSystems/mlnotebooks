@@ -38,6 +38,8 @@ COPY --from=ml /opt/kx/q/ml/ /opt/kx/q/ml/
 COPY --from=automl /opt/kx/automl/ /opt/kx/automl/
 COPY --from=automl /opt/kx/q/automl/ /opt/kx/q/automl/
 
+RUN echo $(ls -1 /opt/kx/q/)
+
 RUN echo $(ls -1 /opt/kx)
 
 ARG VCS_REF=dev
@@ -62,17 +64,17 @@ RUN apt-get -yy --no-install-recommends install build-essential \
 RUN chown -R kx:kx /opt/kx/mlnotebooks 
 
 USER kx
-# jupyterq is the base, install requirements for nlp and mlnotebooks
+# jupyterq is the base, install requirements for nlp, ml, automl and mlnotebooks
 RUN . /opt/conda/etc/profile.d/conda.sh \
-	&& conda activate kx \ 
-	&& conda install --file /opt/kx/nlp/requirements.txt \
-	&& conda update wrapt \
-	&& pip install -r /opt/kx/mlnotebooks/requirements.txt \
+	&& conda install --file /opt/kx/nlp/requirements.txt \ 
+	&& conda update wrapt \ 
+	&& pip install -r /opt/kx/mlnotebooks/requirements.txt 
 	&& conda install -c anaconda graphviz \
-	&& pip install -r /opt/kx/ml/requirements.txt \
+	&& pip install -r /opt/kx/ml/requirements.txt 
 	&& pip install -r /opt/kx/automl/requirements.txt \
 	&& conda clean -y --all \
-	&& python -m spacy download en
+	&& python -m spacy download en \
+	&& conda activate kx
 
 USER root
 
