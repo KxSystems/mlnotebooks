@@ -70,7 +70,7 @@ RUN . /opt/conda/etc/profile.d/conda.sh \
 	&& conda update wrapt \ 
 	&& pip install -r /opt/kx/mlnotebooks/requirements.txt \ 
 	&& conda install -c anaconda graphviz \
-	&& pip install -r /opt/kx/ml/requirements.txt 
+	&& pip install -r /opt/kx/ml/requirements.txt \
 	&& pip install -r /opt/kx/automl/requirements.txt \
 	&& conda clean -y --all \
 	&& python -m spacy download en \
