@@ -21,7 +21,6 @@ COPY utils/ /opt/kx/mlnotebooks/utils/
 #hack, better way, tensorflow-gpu should be used if possible
 RUN sed -i s/tensorflow-gpu/tensorflow/g /opt/kx/mlnotebooks/requirements.txt
 
-
 # do not clean here, its cleaned later!
 RUN apt-get update \
 	&& apt-get -yy update
@@ -32,6 +31,14 @@ EXPOSE ${port}/tcp
 
 COPY --from=nlp /opt/kx/nlp/ /opt/kx/nlp/
 COPY --from=nlp /opt/kx/q/nlp/ /opt/kx/q/nlp/
+
+COPY --from=ml /opt/kx/ml/ /opt/kx/ml/
+COPY --from=ml /opt/kx/q/ml/ /opt/kx/q/ml/
+
+COPY --from=automl /opt/kx/automl/ /opt/kx/automl/
+COPY --from=automl /opt/kx/q/automl/ /opt/kx/q/automl/
+
+RUN echo $(ls -1 /opt/kx)
 
 ARG VCS_REF=dev
 ARG BUILD_DATE=dev
