@@ -25,7 +25,7 @@ RUN sed -i s/tensorflow-gpu/tensorflow/g /opt/kx/mlnotebooks/requirements.txt
 RUN apt-get update \
 	&& apt-get -yy update
 
-ARG port=8080
+ARG port=8888
 ENV PORT=${port}
 EXPOSE ${port}/tcp
 
@@ -38,9 +38,6 @@ COPY --from=ml /opt/kx/q/ml/ /opt/kx/q/ml/
 COPY --from=automl /opt/kx/automl/ /opt/kx/automl/
 COPY --from=automl /opt/kx/q/automl/ /opt/kx/q/automl/
 
-RUN echo $(ls -1 /opt/kx/q/)
-
-RUN echo $(ls -1 /opt/kx)
 
 ARG VCS_REF=dev
 ARG BUILD_DATE=dev
