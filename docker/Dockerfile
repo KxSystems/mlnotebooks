@@ -2,9 +2,13 @@
 
 ARG jupyterq_img=kxsys/jupyterq:latest
 ARG nlp_img=kxsys/nlp:latest
+ARG ml_img=kxsys/ml:latest
+ARG automl_img=kxsys/automl:latest
 
 ####
 FROM $nlp_img AS nlp
+FROM $ml_img AS ml
+FROM $automl_img AS automl
 FROM $jupyterq_img AS jupyterq
 
 FROM jupyterq AS mlnotebooks
@@ -28,6 +32,13 @@ EXPOSE ${port}/tcp
 COPY --from=nlp /opt/kx/nlp/ /opt/kx/nlp/
 COPY --from=nlp /opt/kx/q/nlp/ /opt/kx/q/nlp/
 
+COPY --from=ml /opt/kx/ml/ /opt/kx/ml/
+COPY --from=ml /opt/kx/q/ml/ /opt/kx/q/ml/
+
+COPY --from=automl /opt/kx/automl/ /opt/kx/automl/
+COPY --from=automl /opt/kx/q/automl/ /opt/kx/q/automl/
+
+
 ARG VCS_REF=dev
 ARG BUILD_DATE=dev
 
@@ -50,16 +61,29 @@ RUN apt-get -yy --no-install-recommends install build-essential \
 RUN chown -R kx:kx /opt/kx/mlnotebooks 
 
 USER kx
-# jupyterq is the base, install requirements for nlp and mlnotebooks
+# jupyterq is the base, install requirements for nlp, ml, automl and mlnotebooks
 RUN . /opt/conda/etc/profile.d/conda.sh \
-	&& conda activate kx \
-	&& conda install --file /opt/kx/nlp/requirements.txt \
+	&& conda activate kx \ 
+	&& conda install --file /opt/kx/nlp/requirements.txt \ 
+	&& conda update wrapt \
 	&& pip install -r /opt/kx/mlnotebooks/requirements.txt \
 	&& conda install -c anaconda graphviz \
+	&& conda install -c conda-forge --file /opt/kx/ml/requirements.txt \ 
+	&& conda install -c conda-forge --file /opt/kx/automl/requirements.txt \
 	&& conda clean -y --all \
-	&& python -m spacy download en
+	&& python -m spacy download en \
+	&& cd /opt/kx/jupyterq/jupyterq_licensemgr \
+	&& python setup.py build \
+	&& pip install --user --no-deps .
 
 USER root
 
+ARG nbroot=/opt/kx/mlnotebooks/notebooks
+ARG nbdata=/opt/kx/mlnotebooks/data
+ARG nbscripts=/opt/kx/mlnotebooks/notebooks
+
+ENV NBROOT=${nbroot}
+ENV NBDATA=${nbdata}
+ENV NBSCRIPTS=${nbscipts}
+
 ENTRYPOINT ["/init"]
-CMD ["/bin/sh", "-l", "-c", "printf '\npoint your browser at http://127.0.0.1:%s/tree/notebooks/\n\n' $PORT && exec jupyter notebook --notebook-dir=/opt/kx/mlnotebooks --ip='0.0.0.0' --port=$PORT --no-browser"]
