@@ -15,7 +15,6 @@ FROM jupyterq AS mlnotebooks
 
 COPY requirements.txt README.md /opt/kx/mlnotebooks/
 COPY data/ /opt/kx/mlnotebooks/data/
-COPY images/ /opt/kx/mlnotebooks/images/
 COPY notebooks/ /opt/kx/mlnotebooks/notebooks/
 COPY utils/ /opt/kx/mlnotebooks/utils/
 #hack, better way, tensorflow-gpu should be used if possible
@@ -65,10 +64,10 @@ USER kx
 RUN . /opt/conda/etc/profile.d/conda.sh \
 	&& conda activate kx \ 
 	&& conda install --file /opt/kx/nlp/requirements.txt \ 
-	&& conda update wrapt \
 	&& pip install -r /opt/kx/mlnotebooks/requirements.txt \
 	&& conda install -c anaconda graphviz \
-	&& conda install -c conda-forge --file /opt/kx/ml/requirements.txt \ 
+        && pip install pip==9.0.1 \
+        && pip install -r /opt/kx/ml/requirements.txt \
 	&& conda install -c conda-forge --file /opt/kx/automl/requirements.txt \
 	&& conda clean -y --all \
 	&& python -m spacy download en \

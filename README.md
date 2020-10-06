@@ -16,7 +16,7 @@ The Kx NLP library can be used to answer a variety of questions about unstructur
 
 ## ML-Toolkit
 
-The toolkit contains libraries and scripts that provide kdb+/q users with general-use functions and procedures to perform machine-learning tasks on a wide variety of datasets. This includes utility functions, the FRESH (FeatuRe Extraction and Scalable Hypothesis testing) algorithm, cross validation and grid search procedures, and clustering algorithms.
+The toolkit contains libraries and scripts that provide kdb+/q users with general-use functions and procedures to perform machine-learning tasks on a wide variety of datasets. This includes utility functions, the FRESH (FeatuRe Extraction and Scalable Hypothesis testing) algorithm, cross validation and grid search procedures, clustering algorithms, time series forecasting models and feature engineering functions.
 
 ## AutoML
 
@@ -46,6 +46,8 @@ The contents of the notebooks are as follows:
 10. **Automated Machine Learning**: The notebook looks at predicting how likely a telecommunications customer is to churn based on behaviour. The data and associated target is used throughout the notebook and is passed into the AutoML pipeline in both its default configuration and custom user-defined configuration, with the steps in the pipeline explained throughout.
 
 11. **Clustering**: Examples of how to use the k-means, DBSCAN, affinity propagation, hierarchical and CURE algorithms available within the ML-Toolkit are provided. The notebook demonstrates how to effectively visualize results produced and make use of scoring functions contained within the toolkit. A real-world application is also included.
+
+12. **Time Series Forecasting**: The notebook looks at a variety of time series forecasting models contained within the ML-Toolkit such as AR, ARIMA and SARIMA models along with time series specific feature engineering tools for passing time series data to supervised machine learning models.
 
 ## Requirements 
 
