@@ -76,6 +76,7 @@ conda install --file requirements.txt
 
 1. [graphviz](http://www.graphviz.org/download/) must be installed on the system running the notebooks.
 2. xgboost must be installed via either conda using the following command `conda install -c anaconda py-xgboost` or using the instructions provided here https://xgboost.readthedocs.io/en/latest/build.html
+3. tensorflow-gpu must be installed via either pip using the following command `pip install tensorflow-gpu` or using conda `conda install -c anaconda tensorflow-gpu`
 
 ## Docker
 
