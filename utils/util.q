@@ -8,7 +8,8 @@ npa:.p.import[`numpy]`:array
 round:{y*"j"$x%y}
 imax:{x?max x}
 mattab:{flip value flip x}
-print_runid:{-1"Run date: ",string[x],". Run time: ",string[y],"."}
+printDateTimeId:{-1"Model date: ",string[x`startDate],". Model time: ",string[x`startTime],"."}
+printSavedModelId:{-1"Model Name: ",string[x`savedModelName],"."}
 
 // @kind function
 // @category misc
