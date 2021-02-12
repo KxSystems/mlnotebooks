@@ -37,7 +37,7 @@ displayCM:{[cm;classes;title;cmap]
 displayROC:{[y;yPredProb]
 
     rocval:`frp`tpr!.ml.roc[y;yPredProb];
-    rocauc:.ml.rocaucscore[y;yPredProb];
+    rocauc:.ml.rocAucScore[y;yPredProb];
 
     plt[`:plot][rocval`frp;rocval`tpr;`color pykw`darkorange;`lw pykw 2;`label pykw"ROC (Area = ",string[rocauc],")"];
     plt[`:plot][0 1;0 1;`color pykw`navy;`lw pykw 2;`linestyle pykw"--"];
@@ -210,10 +210,11 @@ plotCluster:plotResults[;();;;1b]
 plotTrainTest:plotResults[;;;;1b]
 // plot kmeans and add cluster centres - trn,ttl and results from kmeans algo r1 and updated results r2
 plotKMeans:{[trn;r1;r2;ttl]
-  plotResults[trn;();ttl;;0b]$[(::)~r2;r1`clt;r2`clt];
-  plt[`:scatter][;;`c pykw"#ff028d";`marker pykw"*";`s pykw 500;`label pykw"Original centres"]. flip r1`reppts;
+  r1:r1`modelInfo;
+  plotResults[trn;();ttl;;0b]$[(::)~r2;r1`clust;r2`clust];
+  plt[`:scatter][;;`c pykw"#ff028d";`marker pykw"*";`s pykw 500;`label pykw"Original centres"]. flip r1`repPts;
   if[not(::)~r2;
-    plt[`:scatter][;;`c pykw"#21fc0d";`marker pykw"*";`s pykw 500;`label pykw"Updated centres"]. flip r2`reppts];
+    plt[`:scatter][;;`c pykw"#21fc0d";`marker pykw"*";`s pykw 500;`label pykw"Updated centres"]. flip r2`repPts];
   plt[`:legend][`bbox_to_anchor pykw 1.05 1;`loc pykw"upper left"];
   plt[`:show][];
   }

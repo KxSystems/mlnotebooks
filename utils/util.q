@@ -12,15 +12,6 @@ printDateTimeId:{-1"Model date: ",string[x`startDate],". Model time: ",string[x`
 printSavedModelId:{-1"Model Name: ",string[x`savedModelName],"."}
 
 // @kind function
-// @category misc
-// @fileoverview Summary of the stationality of each vector of a multivariate time series 
-//   or a single vector
-// @param dset {dict/tab/num[]} a time series of interest, the entries should 
-//   in each case be numeric data types.
-// @return {keytab} informative outputs from the python adfuller test indicating
-//   the stationality of each vector entry of the relevant dataset
-
-// @kind function
 // @category util
 // @fileoverview Include any missing datetimes in the table
 // @param dt  {sym} Datetime column name
