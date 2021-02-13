@@ -32,7 +32,8 @@ mattab:{[tab]
 // @param mdl {dict} The model ID information
 // @returns {str} The model ID date/time joined together
 printDateTimeId:{[mdl]
-  -1"Model date: ",string[mdl`startDate],". Model time: ",string[mdl`startTime],"."
+  -1"Model date: ",string[mdl`startDate],". Model time: ",
+    string[mdl`startTime],"."
   }
 
 // @kind function
@@ -52,7 +53,9 @@ printSavedModelId:{[mdl]
 // @param tm  {timespan} frequency of time in datetime col
 // @return {tab} tequispaced time series table
 dateFill:{[dt;tab;tm]
-         (flip enlist[dt]!enlist {x<max y}[;tab[dt]]{y+x}[tm]\min tab[dt])lj dt xkey tab}
+  updTab:flip enlist[dt]!enlist {x<max y}[;tab[dt]]{y+x}[tm]\min tab[dt];
+  updTab lj dt xkey tab
+  }
 
 // @kind function
 // @category util

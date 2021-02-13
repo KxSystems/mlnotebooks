@@ -21,7 +21,6 @@ displayCM:{[cm;classes;title;cmap]
   subplots:plt[`:subplots][`figsize pykw 5 5];
   fig:subplots[`:__getitem__][0];
   ax:subplots[`:__getitem__][1];
-
   ax[`:imshow][cm;`interpolation pykw`nearest;`cmap pykw cmap];
   ax[`:set_title][`label pykw title];
   tickMarks:til count classes;
@@ -99,7 +98,7 @@ plotAccMSE:{[accuracy;valAccuracy;loss;valLoss]
 // @param true {num[]} True values
 // @param pred {num[]} Predicted values
 // @returns {<} The prices predictions plotted
-plotprxpred:{[true;pred]
+plotPrxPred:{[true;pred]
   plt[`:close][]`;
   plt[`:figure][`figsize pykw (15 5)]`;
   plt[`:title][`$"Next day close price prediction"];
@@ -115,9 +114,9 @@ plotprxpred:{[true;pred]
 // @kind function
 // @category misc
 // @fileoverview Plot a time series
-// @param dt     {list} the timeframe of the timeseries
-// @param series {list} the values of the timeseries
-// @param label  {string} plot label
+// @param dt     {num[]} The timeframe of the timeseries
+// @param series {num[]} The values of the timeseries
+// @param label  {string} Plot label
 // @return {<} The time series plotted
 plotTimeSeries:{[dt;series;label]
   plt[`:plot][q2pydts dt;series];
@@ -130,7 +129,7 @@ plotTimeSeries:{[dt;series;label]
 
 // @kind function
 // @category util
-// @fileoverview Plot both the predicted and true values of a forecasting series
+// @fileoverview Plot the predicted and true values of a forecasting series
 // @param pred {num[]} Predicted values
 // @param true {num[]} True values
 // @return {<} The predicted vs true values plotted
@@ -174,11 +173,13 @@ plotResults:{[trn;tst;ttl;clt;s]
     plt[`:scatter][;;`c pykw clt]. trn];
   if[not tst~();
     plt[`:scatter][;;`c pykw`r;`label pykw"Testing data"]. tst;
-    plt[`:legend][`bbox_to_anchor pykw 1.05 1;`loc pykw"upper left"]];
+    plt[`:legend][`bbox_to_anchor pykw 1.05 1;`loc pykw"upper left"]
+    ];
   plt[`:title]ttl;
   plt[`:xlabel]"X";
   plt[`:ylabel]"Y";
-  if[s;plt[`:show][];];
+  if[s;plt[`:show][];
+    ];
   }
 
 // @kind function
@@ -186,7 +187,7 @@ plotResults:{[trn;tst;ttl;clt;s]
 // @fileoverview Plot new dataset
 // @param trn {float[][]} Data points in value flip format
 // @param ttl {string}    Plot title
-// @return   {<} The scatter plot
+// @return {<} The scatter plot
 plotDataset:plotResults[;();;::;1b]
 
 // @kind function
@@ -220,18 +221,20 @@ plotKMeans:{[trn;r1;r2;ttl]
   r1:r1`modelInfo;
   r2:r2`modelInfo;
   plotResults[trn;();ttl;;0b]$[(::)~r2;r1`clust;r2`clust];
-  plt[`:scatter][;;`c pykw"#ff028d";`marker pykw"*";`s pykw 500;`label pykw"Original centres"]. flip r1`repPts;
+  plt[`:scatter][;;`c pykw"#ff028d";`marker pykw"*";`s pykw 500;
+    `label pykw"Original centres"]. flip r1`repPts;
   if[not(::)~r2;
-    plt[`:scatter][;;`c pykw"#21fc0d";`marker pykw"*";`s pykw 500;`label pykw"Updated centres"]. flip r2`repPts];
+    plt[`:scatter][;;`c pykw"#21fc0d";`marker pykw"*";`s pykw 500;
+      `label pykw"Updated centres"]. flip r2`repPts];
   plt[`:legend][`bbox_to_anchor pykw 1.05 1;`loc pykw"upper left"];
   plt[`:show][];
   }
 
 // Plot clusters and dendrogram
 // @param d {float[][]} Data points
-// @param lf {sym}    Linkage function
-// @param dend {dict}      Results of HC algo
-// @param clust{long[]}    Clusters - results of HC cut function
+// @param lf {sym} Linkage function
+// @param dend {dict} Results of HC algo
+// @param clust{long[]} Clusters - results of HC cut function
 // @return {<} The HC results plotted
 plotHCResults:{[d;lf;dend;clust]
   dend:dend`modelInfo;
