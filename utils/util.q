@@ -1,24 +1,49 @@
 \d .util
 
-/imports
+// @kind function
+// @category util
+// @fileoverview Import Python functions
 .p.import[`warnings;`:filterwarnings]"ignore";
 npa:.p.import[`numpy]`:array
 
 / funcs
-round:{y*"j"$x%y}
-imax:{x?max x}
-mattab:{flip value flip x}
-printDateTimeId:{-1"Model date: ",string[x`startDate],". Model time: ",string[x`startTime],"."}
-printSavedModelId:{-1"Model Name: ",string[x`savedModelName],"."}
+// @kind function
+// @category util
+// @fileoverview Round a value
+// @param val {num} The value to be rounded
+// @param round {num} The decimal places to round the val to
+// @returns {num} The value rounded to the appropriate decimal
+round:{[val;round]
+  round*"j"$val%round
+  }
 
 // @kind function
-// @category misc
-// @fileoverview Summary of the stationality of each vector of a multivariate time series 
-//   or a single vector
-// @param dset {dict/tab/num[]} a time series of interest, the entries should 
-//   in each case be numeric data types.
-// @return {keytab} informative outputs from the python adfuller test indicating
-//   the stationality of each vector entry of the relevant dataset
+// @category util
+// @fileoverview Convert a table to a matrix
+// @param tab {tab} A simple table
+// @returns {num[][]} The table converted to a matrix
+mattab:{[tab]
+  flip value flip tab
+  }
+
+// @kind function
+// @category util
+// @fileoverview Print the model ID date/time
+// @param mdl {dict} The model ID information
+// @returns {str} The model ID date/time joined together
+printDateTimeId:{[mdl]
+  -1"Model date: ",string[mdl`startDate],". Model time: ",
+    string[mdl`startTime],"."
+  }
+
+// @kind function
+// @category util
+// @fileoverview Print the model ID date/time
+// @param mdl {dict} The model ID information
+// @returns {str} The model ID date/time joined together
+printSavedModelId:{[mdl]
+  -1"Model Name: ",string[mdl`savedModelName],"."
+  }
 
 // @kind function
 // @category util
@@ -28,7 +53,9 @@ printSavedModelId:{-1"Model Name: ",string[x`savedModelName],"."}
 // @param tm  {timespan} frequency of time in datetime col
 // @return {tab} tequispaced time series table
 dateFill:{[dt;tab;tm]
-         (flip enlist[dt]!enlist {x<max y}[;tab[dt]]{y+x}[tm]\min tab[dt])lj dt xkey tab}
+  updTab:flip enlist[dt]!enlist {x<max y}[;tab[dt]]{y+x}[tm]\min tab[dt];
+  updTab lj dt xkey tab
+  }
 
 // @kind function
 // @category util
@@ -37,8 +64,27 @@ dateFill:{[dt;tab;tm]
 // @param tar {list} target values
 // @param sz  {float} train test split
 // @return {dict} the input data split up into train and test sets
-ttsTimeSeries:{[tab;tar;sz]`xtrain`ytrain`xtest`ytest!raze(tab;tar)@\:/:(0,floor n*1-sz)_til n:count tab}
+ttsTimeSeries:{[tab;tar;sz]
+  `xtrain`ytrain`xtest`ytest!raze(tab;tar)@\:/:(0,floor n*1-sz)_til n:count tab
+  }
 
-rmsle:{
-  "The RMSLE is: ",string .ml.rmsle[x;y]
+// @kind function
+// @category util
+// @fileoverview Print the RMSLE
+// @param pred {float[]} A vector of predicted labels 
+// @param true {float[]} A vector of true labels
+// @returns {str} The root mean squared log error between predicted values
+//   and the true values
+rmsle:{[pred;true]
+  "The RMSLE is: ",string .ml.rmsle[pred;true]
+  }
+
+// @kind function
+// @category util
+// @fileoverview Convert q dates to python dates
+// @param dates {datetime} Date values
+// @returns {<} q date values converted to python dates
+q2pydts:{[dates]
+  .p.import[`numpy;`:array;"j"$dates-("pmd"t)$1970.01m;
+    `dtype pykw "datetime64[",@[("ns";"M";"D");t:type[dates]-12],"]"]
   }
