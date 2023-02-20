@@ -1,6 +1,7 @@
-# Kx Machine Learning Notebooks
+# KX Machine-learning notebooks
 
-The example machine learning notebooks demonstrate the benefits of using kdb+/q alongside the Kx interfaces embedPy and JupyterQ, the Kx Natural Language Processing (NLP), Machine Learning Toolkit (ML-Toolkit) and Automated Machine Learning libraries. These notebooks showcase how to solve a range of machine learning problems, from feature engineering and neural network design to the model training and testing.
+
+The example machine-learning notebooks demonstrate the benefits of using kdb+/q alongside the KX interfaces embedPy and JupyterQ, the KX Natural Language Processing (NLP), Machine Learning Toolkit (ML-Toolkit) and Automated Machine Learning libraries. These notebooks showcase how to solve a range of machine learning problems, from feature engineering and neural network design to the model training and testing.
 
 ## embedPy
 
@@ -12,7 +13,7 @@ JupyterQ is also part of the fusion for kdb+ initiative and provides users with 
 
 ## NLP
 
-The Kx NLP library can be used to answer a variety of questions about unstructured text and can therefore be used to preprocess text data in preparation for model training. Input text data, in the form of emails, tweets, articles or novels, can be transformed to vectors, dictionaries and symbols which can be handled very effectively by q.
+The KX NLP library can be used to answer a variety of questions about unstructured text and can therefore be used to preprocess text data in preparation for model training. Input text data, in the form of emails, tweets, articles or novels, can be transformed to vectors, dictionaries and symbols which can be handled very effectively by q.
 
 ## ML-Toolkit
 
@@ -23,6 +24,7 @@ The toolkit contains libraries and scripts that provide kdb+/q users with genera
 The Automated Machine Learning framework provides users with the ability to automate the process of applying machine learning techniques to real-world problems in kdb+/q. The pipeline comprises preprocessing, feature engineering, cross validation, model selection, hyperparameter tuning and report generation. As shown in the associated notebook, this framework is designed to be flexible to users with both novice and expert kdb+ or machine learning engineers alike.
 
 ## Notebooks
+
 The contents of the notebooks are as follows:
 
 1. **Decision Trees**: A decision tree is trained to detect if a patient has either benign or malignant cancer. The performance of the model is measured by computing a confusion matrix and ROC curve.
@@ -51,13 +53,13 @@ The contents of the notebooks are as follows:
 
 ## Requirements 
 
-- kdb+>=? v3.5 64-bit
+- kdb+ ≥? v3.5 64-bit
 - Python 3.x
-- [embedPy](https://github.com/KxSystems/embedPy)
-- [JupyterQ](https://github.com/KxSystems/jupyterq)
-- [NLP library](https://github.com/KxSystems/nlp) (v0.1.2)
-- [ML-Toolkit](https://github.com/KxSystems/ml) (v0.3.x)
-- [AutoML](https://github.com/KxSystems/automl) (v.0.1.0)
+- [embedPy](https://github.com/KXSystems/embedPy)
+- [JupyterQ](https://github.com/KXSystems/jupyterq)
+- [NLP library](https://github.com/KXSystems/nlp) (v0.1.2)
+- [ML-Toolkit](https://github.com/KXSystems/ml) (v0.3.x)
+- [AutoML](https://github.com/KXSystems/automl) (v.0.1.0)
 
 ## Dependencies
 
@@ -74,21 +76,26 @@ conda install --file requirements.txt
 
 **N.B.** Additionally the following must be installed to ensure that all the notebooks can be run correctly.
 
-1. [graphviz](http://www.graphviz.org/download/) must be installed on the system running the notebooks.
-2. xgboost must be installed via either conda using the following command `conda install -c anaconda py-xgboost` or using the instructions provided here https://xgboost.readthedocs.io/en/latest/build.html
-3. tensorflow-gpu must be installed via either pip using the following command `pip install tensorflow-gpu` or using conda `conda install -c anaconda tensorflow-gpu`
+1. [`graphviz`](http://www.graphviz.org/download/) on the system running the notebooks.
+2. `xgboost`, installed using either Conda, (`conda install -c anaconda py-xgboost`), or following the instructions at https://xgboost.readthedocs.io/en/latest/build.html.
+3. `tensorflow-gpu`, installed either via Pip using `pip install tensorflow-gpu`, or via Conda: `conda install -c anaconda tensorflow-gpu`
 
 ## Docker
 
-A prebuilt docker image is available with all the dependencies installed. If you have [Docker installed](https://www.docker.com/community-edition) run it with:
+A pre-built Docker image is available with all the dependencies installed. If you have [Docker installed](https://www.docker.com/community-edition) run it with:
 
-	docker run -it -p 8888:8888 --name mymlnotebooks kxsys/mlnotebooks
+```bash
+docker run -it -p 8888:8888 --name mymlnotebooks KXsys/mlnotebooks
+```
 
 Now point your browser at http://localhost:8888/tree/notebooks/
 
 For subsequent runs, you will not be prompted to redo the license setup when calling:
 
-	docker start -ai mymlnotebooks
+```bash
+docker start -ai mymlnotebooks
+```
 
+:point_right: 
+[build instructions for the image](docker/README.md)
 
-**N.B.** [build instructions for the image are available](docker/README.md)
